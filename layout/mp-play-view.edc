@@ -1,0 +1,1107 @@
+/* font name*/
+#define FONT_TITLE_NAME "system_title"	//"system_title"
+#define FONT_CONTENT_NAME "system_content"	//"system_content"
+#define FONT_SUBCONTENT_NAME "system_subcontent"	//"system_subcontent"
+#define ALBUMART_IMAGE_SHADOW_RGBA 0 0 0 0
+
+#define ALBUM_IMG_H 481
+#define TRACK_INFO_H 139
+#define TRACK_TITLE_H 40
+#define ALBUM_TITLE_H 36
+#define ARTIST_TITLE_H 34
+#define FAVOUR_ICON_H 34
+
+/* main size */
+#define HD_MAIN_W 720
+#define HD_MAIN_H 1280
+
+#define HD_STATUSBAR_H 50
+#define HD_NAVIGATIONBAR_H 100
+
+#define HD_PLAYVIEW_H (HD_MAIN_H-HD_STATUSBAR_H)
+#define HD_PLAYVIEW_W HD_MAIN_W
+
+#define PLAYVIEW_TITLE_H 108
+#define PLAYVIEW_OPTION_H 64
+#define PLAYVIEW_ALBUM_BG_H 843
+#define PLAYVIEW_ALBUM_H 488
+#define PLAYVIEW_ALBUM_W 488
+#define PLAYVIEW_ALBUM_TOP_H 142
+#define PLAYVIEW_ALBUM_BOTTOM_H 140
+#define PLAYVIEW_MENU_H 96
+#define PLAYVIEW_PROGRESSBAR_H 28
+#define PLAYVIEW_PROGRESSBAR_PAD_MENU 48
+#define PLAYVIEW_CONTROLBAR_H 115
+#define PLAYVIEW_CONTROLBAR_PAD_PROGRESSBAR 27
+#define PLAYVIEW_LYRIC_H 744
+
+#define PLAYVIEW_TITLE_SX 0.0
+#define PLAYVIEW_TITLE_EX 1.0
+#define PLAYVIEW_TITLE_SY 0.0
+#define PLAYVIEW_TITLE_EY PLAYVIEW_TITLE_H/HD_PLAYVIEW_H
+
+#define PLAYVIEW_OPTION_SX 0.0
+#define PLAYVIEW_OPTION_EX 1.0
+#define PLAYVIEW_OPTION_SY PLAYVIEW_TITLE_EY
+#define PLAYVIEW_OPTION_EY (PLAYVIEW_OPTION_SY+PLAYVIEW_OPTION_H/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_ALBUM_BG_SX 0.0
+#define PLAYVIEW_ALBUM_BG_EX 1.0
+#define PLAYVIEW_ALBUM_BG_SY PLAYVIEW_OPTION_EY
+#define PLAYVIEW_ALBUM_BG_EY (PLAYVIEW_ALBUM_BG_SY+PLAYVIEW_ALBUM_BG_H/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_ALBUM_SX (1-PLAYVIEW_ALBUM_W/HD_PLAYVIEW_W)/2
+#define PLAYVIEW_ALBUM_EX (1+PLAYVIEW_ALBUM_W/HD_PLAYVIEW_W)/2
+#define PLAYVIEW_ALBUM_SY (PLAYVIEW_OPTION_EY+PLAYVIEW_ALBUM_TOP_H/HD_PLAYVIEW_H)
+#define PLAYVIEW_ALBUM_EY (PLAYVIEW_OPTION_EY+(PLAYVIEW_ALBUM_TOP_H+PLAYVIEW_ALBUM_H)/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_LYRIC_SX 0.0
+#define PLAYVIEW_LYRIC_EX 1.0
+#define PLAYVIEW_LYRIC_SY PLAYVIEW_OPTION_EY
+#define PLAYVIEW_LYRIC_EY (PLAYVIEW_LYRIC_SY+PLAYVIEW_LYRIC_H/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_MENU_SX 0.0
+#define PLAYVIEW_MENU_EX 1.0
+#define PLAYVIEW_MENU_SY PLAYVIEW_LYRIC_EY
+#define PLAYVIEW_MENU_EY (PLAYVIEW_MENU_SY+PLAYVIEW_MENU_H/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_PROGRESSBAR_SX 0.0
+#define PLAYVIEW_PROGRESSBAR_EX 1.0
+#define PLAYVIEW_PROGRESSBAR_SY (PLAYVIEW_MENU_EY+PLAYVIEW_PROGRESSBAR_PAD_MENU/HD_PLAYVIEW_H)
+#define PLAYVIEW_PROGRESSBAR_EY (PLAYVIEW_PROGRESSBAR_SY+PLAYVIEW_PROGRESSBAR_H/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_CONTROLBAR_SX 0.0
+#define PLAYVIEW_CONTROLBAR_EX 1.0
+#define PLAYVIEW_CONTROLBAR_SY (PLAYVIEW_PROGRESSBAR_EY+PLAYVIEW_CONTROLBAR_PAD_PROGRESSBAR/HD_PLAYVIEW_H)
+#define PLAYVIEW_CONTROLBAR_EY 1.0
+
+#define FLICK_TIMER 0.35
+#define PLAYVIEW_IMAGE_SHADOW "player/T02_Album_art_image_Shadow.png"
+
+#define PLAYVIEW_VOLUME_W	626
+#define PLAYVIEW_VOLUME_H	112
+#define PLAYVIEW_VOLUME_SX	(((HD_PLAYVIEW_W-PLAYVIEW_VOLUME_W)/2)/PLAYVIEW_VOLUME_W)
+#define PLAYVIEW_VOLUME_SY	(798/HD_PLAYVIEW_H)
+#define PLAYVIEW_VOLUME_EX	(1-PLAYVIEW_VOLUME_SX)
+#define PLAYVIEW_VOLUME_EY	((798+PLAYVIEW_VOLUME_H)/HD_PLAYVIEW_H)
+
+#define PLAYVIEW_SELECTINFO_H	114
+
+#define LRC_PROG \
+			program {\
+			        signal: "lrc_invisible";\
+			        source: "lrc";\
+			        action:   STATE_SET "default" 0.0;\
+			        target: "lrc";\
+			        transition: LINEAR 0.3;\
+		        }\
+		        program {\
+			        signal: "lrc_visible";\
+			        source: "lrc";\
+			        action:   STATE_SET "show" 0.0;\
+			        target: "lrc";\
+			        transition: LINEAR 0.3;\
+		        }\
+		        program {\
+			        signal: "lrc_destroy";\
+			        source: "lrc";\
+			        action:   STATE_SET "default" 0.0;\
+			        target: "lrc";\
+		        }
+
+#define OPT_PROG \
+			program {\
+			        name: "option_menu_invisible" ;\
+			        signal: "option_menu_invisible";\
+			        source: "player_option_menu";\
+			        action:   STATE_SET "invisible" 0.0;\
+			        target: "player_option_menu";\
+			        transition: LINEAR 0.3;\
+			        after :"option_hide_done";\
+		        }\
+		        program {\
+			        name: "option_hide_done";\
+			        signal: "option_hide";\
+			        source: "player_option_menu";\
+			        action:   STATE_SET "invisible" 1.0;\
+			        target: "player_option_menu";\
+		        }\
+		        program {\
+			        name: "option_menu_visible" ;\
+			        signal: "option_menu_visible";\
+			        source: "player_option_menu";\
+			        action:   STATE_SET "default" 0.0;\
+			        target: "player_option_menu";\
+			        transition: LINEAR 0.3;\
+		        }
+
+
+group {
+    name: "mp_play_view_layout";
+
+    parts {
+            part {
+                    name: "bg";
+                    mouse_events: 0;
+                    type: RECT;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+                            rel1 { relative: 0.0 0.0;}
+                            rel2 { relative: 1.0 1.0;}
+                            color: 0 0 0 255;
+                    }
+            }
+
+            part{
+                    name : "bg_base";
+                    type: RECT;
+                    mouse_events:1;
+                    scale : 1;
+                    description {
+                            visible:1;
+                            color: 0 0 0 0;
+                            state: "default" 0.0;
+                            rel1 { relative: 0.0 0.0;to: "bg";}
+                            rel2 { relative: 1.0 1.0;to: "bg";}
+                    }
+            }
+
+            part {
+                    name: "bg_clipper";
+                    mouse_events: 0;
+                    type: RECT;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+                            rel1 { relative: 0.0 0.0;
+                            offset : 0 0; to: "bg_base";}
+                            rel2 { relative: 1.0 1.0; to: "bg_base";}
+                            color: 255 255 255 255;
+                    }
+            }
+
+            part {
+                    name : "bg_list_content";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    repeat_events: 1;
+                    scale: 1;
+                    clip_to : "bg_clipper";
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "default" 0.0;
+                            rel1 { relative: 0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 1.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:0;
+                            fixed: 1 1;
+                            state: "invisible" 0.0;
+                            rel1 { relative: 0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 1.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "left" 0.0;
+                            rel1 { relative: -1.0 0.0;to: "bg_base";}
+                            rel2 { relative: 0.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "right" 0.0;
+                            rel1 { relative: 1.0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 2.0 1.0;to: "bg_base";}
+                    }
+            }
+
+            part {
+                    name : "bg_list_content_temp";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    repeat_events: 1;
+                    scale: 1;
+                    clip_to : "bg_clipper";
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "default" 0.0;
+                            rel1 { relative: 0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 1.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:0;
+                            fixed: 1 1;
+                            state: "invisible" 0.0;
+                            rel1 { relative: 0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 1.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "left" 0.0;
+                            rel1 { relative: -1.0 0.0;to: "bg_base";}
+                            rel2 { relative: 0.0 1.0;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            state: "right" 0.0;
+                            rel1 { relative: 1.0.0 0.0;to: "bg_base";}
+                            rel2 { relative: 2.0 1.0;to: "bg_base";}
+                    }
+            }
+
+            part{
+                    name : "player_info";
+                    type: SWALLOW;
+                    mouse_events:1;
+                    scale : 1;
+                    description {
+                            visible:1;
+                            color: 0 0 0 0;
+                            state: "default" 0.0;
+                            rel1 { relative: PLAYVIEW_TITLE_SX PLAYVIEW_TITLE_SY; to: "bg";}
+                            rel2 { relative: PLAYVIEW_TITLE_EX PLAYVIEW_TITLE_EY; to: "bg";}
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part{
+                    name : "player_options";
+                    type: SWALLOW;
+                    mouse_events:1;
+                    scale : 1;
+                    description {
+                            visible:1;
+                            color: 0 0 0 0;
+                            state: "default" 0.0;
+                            rel1 { relative: PLAYVIEW_OPTION_SX PLAYVIEW_OPTION_SY; to: "bg";}
+                            rel2 { relative: PLAYVIEW_OPTION_EX PLAYVIEW_OPTION_EY; to: "bg";}
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part {
+                    name : "list_content";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    repeat_events: 1;
+                    scale: 1;
+                    clip_to : "bg_clipper";
+                    description {
+                            visible:1;
+                            //min: PLAYVIEW_ALBUM_W PLAYVIEW_ALBUM_H;
+                            //max: PLAYVIEW_ALBUM_W PLAYVIEW_ALBUM_H;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "default" 0.0;
+                            rel1 { relative: PLAYVIEW_ALBUM_SX PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: PLAYVIEW_ALBUM_EX PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:0;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "invisible" 0.0;
+                            rel1 { relative: PLAYVIEW_ALBUM_SX PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: PLAYVIEW_ALBUM_EX PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "left" 0.0;
+                            rel1 { relative: (-1.0+PLAYVIEW_ALBUM_SX) PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: (-1.0+PLAYVIEW_ALBUM_EX) PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "right" 0.0;
+                            rel1 { relative: (1.0+PLAYVIEW_ALBUM_SX) PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: (1.0+PLAYVIEW_ALBUM_EX) PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+            }
+
+            part {
+                    name : "list_content_temp";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    repeat_events: 1;
+                    scale: 1;
+                    clip_to : "bg_clipper";
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "default" 0.0;
+                            rel1 { relative: PLAYVIEW_ALBUM_SX PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: PLAYVIEW_ALBUM_EX PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:0;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "invisible" 0.0;
+                            rel1 { relative: PLAYVIEW_ALBUM_SX PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: PLAYVIEW_ALBUM_EX PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "left" 0.0;
+                            rel1 { relative: (-1.0+PLAYVIEW_ALBUM_SX) PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: (-1.0+PLAYVIEW_ALBUM_EX) PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+                    description {
+                            visible:1;
+                            fixed: 1 1;
+                            align: 0.5 0.5;
+                            state: "right" 0.0;
+                            rel1 { relative: (1.0+PLAYVIEW_ALBUM_SX) PLAYVIEW_ALBUM_SY;to: "bg_base";}
+                            rel2 { relative: (1.0+PLAYVIEW_ALBUM_EX) PLAYVIEW_ALBUM_EY;to: "bg_base";}
+                    }
+            }
+
+			part {
+                    name: "lrc";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    repeat_events: 1;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+                            rel1 { relative: PLAYVIEW_LYRIC_SX PLAYVIEW_LYRIC_SY; offset: 0 -1; to: "bg";}
+                            rel2 { relative: PLAYVIEW_LYRIC_EX PLAYVIEW_LYRIC_EY; offset: 0 -1; to: "bg";}
+                    }
+                    description {
+                            state: "show" 0.0;
+                            visible: 1;
+                            rel1 { relative: PLAYVIEW_LYRIC_SX PLAYVIEW_LYRIC_SY; offset: 0 -1; to: "bg";}
+                            rel2 { relative: PLAYVIEW_LYRIC_EX PLAYVIEW_LYRIC_EY; offset: 0 -1; to: "bg";}
+                    }
+            }
+
+            part {
+                    name: "bottom_bg";
+                    type: RECT;
+                    mouse_events: 1;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+							rel1 { relative: 0.0 PLAYVIEW_MENU_SY; to: "bg";}
+                            rel2 { relative: 1.0 1.0; offset: 0 1; to: "bg";}
+                            color: 0 0 0 204;
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part {
+                    name: "separate_line";
+                    type: RECT;
+                    mouse_events: 1;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+							rel1 { relative: 0.0 0.0; offset: 0 -1; to: "bottom_bg";}
+                            rel2 { relative: 1.0 0.0; offset: 0 0; to: "bg";}
+                            color: 255 255 255 179;
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part {
+					name: "player_option_menu";
+					type: SWALLOW;
+					mouse_events: 1;
+					description {
+							state: "default" 0.0;
+							rel1 { relative: PLAYVIEW_MENU_SX PLAYVIEW_MENU_SY; to: "bg";}
+			                rel2 { relative: PLAYVIEW_MENU_EX PLAYVIEW_MENU_EY; to: "bg";}
+							color: 35 35 35 0;
+					}
+					description {
+							state: "invisible" 0.0;
+							inherit: "default" 0.0;
+							rel1 { relative: PLAYVIEW_MENU_SX PLAYVIEW_MENU_SY; to: "bg";}
+			                rel2 { relative: PLAYVIEW_MENU_EX PLAYVIEW_MENU_EY; to: "bg";}
+                    }
+                    description {
+							state: "invisible" 1.0;
+							inherit: "invisible" 0.0;
+							visible: 0;
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+			part {
+                    name: "controlbar_bg";
+                    type: RECT;
+                    mouse_events: 1;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+							rel1 { relative: 0.0 (1-215/HD_PLAYVIEW_H); to: "bg";}
+                            rel2 { relative: 1.0 1.0; offset: 0 1; to: "bg";}
+                            color: 0 0 0 0;
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part {
+                    name: "player_progress";
+                    type: SWALLOW;
+                    mouse_events: 1;
+                    description {
+                            state: "default" 0.0;
+                            visible: 1;
+							rel1 { relative: PLAYVIEW_PROGRESSBAR_SX PLAYVIEW_PROGRESSBAR_SY; to: "bg";}
+                            rel2 { relative: PLAYVIEW_PROGRESSBAR_EX PLAYVIEW_PROGRESSBAR_EY; to: "bg";}
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+            part {
+                    name : "elm.swallow.controlbar";
+                    type: SWALLOW;
+                    mouse_events:1;
+                    scale : 1;
+                    description {
+                            visible:1;
+                            state: "default" 0.0;
+							rel1 { relative: PLAYVIEW_CONTROLBAR_SX PLAYVIEW_CONTROLBAR_SY; to: "bg";}
+                            rel2 { relative: PLAYVIEW_CONTROLBAR_EX PLAYVIEW_CONTROLBAR_EY; to: "bg";}
+                    }
+                    description {
+							state: "hide" 0.0;
+							inherit: "default" 0.0;
+							visible:0;
+					}
+            }
+
+			part  { name: "volume_layout";
+				type: SWALLOW;
+				scale: 1;
+				description { state: "default" 0.0;
+					rel1 { relative: PLAYVIEW_VOLUME_SX PLAYVIEW_VOLUME_SY; to: "bg"; }
+					rel2 { relative: PLAYVIEW_VOLUME_EX PLAYVIEW_VOLUME_EY; to: "bg"; }
+				}
+			}
+	}
+
+	programs {
+		LRC_PROG
+
+		#if 0
+	        OPT_PROG
+	    #endif
+		 program { name: "flick_left";
+			signal: "flick_left";
+			source: "list_content";
+			action: STATE_SET "left" 0.0;
+			target: "bg_list_content";
+			target: "list_content";
+			transition: LINEAR FLICK_TIMER;
+		 }
+		 program { name: "flick_right";
+			signal: "flick_right";
+			source: "list_content";
+			action: STATE_SET "right" 0.0;
+			target: "bg_list_content";
+			target: "list_content";
+			transition: LINEAR FLICK_TIMER;
+		 }
+		  program { name: "set_right";
+			signal: "set_right";
+			source: "list_content_temp";
+			action: STATE_SET "right" 0.0;
+			target: "bg_list_content_temp";
+			target: "list_content_temp";
+		 }
+		 program { name: "set_left";
+			signal: "set_left";
+			source: "list_content_temp";
+			action: STATE_SET "left" 0.0;
+			target: "bg_list_content_temp";
+			target: "list_content_temp";
+		 }
+		  program { name: "set_default";
+			signal: "set_default";
+			source: "list_content_temp";
+			action: STATE_SET "default" 0.0;
+			target: "bg_list_content_temp";
+			target: "list_content_temp";
+			transition: LINEAR FLICK_TIMER;
+			after :"list_content_transit_done";
+		 }
+		 program { name: "set_default_list";
+			signal: "set_default";
+			source: "list_content";
+			action: STATE_SET "default" 0.0;
+			target: "bg_list_content";
+			target: "list_content";
+		}
+		 program { name : "list_content_transit_done";
+			 signal: "transit_done";
+			 source: "list_content";
+			script {
+				emit("transit_done", "list");
+          	}
+          	in: 0.0 0.0;  //delay
+          	after :"set_default_parts";
+		}
+		 program { name : "list_temp_transit_done";
+			 signal: "transit_done";
+			 source: "list_content_temp";
+			script {
+				emit("transit_done", "temp");
+            }
+		}
+		 program { name: "set_default_parts";
+			signal: "set_default";
+			source: "mp_play_view_layout";
+			action: STATE_SET "default" 0.0;
+			target: "player_info";
+			target: "player_options";
+			target: "player_option_menu";
+			target: "controlbar_bg";
+			target: "player_progress";
+			target: "bottom_bg";
+			target: "separate_line";
+			target: "elm.swallow.controlbar";
+		}
+		program { name: "set_hide_parts";
+			signal: "set_hide";
+			source: "mp_play_view_layout";
+			action: STATE_SET "hide" 0.0;
+			target: "player_info";
+			target: "player_options";
+			target: "player_option_menu";
+			target: "controlbar_bg";
+			target: "player_progress";
+			target: "bottom_bg";
+			target: "separate_line";
+			target: "elm.swallow.controlbar";
+		}
+	}
+}
+
+group {  name : "mp_play_view";
+
+	images {
+        image:  "T02_controls_bg_shadow.png" COMP;
+        image:  "music_player_bg.PNG" COMP;
+        image:  "music_popup_mute.png" COMP;
+        image:	"allshare_dmr_icon.png" COMP;
+	image:	PLAYVIEW_IMAGE_SHADOW COMP;
+    }
+
+	parts {
+
+		part {
+			name: "bg";
+			type: SWALLOW;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				visible: 0;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0; }
+			}
+		}
+
+		part {
+			name: "album_shadow_bg";
+			type: IMAGE;
+			mouse_events: 0;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0 0; offset: -19 -19; to: "bg";}
+				rel2 { relative: 1 1; offset: 19 19; to: "bg";}
+				image {
+					normal : PLAYVIEW_IMAGE_SHADOW;
+					border: 19 19 19 19;
+					border_scale: 1;
+				}
+			}
+		}
+
+		part {
+			name: "album_bg";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0 0; to: "bg";}
+				rel2 { relative: 1 1; to: "bg";}
+			}
+		}
+
+		part {
+			name: "album_art";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0 0; to: "bg";}
+				rel2 { relative: 1 1; to: "bg";}
+			}
+		}
+
+		part { name: "event_box";
+			type : SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: ((0-(HD_PLAYVIEW_W-PLAYVIEW_ALBUM_W)/2)/PLAYVIEW_ALBUM_W) (-PLAYVIEW_ALBUM_TOP_H/PLAYVIEW_ALBUM_H); to: "album_bg"; }
+				rel2 { relative: (1.0+((HD_PLAYVIEW_W-PLAYVIEW_ALBUM_W)/2)/PLAYVIEW_ALBUM_W)) (1.0+PLAYVIEW_ALBUM_BOTTOM_H/PLAYVIEW_ALBUM_H); to: "album_bg"; }
+			}
+		}
+
+		/* streaming buffering area */
+		part {
+			name: "buffering_area";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				min: 100 100;
+				align: 1.0 1.0;
+				fixed: 1 1;
+				rel1 { relative: 1.0 1.0; to: "album_art"; }
+				rel2 { relative: 1.0 1.0; to: "album_art"; }
+			}
+		}
+
+		/* allshare DMR icon */
+		part {
+			name: "dmr_icon";
+			type: IMAGE;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 0;
+				min: 60 80;
+				align: 0.0 1.0;
+				fixed: 1 1;
+				rel1 { relative: 0.0 1.0; offset: 30 -10; to: "album_art"; }
+				rel2 { relative: 0.0 1.0; offset: 30 -10; to: "album_art"; }
+				image { normal: "allshare_dmr_icon.png"; }
+			}
+			description {
+				state: "show" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+			}
+		}
+
+
+	}
+
+	programs {
+
+		/* allshare DMR icon */
+		program {
+			source: "dmr_icon";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "dmr_icon_clicked" "ctrl_edj";
+		}
+
+		program {
+			signal: "show_dmr_icon";
+			source: "*";
+			action: STATE_SET "show" 0.0;
+			target: "dmr_icon";
+		}
+
+		program {
+			signal: "hide_dmr_icon";
+			source: "*";
+			action: STATE_SET "default" 0.0;
+			target: "dmr_icon";
+		}
+	}
+}
+
+group {  name : "mp_play_view_bg";
+
+	images {
+        image:  "T02_controls_bg_shadow.png" COMP;
+        image:  "music_player_bg.PNG" COMP;
+        image:  "music_popup_mute.png" COMP;
+        image:	"allshare_dmr_icon.png" COMP;
+    }
+
+	parts {
+
+		part {
+			name: "bg";
+			type: SWALLOW;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				visible: 0;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0; }
+			}
+		}
+
+		part {
+			name: "album_bg";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; to: "bg";}
+				rel2 { relative: 1.0 1.0; to: "bg";}
+			}
+		}
+
+		part {
+			name: "album_art";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; to: "bg";}
+				rel2 { relative: 1.0 1.0; to: "bg";}
+			}
+		}
+
+		part { name: "event_box";
+			type : SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; to: "album_bg"; }
+				rel2 { relative: 1.0 1.0; to: "album_bg"; }
+			}
+		}
+
+		/* streaming buffering area */
+		part {
+			name: "buffering_area";
+			type: SWALLOW;
+			mouse_events: 0;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				min: 100 100;
+				align: 1.0 1.0;
+				fixed: 1 1;
+				rel1 { relative: 1.0 1.0; to: "album_art"; }
+				rel2 { relative: 1.0 1.0; to: "album_art"; }
+			}
+		}
+
+		/* allshare DMR icon */
+		part {
+			name: "dmr_icon";
+			type: IMAGE;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				state: "default" 0.0;
+				visible: 0;
+				min: 60 80;
+				align: 0.0 1.0;
+				fixed: 1 1;
+				rel1 { relative: 0.0 1.0; offset: 30 -10; to: "album_art"; }
+				rel2 { relative: 0.0 1.0; offset: 30 -10; to: "album_art"; }
+				image { normal: "allshare_dmr_icon.png"; }
+			}
+			description {
+				state: "show" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+			}
+		}
+
+
+	}
+
+	programs {
+
+		/* allshare DMR icon */
+		program {
+			source: "dmr_icon";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "dmr_icon_clicked" "ctrl_edj";
+		}
+
+		program {
+			signal: "show_dmr_icon";
+			source: "*";
+			action: STATE_SET "show" 0.0;
+			target: "dmr_icon";
+		}
+
+		program {
+			signal: "hide_dmr_icon";
+			source: "*";
+			action: STATE_SET "default" 0.0;
+			target: "dmr_icon";
+		}
+	}
+}
+
+#define PLAYVIEW_H_LANDSCAPE HD_MAIN_W
+#define PLAYVIEW_CONTROLBAR_H_LANDSCAPE 128
+
+group {
+	name: "landscape_layout";
+
+	parts {
+
+		part { name: "bg";
+			mouse_events: 0;
+			type: RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0;}
+				color: 37 37 37 255;
+			}
+		}
+
+		part {
+			name : "list_content";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				visible:1;
+				min: 100 100;
+				fixed: 1 1;
+				state: "default" 0.0;
+		   		rel1 { relative: 0.0 0.0;to: "bg";}
+				rel2 { relative: 1.0 1.0;to: "bg";}
+			}
+		}
+
+		part {
+			name : "elm.swallow.controlbar";
+			type: SWALLOW;
+			mouse_events:1;
+			scale : 1;
+			description {
+				visible:1;
+				state: "default" 0.0;
+				rel1 { relative: 0.0 (PLAYVIEW_H_LANDSCAPE-PLAYVIEW_CONTROLBAR_H_LANDSCAPE)/PLAYVIEW_H_LANDSCAPE; to: "bg";}
+				rel2 { relative: 1.0 1.0;to: "bg";}
+			}
+		}
+	}
+}
+
+group {
+	name: "empty_layout";
+	parts {
+
+		part { name: "bg";
+			mouse_events: 0;
+			type: RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0;
+						offset : 0 0;}
+				rel2 { relative: 1.0 1.0;}
+				color: 0 0 0 255;
+			}
+		}
+	}
+}
+
+#define TITLE_BOX_H 108
+#define TITLE_BOX_W 720
+
+#define TITLE_SONG_TITLE_H 48
+#define TITLE_ARTIST_NAME_H 40
+
+#define TITILE_PAD 10
+
+#define TITILE_ICON_PAD 2
+#define TITILE_ICON_W 120
+
+#define TITLE_SOUND_PATH_BG_SX ((TITLE_BOX_W-TITILE_ICON_W)/TITLE_BOX_W)
+#define TITLE_SOUND_PATH_BG_SY TITILE_PAD/TITLE_BOX_H
+#define TITLE_SOUND_PATH_BG_EX 1.0
+#define TITLE_SOUND_PATH_BG_EY ((TITLE_BOX_H-TITILE_PAD)/TITLE_BOX_H)
+
+#define TITLE_NEARBY_DEVICE_BG_SX ((TITLE_BOX_W-TITILE_ICON_W*2-TITILE_ICON_PAD)/TITLE_BOX_W)
+#define TITLE_NEARBY_DEVICE_BG_SY TITLE_SOUND_PATH_BG_SY
+#define TITLE_NEARBY_DEVICE_BG_EX (TITLE_SOUND_PATH_BG_SX-TITILE_ICON_PAD/TITLE_BOX_W)
+#define TITLE_NEARBY_DEVICE_BG_EY TITLE_SOUND_PATH_BG_EY
+
+#define TITLE_SONG_TITLE_SX (TITILE_PAD/TITLE_BOX_W)
+#define TITLE_SONG_TITLE_SY (TITILE_PAD/TITLE_BOX_H)
+#define TITLE_SONG_TITLE_EX (TITLE_NEARBY_DEVICE_BG_SX-TITILE_PAD/TITLE_BOX_W)
+#define TITLE_SONG_TITLE_EY ((TITLE_SONG_TITLE_H+TITILE_PAD)/TITLE_BOX_H)
+
+#define TITLE_ARTIST_NAME_SX TITLE_SONG_TITLE_SX
+#define TITLE_ARTIST_NAME_SY TITLE_SONG_TITLE_EY
+#define TITLE_ARTIST_NAME_EX TITLE_SONG_TITLE_EX
+#define TITLE_ARTIST_NAME_EY ((TITLE_BOX_H-TITILE_PAD)/TITLE_BOX_H)
+
+group {
+	name: "player_view_info";
+
+	images {
+		image: 	"T02_title_icon_nearby_device.png" COMP;
+		image: 	"T02_title_icon_sound_path.png" COMP;
+	}
+
+	parts {
+
+		part { name: "bg";
+			mouse_events: 0;
+			type : RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0;}
+				color: 0 0 0 51;
+			}
+		}
+
+		part { name: "sound_path";
+			mouse_events: 1;
+			type : SWALLOW;
+			description { state: "default" 0.0;
+				rel1 { relative: TITLE_SOUND_PATH_BG_SX TITLE_SOUND_PATH_BG_SY;to: "bg";}
+				rel2 { relative: TITLE_SOUND_PATH_BG_EX TITLE_SOUND_PATH_BG_EY;to: "bg";}
+			}
+		}
+
+		part { name: "nearby_dmr";
+			mouse_events: 1;
+			type : SWALLOW;
+			description { state: "default" 0.0;
+				rel1 { relative: TITLE_NEARBY_DEVICE_BG_SX TITLE_NEARBY_DEVICE_BG_SY;to: "bg";}
+				rel2 { relative: TITLE_NEARBY_DEVICE_BG_EX TITLE_NEARBY_DEVICE_BG_EY;to: "bg";}
+			}
+		}
+
+		part {
+			name : "title";
+			type: TEXT;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				visible:1;
+				state: "default" 0.0;
+				rel1 { relative: TITLE_SONG_TITLE_SX TITLE_SONG_TITLE_SY;to: "bg";}
+				rel2 { relative: TITLE_SONG_TITLE_EX TITLE_SONG_TITLE_EY;to: "bg";}
+				text {
+					font: FONT_STYLE_ROMAN;
+					text_class: "slp_roman";
+					size: 38;
+					align: 0.0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+		part {
+			name : "artist_name";
+			type: TEXT;
+			mouse_events: 1;
+			scale: 1;
+			description {
+				visible:1;
+				state: "default" 0.0;
+				rel1 { relative: TITLE_ARTIST_NAME_SX TITLE_ARTIST_NAME_SY;to: "bg";}
+				rel2 { relative: TITLE_ARTIST_NAME_EX TITLE_ARTIST_NAME_EY;to: "bg";}
+				text {
+					font: FONT_STYLE_ROMAN;
+					text_class: "slp_roman";
+					size: 32;
+					align: 0.0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+
+		part { name: "separate_line";
+			mouse_events: 0;
+			type : RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0.0 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 -1; to: "bg";}
+				rel2 { relative: 1.0 1.0; to: "bg";}
+				color: 255 255 255 77;
+			}
+		}
+	}
+}
+
+/* sub layout option */
+#define OPTION_BUTTON_H 70
+
+#define MP_FEATURE_INNER_SETTINGS
+#define OPTION_BUTTON_W 220
+#define OPTION_BUTTON_PAD_LEFT 12
+
+#define OPTION_BUTTON_PAD_TOP 4
+#define OPTION_BUTTON_PAD_BUTTON 18
+#define OPTION_SY OPTION_BUTTON_PAD_TOP/PLAYVIEW_OPTION_H
+#define OPTION_EY (OPTION_BUTTON_PAD_TOP+OPTION_BUTTON_H)/PLAYVIEW_OPTION_H
+#define OPTION_1_SX OPTION_BUTTON_PAD_LEFT/HD_PLAYVIEW_W
+#define OPTION_1_EX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W)/HD_PLAYVIEW_W
+#define OPTION_2_SX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W+OPTION_BUTTON_PAD_BUTTON)/HD_PLAYVIEW_W
+#define OPTION_2_EX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W*2+OPTION_BUTTON_PAD_BUTTON)/HD_PLAYVIEW_W
+#define OPTION_3_SX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W*2+OPTION_BUTTON_PAD_BUTTON*2)/HD_PLAYVIEW_W
+#define OPTION_3_EX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W*3+OPTION_BUTTON_PAD_BUTTON*2)/HD_PLAYVIEW_W
+#define OPTION_4_SX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W*3+OPTION_BUTTON_PAD_BUTTON*3)/HD_PLAYVIEW_W
+#define OPTION_4_EX (OPTION_BUTTON_PAD_LEFT+OPTION_BUTTON_W*4+OPTION_BUTTON_PAD_BUTTON*3)/HD_PLAYVIEW_W

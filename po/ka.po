@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "საქაღალდეები"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "ალბომები"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "ფავორიტები"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "ხანგრძლივი დროით მუსიკის მაღალ ხმაზე მოსმენა შეიძლება გახდეს სმენის დაქვეითების მიზეზი"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "შემსრულებლები"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "ავტომატური"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "კომპოზიტორები"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "ჟანრები"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "ყველაზე ხშირად დაკრული"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "მუსიკის მენიუ"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "ბოლოს დამატებული"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "წლები"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "ზარის მელოდია"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "მუსიკის სიის შექმნა"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "წაშლა"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "აბონენტის ზარის მელოდია"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "მსახიობები"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "ჟანრები"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "წლები"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "ვერ ვამატებ"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "ლექსი არ არის"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "ვერ შეცვლით ხმოვან ეფექტებს, როდესაც იყენებთ 5.1 არხს"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "ჩანართის ძებნა"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 არხის ხმოვანი ეფექტი მუშაობს მხოლოდ ყურმილის რეჟიმში"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 არხის გააქტიურება მხოლოდ მაშინაა შესაძლებელი, როდესაც გამორთულია ხმოვანი ეფექტები"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "მუსიკის სიას ვერ ვქმნი"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "ჩანართს ვერ მიიღებთ"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "ვერ მოვაშორებ ელემენტს"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "ვერ ვამატებ მუსიკის %d-ზე მეტ ფაილს"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "ვერ დაუკრავთ ზარის დროს"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "ალბომი"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "ავტორი"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "საავტორო უფლება"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "მუსიკის სიის შექმნა"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "აღწერა"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "ფორმატი"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "შეუძლებელია"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "ადგილმდებარეობა"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "დასაკრავი სია არ არის"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "ბილიკის ნომერი"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "ტიპი"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "უცნობი"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "წაშლა"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "დამატებულია"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s წაიშალა"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "წაშლილია"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "წაიშალოს?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "მუსიკის სიას სახელს ვერ ვუცვლი"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "ზარის მელოდიად დაყენება შეუძლებელია"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "ვერ გააზიარებთ DRM ფაილს"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "ალბომები"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "ყველა"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "წაშლა"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "გაზიარ."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "მუსიკის სიაში დამატება"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "მუსიკის სიები"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "ბოლოს დაკრული"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "დამატება"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "ალბომები"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "ნორმალური"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "ამოხტომა"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "როკი"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "ჯაზი"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "ცეკვა"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "კლასიკური"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "ცოცხალი"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "მუსიკის შერჩევა"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "ბიოგრაფია"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "კრედიტები"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "მედია ინფო"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "დისკოგრაფია"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "ლექსი"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "სახელი ძალზე გრძელია"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "მშობლის შეფასება"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "შესაძლო"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "დათვალიერება"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "ბილიკების სია"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "უკვე დაემატა"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 არხი"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "დასაკრავი ფაილების სიაში დამატება"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "შემსრულებელი"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "დასაშვები გამოყენება"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "ბასის გამაძლიერებელი"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "გუნდური"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "კლასიკური"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "კომპოზიტორი"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "საკონცერტო დარბაზი"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "შერჩეული"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "ცეკვა"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "დინამიკური"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "ეფექტი"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "ეკვალაიზერი"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "ექსტერნალიზაცია"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "გადამისამართება"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "ჟანრი"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "ჯაზი"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "ცოცხალი"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "მუსიკის სისუფთავე"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "მუსიკის პარამეტრები"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "სამხატვრო ალბომი"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "მუსიკის სიები"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "ამოხტომა"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "ბოლოს დაკრული"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "როკი"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "ბილიკის სიგრძე"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "ხმის ვიბრირება"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "ქმედითობა"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "ვაჰ-ვაჰ"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "ფართო"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "გამორთ."
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "სიმღერები არ არის"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "სიმღერები"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "მუსიკის სიის დამატება"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "სათაურის შეცვლა"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "ისტორია"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "ხელახლა დასათაურება"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "გადალაგება"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "მუსიკის სიად შენახვა"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "სიგნალის მელოდია"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "დაემატა ადგილზე: %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth გამორთულია"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "არჩეულია ელემენტების მაქსიმალური რაოდენობა (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "არაფერია არჩეული"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "წაშლა შეუძლებელია. არჩეული მუსიკა უკრავს"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "ვერ დაუკრავთ. შეცდომა მოხდა"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "ვერ დავუკრავ. ფაილის ტიპს არა აქვს მხარდაჭერა"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "დამატ."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "გაზიარება"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "ყველა"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "ორგანიზატორები"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "პოდკასტები"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "მოწყობილობის შერჩევა"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "აღარ მაჩვენო"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "შეგიძლიათ გამოიყენოთ AllShare და მოუსმინოთ მუსიკას აპარატით"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "ნახეთ"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "ნორმალური"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "მომხმარებელი"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "ვოკალური"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "ბასის გაძლიერება"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "დისკანტის გაძლიერება"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "კაფე"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "ვირტუალური 7.1 არხი"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 წუთის შემდეგ"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 წუთის შემდეგ"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 საათის შემდეგ"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 საათისა და 30 წუთის შემდეგ"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 საათის შემდეგ"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "მუსიკის ავტო. გამორთვა"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "სახლი"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "დაყენება"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "ეს ხმოვანი ეფექტი მუშაობს მხოლოდ ყურმილისა და Bluetooth გარნიტურის რეჟიმებში"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "მუსიკის სკვერი"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "ღია სია"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "მუსიკის ფაილების რაოდენობა არ არის საკმარისი ”მუსიკის სკვერში” დასაკრავად. უნდა იყოს მინიმუმ %d მუსიკის ფაილი"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "ჟინი"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "მგზნებარე"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "დინამიკური"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "მშვიდი"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "სიხარული"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "ბიბლიოთეკის განახლება"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "განახლდეს ბიბლიოთეკა?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "ღერძის შეცვლა"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "ყველა სიმღერა"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "არჩეული სია ცარიელია"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "კომპოზიტ."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "დამატება საწყის გვერდზე"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "მედია ინფო"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "რითმები"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "წლები"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "ძველი"
+

@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "資料夾"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "專輯"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "我的最愛"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "長期聆聽過大音量會損害您的聽力"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "演出者"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "自動"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "作曲者"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "類型"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "最常播放"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "音樂選單"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "最近加入"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "年"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "來電鈴聲"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "建立播放清單"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "移除"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "來電者鈴聲"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "演出者"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "類型"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "年"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "無法加入"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "沒有歌詞"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "當使用5.1聲道時無法改變聲音效果"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "尋找標籤"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 聲道音效只適用於耳機模式"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1聲道只能關閉音效時啟動"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "無法建立播放清單"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "無法取得標籤"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "無法移除項目"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "無法加入超過 %d 個音樂檔案"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "通話期間無法播放"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "專輯"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "作者"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "版權"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "建立播放清單"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "說明"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "格式"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "不可能"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "位置"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "無播放清單"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "曲目編號"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "類型"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "刪除"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "已新增"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "要刪除嗎？"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "已移除 %s"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "已移除"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "要移除嗎？"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "無法重新命名播放清單"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "無法設定為鈴聲"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "無法共享 DRM 文件"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "專輯"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "全部"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "刪除"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "分享"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "加入到播放清單"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "播放清單"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "最近播放"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "新增"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "專輯"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "正常"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "流行音樂"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "搖滾"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "爵士樂"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "舞曲"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "古典"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "現場"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "音樂設定精靈"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "傳記"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "製作人員名單"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "媒體資訊"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "唱片分類目錄"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "歌詞"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "名稱太長"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "父級評分"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "可能"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "查看"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "曲目清單"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "已新增"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 聲道"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "加到播放清單"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "演出者"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "可供使用"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "低音增強"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "合音"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "古典"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "撰寫器"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "演奏廳"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "自訂"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "舞曲"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "動態"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "效果"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "等化器"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "立體聲"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "正在轉寄"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "類型"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "爵士樂"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "現場"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "音樂清晰度"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "音樂設定"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "專輯封面"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "播放清單"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "流行音樂"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "最近播放"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "搖滾"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "曲目長度"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "顫音"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "有效期"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "嘩嘩"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "狂放"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "關"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "無歌曲"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "歌曲"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "新增播放清單"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "編輯標題"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "歷程記錄"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "重新命名"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "重新排序"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "另存為播放清單"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "鬧鐘鈴聲"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "已加到 %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "藍牙已中斷"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "達到最大選擇數量（％）"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "未選擇任何項目"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "無法刪除。選擇的音樂正在播放"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "無法播放。發生錯誤"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "無法播放。不支援的檔案類型"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "新增"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "分享"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "全部"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "導體"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "播客"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "選擇裝置"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "不再顯示"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "您可以使用數位連結將音樂串流至裝置"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "檢視方式"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "正常"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "使用者"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "聲樂"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "低音增強"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "高音增強"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "咖啡廳"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "虛擬數位 7.1 聲道"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 分鐘後"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 分鐘後"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 小時後"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1小時30分鐘後"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 小時後"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "音樂自動關閉"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "浩室"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "設定為"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "音效只適用耳機或是藍牙耳機模式"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "音樂廣場"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "開啟播放清單"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "音樂廣場中要播放的音樂檔案不足。至少需要 %d 首音樂"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "熱情"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "熱情"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "動態"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "冷靜"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "喜悅"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "媒體庫更新"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "更新資料庫?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "變更軸"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "所有歌曲"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "所選擇的清單是空的"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "作曲家"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "新增至首頁"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "媒體資訊"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "基調"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "年份"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "舊"
+

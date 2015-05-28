@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Mapes"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Izlases"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Ilgstoša skaļas mūzikas klausīšanās var izraisīt dzirdes traucējumus"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Izpildītāji"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Automātiski"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Komponisti"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Žanri"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Visvairāk atskaņotie"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Mūzikas izvēlne"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Nesen pievienotie"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Gadi"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Zvana signāls"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Izveidot atskaņošanas sarakstu"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Noņemt"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Zvanītāja zvana signāls"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Izpildītāji"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Žanri"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Gadi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Nevar pievienot"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Nav vārdu"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1 kanāla lietošanas laikā nevar mainīt skaņas efektus"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Atrast atzīmi"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 kanālu skaņas efekts darbojas tikai austiņu režīmā"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanālu režīmu var aktivizēt tikai tad, ja ir izslēgti skaņas efekti"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Nevar izveidot atskaņojumu sarakstu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Nevar iegūt atzīmi"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Nevar noņemt vienumu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Nevar pievienot vairāk kā %d mūzikas failus"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Sarunas laikā nevar veikt atskaņošanu"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Autors"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Autortiesības"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Izveidot atskaņošanas sarakstu"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Apraksts"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Formāts"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Nav iespējams"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Atrašanās vieta"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Nav atskaņojumu sarakstu"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Ieraksta numurs"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Veids"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Nezināms"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Dzēst"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Pievienots"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Vai dzēst?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s noņemts"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Noņemts"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Vai noņemt?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Nevar pārdēvēt atskaņojumu sarakstu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Nevar iestatīt kā zvana signālu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM failu nevar koplietot"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Visi"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Dzēst"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Kopl."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Piev. atsk. sarakstam"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Atskaņ. saraksti"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Nesen atskaņotie"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Pievienot"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Parasta"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Popmūzika"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Roks"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Džezs"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Deju mūzika"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klasiskais"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Dzīvā mūzika"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Mūzikas iestatīšanas vednis"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biogrāfija"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Albuma veidotāji"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Multivides informācija"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskogrāfija"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Dziesmu vārdi"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Nosaukums par garu"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Vecāku novērtējums"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Iespējams"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Pārskatīt"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Ierakstu saraksts"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Jau pievienots"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanāls"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Piev. atsk. sar."
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Izpildītājs"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Atlikušās lietošanas reizes"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Zemo frekvenču skaņas pastiprināšana"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Koris"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klasiskais"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Komponists"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Koncertzāle"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Pielāgot"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Deju mūzika"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamisks"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Efekts"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekvalaizers"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Eksternalizācija"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Pārsūtīšana"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Žanrs"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Džezs"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Dzīvā mūzika"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Mūzikas dzidrums"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Mūzikas iestatījumi"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albuma attēls"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Atskaņošanas saraksti"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Popmūzika"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Nesen atskaņotie"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Roks"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Ieraksta ilgums"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Derīgums"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Va-va"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Plašs"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Izslēgt"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Nav dziesmu"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Dziesmas"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Piev. atsk. sar."
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Rediģēt nosaukumu"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Vēsture"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Pārdēvēt"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Pārkārtot"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Saglabāt kā atskaņošanas sarakstu"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Atgādinājuma signāls"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Pievienots atskaņošanas sarakstam %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth atvienots"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Izvēlēts maksimālais objektu skaits (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Nekas nav izvēlēts"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Nevar izdzēst. Izvēlētā mūzika tiek atskaņota"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Nevar atskaņot. Radās kļūda"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Nevar atskaņot. Neatbalstīts faila tips."
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Pievien."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Koplietot"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Visas"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Diriģ."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Aplādes"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Atlasīt ierīci"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Nerādīt vēlreiz"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Varat straumēt mūziku uz ierīcēm, izmantojot programmu AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Skatīt kā"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Parasts"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Lietotājs"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokāls"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Basu pastiprināšana"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Diskantu pastiprināšana"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafejnīca"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtuālais 7.1 kan."
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Pēc 15 minūtēm"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Pēc 30 minūtēm"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Pēc 1 stundas"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Pēc 1 h 30 min"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Pēc 2 stundām"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Mūzika autom. izslēgta"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Hausmūzika"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Iestatīt kā"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Šis skaņas efekts darbojas tikai austiņu un Bluetooth austiņas režīmā"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Mūzikas laukums"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Atv.atsk.s"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Nepietiek mūzikas failu, lai atskaņotu Mūzikas laukumā. Nepieciešami vismaz %d mūzikas faili"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Kaislība"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Kaislīgs"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamisks"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Mierīgs"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Prieks"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Bibliotēkas atjauninājums"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Vai atjaunināt bibliotēku?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Mainīt asi"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Visas dziesmas"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Izvēlētais saraksts ir tukšs"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Kompon."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Pievienot sākumam"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Multivides informācija"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Noskaņa"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Gadi"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Vecā"
+

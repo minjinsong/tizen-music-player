@@ -1,0 +1,17 @@
+
+#include "mp-defines.h"
+
+collections {
+	#include "mp-play-view.edc"
+	#include "mp-play-vew-landscape.edc"
+	#include "mp-play-control.edc"
+	#include "mp-play-menu.edc"
+	#include "mp-play-progress.edc"
+	#include "mp-play-info.edc"
+	#include "mp-play-current-playing.edc"
+	#include "mp-rich-info.edc"
+	#include "mp-lrc.edc"
+	#include "mp-play-mini-app.edc"
+	#include "mp-play-option.edc"
+
+}

@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Mappák"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albumok"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Kedvencek"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Ha sokáig hallgat nagy hangerőn zenét vagy egyebet, akkor károsodhat a hallása"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Előadók"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Auto."
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Szerzők"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Műfajok"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Leggyakrabban játszott"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Zene menü"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Legutóbb hozzáadott"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Év"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Hívás csengőhangja"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Új lejátszási lista"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Eltávolít"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Hívó csengőhangja"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Előadók"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Műfajok"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Évek"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Nem adható hozzá"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Nincs dalszöv."
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Az 5.1 csatorna használata közben a hangeffektusok nem módosíthatók"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Címke keresése"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Az 5.1 csatorna hangeffektus csak fülhallgatós üzemmódban működik"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Az 5.1 csatorna térhatás csak akkor aktiválható, ha a hangeffektusok ki vannak kapcsolva"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Nem hozható létre lejátszási lista"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Nem sikerült lekérni a címkét"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "A tétel nem távolítható el"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Legfeljebb %d zenei fájl adható hozzá"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Hívás közben nem lehet lejátszani"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Szerző"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Szerzői jog"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Új lejátszási lista"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Leírás"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Formátum"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Nem lehetséges"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Hely"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Nincs lejátszási lista"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Szám száma"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Típus"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Ismeretlen"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Töröl"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Hozzáadva"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Törli?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s eltávolítva"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Törölve"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Törli?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "A lejátszási listát nem lehet átnevezni"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Nem állítható be csengőhangként"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "A DRM-fájl nem osztható meg"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albumok"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Összes"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Töröl"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Megoszt"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Listára vétel"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Lejátsz. listák"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Legutóbb lejátszott"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Hozzáad"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albumok"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normál"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Classic"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Zenelejátszó beállításvarázsló"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Életrajz"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Közreműködők"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Média adatai"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diszkográfia"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Dalszöveg"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "A név túl hosszú"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Szülői értékelés"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Lehetséges"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Előnézet"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Számlista"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Már hozzáadva"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 csatorna"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Lejátszási listára"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Előadó"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Lehetséges felhasználás"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Bass enhancement"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Kórus"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Classic"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Zeneszerző"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Concert hall"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Egyedi"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dynamic"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effektus"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekvalizer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Externalisation"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Továbbítás"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Műfaj"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Music clarity"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Zenebeállítások"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Lemezborító"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Lejátszási listák"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Legutóbb lejátszott"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Szám hossza"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremoló"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Érvényesség"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Wide"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Ki"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Nincs szám"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Számok"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Lejátszási lista hozzáadása"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Név szerkesztése"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Előzmények"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Átnevez"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Átrendezés"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Mentés lejátszási listaként"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Jelzőhang"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Hozzáadás a következőhöz: %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth szétkapcsolva"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maximális számú (%d) tétel van kiválasztva"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Semmi nincs kiválasztva"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Nem lehet törölni. Zene lejátszása folyamatban"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Nem játszható le. Hiba történt"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Nem játszható le. Nem támogatott fájltípus"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Hozzáad"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Megosztás"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Mind"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Kar- mesterek"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Pod- castok"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Válasszon eszközt"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ne jelenjen meg ismét"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Az AllShare segítségével adatfolyamként küldhet zenét az eszközökre"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Nézet"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normál"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Felhasználó"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vocal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Mély hangok kiemelése"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Magas hangok kiemelése"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Cafe"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtuális 7.1 csatorna"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 perc múlva"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 perc múlva"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 óra múlva"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 óra 30 perc múlva"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 óra múlva"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Lejátszó automatikus kikapcsolása"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Beállít, mint"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "A hangeffektus csak fülhallgatós és Bluetooth-fejhallgatós üzemmódban működik"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Zene-sarok"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "L. megnyit"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Nincs elég lejátszható zenei fájl a Zenesarokban. Legalább %d zenei fájl szükséges"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Szenvedély"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Szenvedélyes"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamikus"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Higgadt"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Vidámság"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Könyvtár frissítése"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Frissíti a könyvtárat?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Tengely módosítása"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Összes szám"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "A kiválasztott lista üres"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Szerzők"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Kezdőképernyőhöz ad"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Média adatai"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Hangulatok"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Évek"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Régi"
+

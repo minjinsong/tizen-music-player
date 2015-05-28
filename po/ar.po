@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "صوت مباشر"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "مجلدات"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "الألبومات"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "المفضلة"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "قد تضر مستويات الصوت العالية بسمعك إذا استمعت إليها لفترة طويلة"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "الفنانون"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "تلقائي"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "المؤلفون"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "الانواع"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "أكثر ما تم عرضه"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "قائمة الموسيقى"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "المضاف حديثا"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "سنوات"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "نغمة المكالمة"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "إنشاء قائمة تشغيل"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "حذف"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "نغمة رنين المتصل"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "الفنانون"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "الانواع"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "أعوام"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "غير قابل على الإضافة"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "لا توجد كلمات"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "تعذر تغيير المؤثرات الصوتية عند استخدام القناة 5.1"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "العثور على علامة"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "مؤثر صوت القناة 5.1 يعمل في وضع سماعة الأذن فقط"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "يمكن تنشيط القناة 5.1 فقط عند إيقاف المؤثرات الصوتية"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "يتعذر إنشاء قائمة تشغيل"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "يتعذر الحصول على رمز"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "تتعذر إزالة العنصر"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "غير قادر على إضافة أكثر من %d ملف موسيقى"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "يتعذر التشغيل أثناء المكالمة"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "الألبوم"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "المؤلف"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "حقوق النسخ"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "إنشاء قائمة تشغيل"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "الشرح"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "هيئة"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "غير ممكن"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "الموقع"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "لا توجد قوائم تشغيل"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "رقم الأغنية"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "النوع"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "مجهول"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "حذف"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "تمت الإضافة"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "مسح؟"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "تمت إزالة %s"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "تم الحذف"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "حذف؟"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "تتعذر إعادة تسمية قائمة التشغيل"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "تعذر ضبطه كنغمة رنين"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "يتعذر مشاركة ملف DRM"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "الألبومات"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "الكل"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "مسح"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "مشاركة"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "إضافة إلى قائمة التشغيل"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "قوائم التشغيل"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "المعروض حديثا"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "إضافة"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "ألبومات"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "عادي"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "البوب"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "الروك"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "الجاز"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "رقص"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "كلاسيك"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "مباشر"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "معالج إعداد الموسيقى"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "سيرة"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "الإعتمادات"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "معلومات الوسائط"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "جمع الاسطوانات وتصنيفها"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "كلمات الأغنية"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "الاسم طويل"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "التصنيف الأصلي"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "ممكن"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "إعادة عرض"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "قائمة المسارات"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "تمت إضافته بالفعل"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 القناة"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "إضافة إلى قائمة التشغيل"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "الفنان"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "الاستخدامات المتوفرة"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "تعزيز الصوت الجهير"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "الكورال"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "كلاسيك"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "المؤلف"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "قاعة الحفلة"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "ضبط مخصص"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "رقص"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "ديناميكي"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "مؤثر"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "المعادل"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "موسيقى مجسمة"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "التحويل"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "النوع"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "الجاز"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "مباشر"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "نقاء صوت الموسيقى"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "إعدادات الموسيقى"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "ألبوم الفن"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "قوائم التشغيل"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "البوب"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "المعروض حديثا"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "الروك"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "مدة الأغنية"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "الصلاحية"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "عريض"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "غير فعال"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "لا توجد أغاني"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "أغاني"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "إضافة قائمة تشغيل"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "تعديل العنوان"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "المحفوظات"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "تغيير الاسم"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "إعادة ترتيب"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "حفظ كقائمة تشغيل"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "نغمة المنبه"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "تمت الإضافة إلى %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "تم فصل البلوتوث"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "تم تحديد أقصى عدد للعناصر (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "لا شيء محدد"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "يتعذر الحذف. يتم تشغيل الموسيقى المحددة"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "تعذر التشغيل. حدث خطأ"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "يتعذر التشغيل. نوع ملف غير مدعوم"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "إضافة"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "مشاركة"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "الكل"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "القادة"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "بودكاست"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "تحديد جهاز"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "عدم العرض مرة أخرى"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "يمكنك بث الموسيقى إلى الأجهزة باستخدام AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "عرض كـ"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "عادي"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "المستخدم"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "لفظي"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "تحسين صوت الجهير"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "تحسين الصوت الثلاثي"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "مقهى"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "القناة الافتراضية 7.1"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "بعد 15 دقيقة"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "بعد 30 دقيقة"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "بعد ساعة"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "بعد ساعة واحدة و30 دقيقة"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "بعد ساعتين"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "إيقاف الموسيقى التلقائي"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "منزل"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "تعيين"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "مؤثر الصوت هذا يعمل في وضعي سماعة الأذن وسماعة البلوتوث فقط"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "مربع الموسيقى"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "فتح ق"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "لا توجد ملفات موسيقى كافية للتشغيل في‏‫ مربع الموسيقى. يلزم وجود %d ملفات موسيقى على الأقل"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "عاطفة"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "سريع الغضب"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "ديناميكي"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "هادئ"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "بهجة"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "تحديث المكتبة"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "هل تريد تحديث المكتبة؟"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "تغيير المحور"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "كل الأغاني"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "القائمة المحددة فارغة"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "المؤلفون"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "إضافة الى الرئيسية"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "معلومات الوسائط"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "أنماط"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "أعوام"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "قديمة"
+

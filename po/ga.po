@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Fillteáin"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albaim"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Ceanáin"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Is féidir le hairdí arda dochar a dhéanamh don éisteacht má éisteann tú ar feadh tamall fada"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Ceoltóirí"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Uath-"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Cumadóirí"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Seánraí"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Is mó seinm"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Roghchlár ceoil"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Curtha leis le déanaí"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Blianta"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Clingthon glao"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Déan seinnliosta"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Bain"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Clingthon glaoiteora"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Ceoltóirí"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Seanrá"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Blianta"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Ní féidir cur leis"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Níl liricí ann"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Ní féidir maisíochtaí fuaime a athrú agus imfhuaim in úsáid"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Aimsigh clib"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Ní fheidhmíonn maisíocht fuaime imfhuaime ach i mód cluasáin amháin"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Ní féidir imfhuaim a chur i ngníomh ach amháin nuair a bhíonn maisíochtaí fuaime as"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Ní féidir seinnliosta a chruthú"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Ní féidir clib a fháil"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Ní féidir mír a bhaint"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Ní féidir níos mó ná %d comhad ceoil a chur leis"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Ní féidir seinm le linn glao"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albam"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Údar"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Cóipcheart"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Déan seinnliosta"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Cur síos"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Formáid"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Dodhéanta"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Suíomh"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Níl seinnliostaí ann"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Uimhir an riain"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Cineál"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Anaithnid"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Scrios"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Curtha leis"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Scrios?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s bainte"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Bainte"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Bain?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Ní féidir seinnliosta a athainmniú"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Ní féidir é a shocrú mar chlingthon"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Ní féidir comhad DRM a chomhroinnt"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albaim"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Gach"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Scrios"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "C.roinn"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Cuir le seinnliosta"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Seinnliostaí"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Seinnte le déanaí"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Cuir leis"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albaim"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normálta"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rac"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Snagcheol"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Damhsa"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Clasaiceach"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Beo"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Draoi suiteála ceoil"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Beathaisnéis"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Creidiúintí"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Faisnéis faoi mheáin"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Dioscliosta"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Liric"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Ainm ró-fhada"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Rátáil tuismitheoirí"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Indéanta"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Athbhreithniú"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Liosta fuaimrianta"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Curtha leis cheana"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "Imfhuaim"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Cuir le seinnliosta"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Ceoltóir"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Úsáidí atá ar fáil"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Breisiú doird"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Cór"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Clasaiceach"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Cumadóir"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Halla ceolchoirme"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Saincheaptha"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Damhsa"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinimiciúil"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Maisíocht"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Cothromóir"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Seachtrú"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Seoladh ar aghaidh"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Seánra"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Snagcheol"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Beo"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Soiléireacht cheoil"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Socruithe ceoil"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Ealaín albaim"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Seinnliostaí"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Seinnte le déanaí"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rac"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Fad ama an riain"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremoló"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Bailíocht"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Leathan"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "As"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Níl amhráin ann"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Amhráin"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Cuir seinnliosta leis"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Cuir teideal in eagar"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Stair"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Athainmnigh"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Déan athordú"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Sábháil mar sheinnliosta"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Ton aláraim"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Curtha le %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth dícheangailte"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Uaslíon na míreanna roghnaithe (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Dada roghnaithe"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Ní féidir scriosadh. Tá an ceol roghnaithe á sheinm"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Ní féidir seinm. Tharla earráid"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Ní féidir seinm. Cineál comhaid gan tacú"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Cuir leis"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Comhroinn"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Gach"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Stiúrthóirí"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podchraoltaí"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Roghnaigh gléas"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ná taispeáin arís"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Is féidir leat do cheol a shruthú chuig gléasanna le AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Féach mar"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normálta"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Úsáideoir"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Guthach"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Treisiú doird"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Treisiú tribile"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Caife"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Cainéal fíorúil 7.1"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Tar éis 15 nóim"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "I ndiaidh 30 nóim"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "I ndiaidh 1 uair an chloig"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Tar éis 1 uair an chloig 30 nóim"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "I ndiaidh 2 uair an chloig"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Uathcheol as"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Ceol tí"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Socraigh mar"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Ní oibríonn an mhaisíocht fuaime seo ach amháin sna móid cluasáin agus gléas cinn Bluetooth"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Cearnóg ceoil"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Osc. SL"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Níl go leor comhad ceoil ann le seinm sa Chearnóg ceoil. Tá %d comhad ceoil ar a laghad de dhíth"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Paisean"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Paiseanta"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinimiciúil"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Suaimhneach"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Lúcháir"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Nuashonrú leabharlainne"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Nuashonraigh leabharlann?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Athraigh ais"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Gach amhrán"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Liosta roghnaithe folamh"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Cumadóir"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Cuir le baile"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Faisnéis faoi mheáin"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Mothúcháin"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Blianta"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Sean"
+

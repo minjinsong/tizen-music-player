@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Mape"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favoriti"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Velika glasnoća može oštetiti sluh pri dugom slušanju"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Izvođači"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Auto"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Skladatelji"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Žanrovi"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Najslušanije"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Glazbeni meni"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Nedavno dodano"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Godine"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Melodija zvona"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Novi popis pjesama"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Ukloni"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Ton pozivatelja"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Izvođači"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Žanrovi"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Godine"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Nije moguće dodati"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Nema tekstova"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "U načinu zvuka 5.1 kanala nije moguća promjena zvučnih efekata"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Info pjesme"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Zvučni efekt 5.1 kanala radi samo u načinu slušalice"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5,1-kanalni zvuk radi samo kada su zvučni efekti isključeni"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Nije moguće napraviti popis pjesama"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Oznaka nedostupna"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Nemoguće premještanje"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Moguće dodati najviše %d pjesama"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Nemoguće reprod. tijekom poziva"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Autor"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Autorsko pravo"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Novi popis pjesama"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Opis"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Nemoguće"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Lokacija"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Nema popisa pjesama"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Broj pjesme"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Vrsta"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Nepoznato"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Obriši"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Dodano"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Obrisati?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s uklonjen"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Uklonjeno"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Ukloniti?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Nije moguće preimenovati popis pjesama"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Nemoguće postaviti za ton zvona"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Nemoguće dijeliti zaštićenu datoteku"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Sve"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Obriši"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Dijeli"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Dodati na popis za rep."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Popisi pjesama"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Posljednje"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Dodaj"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normalna"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klasično"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Uživo"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Čarobnjak postavki glazbe"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografija"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Zasluge"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Podaci o mediju"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografija"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Tekst"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Predugačko ime"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Roditeljska zaštita"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Moguće"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Pregled"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Popis pjesama"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Već dodano"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Dodaj na popis za reprodukciju"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Izvođač"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Preostalo upotreba"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Pojačanje basa"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Chorus"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klasično"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Kompozitor"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Koncertna dvorana"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Prilagođeno"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamično"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Efekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Equaliser"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Vanjski zvuk"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Prosljeđivanje"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Žanr"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Uživo"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Čistoća glazbe"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Postavke glazbe"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Omot albuma"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Popisi pjesama"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Posljednje"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Trajanje zapisa"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Valjanost"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Široko"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Isključeno"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Nema pjesama"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Pjesme"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Dodaj popis"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Uredi naslov"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Povijest"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Preimenuj"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Poredaj"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Spremi kao popis pjesama"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Ton alarma"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Dodano u %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth isključen"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maks. broj (%d) odabranih stavki"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ništa odabrano"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Nemoguće obrisati. Reproducira se odabrana glazba"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Greška reprodukcije"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Ne može se reproducirati. Nepodržana vrsta datoteke"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Dodaj"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Dijeli"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Sve"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Dirigenti"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcast"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Odaberite uređaj"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ne prikazuj više"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Možete puštati svoju glazbu na uređajima pomoću AllSharea"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Prikaži kao"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normalno"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Korisnik"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Pojačanje basa"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Pojačanje visokih tonova"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafić"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtualni 7.1 kanal"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Nakon 15 min"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Nakon 30 min"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Nakon 1 sat"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Nakon 1 sata i 30 min"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Nakon 2 sata"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Auto. isključivanje glazbe"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Postavi kao"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Ovaj zvučni efekt radi samo u načinu slušalice i Bluetooth slušalice"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Glazbeni kutak"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Otvori"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Nedovoljno glazbenih datoteka za reprodukciju u Glazbenom kutku. Potrebno je min. %d glazbenih datoteka"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Strastveno"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Strastveno"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamično"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Mirno"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Veselo"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Aktualizacija biblioteke"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Aktualiziraj biblioteku?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Promijeni os"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Sve pjesme"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Odabrani popis prazan"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Skladat."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Dodaj na početnu"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Podaci o mediju"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Raspoloženja"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Godine"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Stari"
+

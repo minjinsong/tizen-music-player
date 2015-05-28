@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Mapper"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favoritter"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Høj musik kan skade din hørelse, hvis du lytter i for lang tid"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Kunstnere"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Auto"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Komponister"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Genrer"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Mest afspillede"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musikmenu"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Tilføjet for nylig"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "År"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Telefonringetone"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Opret afspilningsliste"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Fjern"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Kontakt ringetone"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Kunstnere"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Genrer"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "År"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Der kan ikke tilføjes"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Ingen lyrik"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Kan ikke ændre lydeffekter ved brug af 5.1 kanal"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Find Kode"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 effekten kanallyd fungerer kun i tilstanden høretelefoner"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanal kan kun aktiveres, når lydeffekter er fra"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Afspilningslisten kan ikke oprettes"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Kunne ikke hente tag"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Elementet kunne ikke fjernes"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Kunne ikke tilføje mere end %d musikfil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Kunne ikke afspille under opkald"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Forfatter"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Ophavsret"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Opret afspilningsliste"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Beskrivelse"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Ikke mulig"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Placering"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Ingen afspilningslister"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Spor-nummer"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Type"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Ukendt"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Slet"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Tilføjet"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Slet?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s er fjernet"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Fjernet"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Fjern?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Afspilningslisten kan ikke omdøbes"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Kan ikke indstille som ringetone"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM-fil kan ikke deles"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Alle"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Slet"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Del"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Føj til afspil.liste"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Afspiln. lister"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Afspillet for nylig"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Tilføj"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassisk"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Direkte"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Konfigurationsguide til musik"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografi"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Anerkendelse"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Medieoplysninger"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografi"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Lyrik"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Navnet er for langt"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Forældrebedømmelse"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Muligt"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Visning"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Afspilningsliste"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Allerede tilføjet"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Føj til afspilningsliste"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Kunstner"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Gange tilbage"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Basforbedring"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Kor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassisk"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Opretter"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Koncertsal"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Brugerdefineret"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dynamisk"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Equalizer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Eksternalisering"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Viderestiller"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Genre"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Direkte"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musikklarhed"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musikindstillinger"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albumcover"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Afspilningslister"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Afspillet for nylig"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Sporets længde"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Gyldighed"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Bred"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Fra"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Ingen sange"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Sange"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Tilføj afspilningsliste"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Redigér titel"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Oversigt"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Omdøb"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Skift rækkefølge"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Gem som afspilningsliste"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Alarmtone"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Føjet til %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth-forbindelse afbrudt"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Det maksimale elementer (%d) valgt"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Intet er valgt"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Kan ikke slette. Valgt musik afspilles"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Kan ikke afspille. Der opstod en fejl"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Kan ikke afspille. Filtypen understøttes ikke"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Tilføj"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Del"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Alle"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Dirigent"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcasts"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Vælg enhed"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Vis ikke igen"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Du kan streame din musik til enheder ved hjælp af AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Vis som"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Bruger"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Basforstærkning"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Diskantforstærkning"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Cafe"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtuel 7.1-kan"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Efter 15 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Efter 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Efter 1 time"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Efter 1 time og 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Efter 2 timer"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Automatisk musik fra"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Indstil som"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Denne lydeffekt fungerer kun i tilstandene høretelefon og Bluetooth-høretelefon"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Musiktorv"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Åbn afspl"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Ikke tilstrækkelige musikfiler til at afspille på Musiktorv. Der kræves mindst %d musikfiler"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Passion"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Passioneret"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dynamisk"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Rolig"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Glæde"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Biblioteksopdatering"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Opdatér bibliotek?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Skift akse"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Alle sange"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Den valgte liste er tom"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Kompon."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Føj til start"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Medieoplysninger"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Tilstande"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "År"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Gammel"
+

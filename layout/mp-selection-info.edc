@@ -1,0 +1,135 @@
+
+#define SELECTION_INFO_BACKGROUND_COLOR_INC          215 225 232 255
+#define SELECTION_INFO_TEXT_COLOR_INC                77 77 77 255
+
+#define SELECTION_INFO_MIN_PLAYVIEW_HORZ_W_INC       634
+#define SELECTION_INFO_MIN_VER_W_INC                 720
+#define SELECTION_INFO_MIN_HORZ_W_INC                1280
+#define SELECTION_INFO_VER_PADDING_INC               48
+#define SELECTION_INFO_LEFT_PADDING_INC              16
+#define SELECTION_INFO_TEXT_FONT_SIZE_INC            32
+#define SELECTION_INFO_MIN_VER_BOTTOM_64_H_INC       150
+#define SELECTION_INFO_MIN_VER_BOTTOM_86_H_INC       186
+
+group { name: "elm/standard/selectioninfo/music/vertical/bottom_64";
+   parts {
+      part {
+         name: "bg";
+         type: RECT;
+         mouse_events: 1;
+         repeat_events: 1;
+         scale : 1;
+         description {
+            state: "default" 0.0;
+            min: SELECTION_INFO_MIN_VER_W_INC SELECTION_INFO_MIN_VER_BOTTOM_64_H_INC;
+            fixed: 1 1;
+            align: 0.5 1.0;
+            rel1.relative: 0.5 1.0;
+            rel2.relative: 0.5 1.0;
+            color: 0 0 0 0;
+         }
+      }
+      part { name: "base";
+         type: RECT;
+         mouse_events: 1;
+         scale : 1;
+         description {
+            state: "default" 0.0;
+            min: 0 SELECTION_INFO_VER_PADDING_INC;
+            fixed: 0 1;
+            align: 0.5 0.0;
+            rel1 { relative: 0.0 0.0; to: "bg"; }
+            rel2 { relative: 1.0 0.32; to: "bg"; }
+            color: SELECTION_INFO_BACKGROUND_COLOR_INC;
+         }
+      }
+      part {
+         name: "elm.text";
+         type: TEXT;
+         mouse_events: 0;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            align: 0.5 0.0;
+            rel1 { to: "base"; }
+            rel2 { to: "base"; }
+            color: SELECTION_INFO_TEXT_COLOR_INC;
+            text {
+               font: "SLP";
+               size: SELECTION_INFO_TEXT_FONT_SIZE_INC;
+               text: "";
+            }
+         }
+      }
+   }
+   programs {
+      program {
+         name: "clicked";
+         signal: "mouse,clicked,1";
+         source: "base";
+         action: SIGNAL_EMIT "elm,action,click" "";
+      }
+   }
+}
+
+group { name: "elm/standard/selectioninfo/music/playview_landscape/bottom_64";
+   parts {
+      part {
+         name: "bg";
+         type: RECT;
+         mouse_events: 1;
+         repeat_events: 1;
+         scale : 1;
+         description {
+            state: "default" 0.0;
+            min: SELECTION_INFO_MIN_PLAYVIEW_HORZ_W_INC SELECTION_INFO_MIN_VER_BOTTOM_64_H_INC;
+            fixed: 1 1;
+            align: 0.5 1.0;
+            rel1.relative: 0.5 1.0;
+            rel2.relative: 0.5 1.0;
+            color: 0 0 0 0;
+         }
+      }
+      part { name: "base";
+         type: RECT;
+         mouse_events: 1;
+         scale : 1;
+         description {
+            state: "default" 0.0;
+            min: 0 SELECTION_INFO_VER_PADDING_INC;
+            fixed: 0 1;
+            align: 0.5 0.0;
+            rel1 { relative: 0.0 0.0; to: "bg"; }
+            rel2 { relative: 1.0 0.32; to: "bg"; }
+            color: SELECTION_INFO_BACKGROUND_COLOR_INC;
+         }
+      }
+      part {
+         name: "elm.text";
+         type: TEXT;
+         mouse_events: 0;
+         scale: 1;
+         description {
+            state: "default" 0.0;
+            align: 0.5 0.0;
+            rel1 { to: "base"; }
+            rel2 { to: "base"; }
+            color: SELECTION_INFO_TEXT_COLOR_INC;
+            text {
+               font: "SLP";
+               size: SELECTION_INFO_TEXT_FONT_SIZE_INC;
+               text: "";
+            }
+         }
+      }
+   }
+   programs {
+      program {
+         name: "clicked";
+         signal: "mouse,clicked,1";
+         source: "base";
+         action: SIGNAL_EMIT "elm,action,click" "";
+      }
+   }
+}
+

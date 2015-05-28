@@ -1,0 +1,11 @@
+/*
+ * vim:ts=3
+*/
+
+#include "genlist_macro.edc"
+//#include "genlist_textblock_style.edc"
+#include "genlist_normal.edc"
+//#include "genlist_sweep.edc"
+//#include "genlist_groupindex.edc"
+//#include "genlist_expandable.edc"
+//#include "genlist_decorate.edc"

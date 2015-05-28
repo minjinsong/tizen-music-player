@@ -1,0 +1,252 @@
+
+/*********** no_content ***********************/
+#define IMAGE_NO_CONTENT		"T02_nocomposers.png"
+
+#define IMAGE_NO_CONTENT_W 314
+#define IMAGE_NO_CONTENT_H 310
+
+#define FONT_NO_CONTENT		"SLP:style=Roman"
+#define FONT_NO_CONTENT_SIZE	42
+#define FONT_NO_CONTENT_COLOR	121 121 121 255
+#define TEXT_NO_CONTENT_H 54
+
+#define NO_CONTENT_H (IMAGE_NO_CONTENT_H+TEXT_NO_CONTENT_H)
+
+   group {
+		images {
+			image: IMAGE_NO_CONTENT	COMP;
+		}
+
+		name: "no_content";
+		parts {
+			part { name: "bg";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+
+			part { name: "no_content";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					align: 0.5 0.5;
+					min: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					max: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+
+			part {
+				name: "image";
+				type: IMAGE;
+				scale: 1;
+				mouse_events: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:no_content;}
+					rel2 { relative: 1.0 (IMAGE_NO_CONTENT_H/NO_CONTENT_H); to:no_content;}
+					image.normal: IMAGE_NO_CONTENT;
+				}
+			}
+
+			part {
+				name: "elm.text";
+				type: TEXT;
+				scale: 1;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 1.0; to: "image"; offset: 0 0;}
+					rel2 { relative: 1.0 1.0; to: "no_content"; offset: 0 0;}
+					color: FONT_NO_CONTENT_COLOR;
+					min: 0 46;
+					text {
+						font: FONT_NO_CONTENT;
+						text_class: "slp_roman";
+						size: FONT_NO_CONTENT_SIZE;
+						align: 0.5 0.5;
+					}
+				}
+
+			}
+		}
+	}
+
+	group {
+		name: "no_result";
+		parts {
+			part { name: "bg";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+			part {
+				name: "elm.text";
+				type: TEXT;
+				scale: 1;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 (290/1034); to:bg;}
+					rel2 { relative: 1.0 (290/1034); to:bg;}
+					color: FONT_NO_CONTENT_COLOR;
+					min: 0 46;
+					text {
+						font: FONT_NO_CONTENT;
+						text_class: "slp_roman";
+						size: FONT_NO_CONTENT_SIZE;
+						align: 0.5 0.5;
+					}
+				}
+
+			}
+		}
+	}
+
+
+	group {
+		images {
+			image: IMAGE_NO_CONTENT	COMP;
+		}
+
+		name: "no_content_landscape";
+		parts {
+			part { name: "bg";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+			part { name: "no_content";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					align: 0.5 0.5;
+					min: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					max: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+
+			part {
+				name: "image";
+				type: IMAGE;
+				scale: 1;
+				mouse_events: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:no_content;}
+					rel2 { relative: 1.0 (IMAGE_NO_CONTENT_H/NO_CONTENT_H); to:no_content;}
+					image.normal: IMAGE_NO_CONTENT;
+				}
+			}
+
+			part {
+				name: "elm.text";
+				type: TEXT;
+				scale: 1;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 1.0; to: "image"; offset: 0 0;}
+					rel2 { relative: 1.0 1.0; to: "no_content"; offset: 0 0;}
+					color: FONT_NO_CONTENT_COLOR;
+					min: 0 46;
+					text {
+						font: FONT_NO_CONTENT;
+						text_class: "slp_roman";
+						size: FONT_NO_CONTENT_SIZE;
+						align: 0.5 0.5;
+					}
+				}
+
+			}
+		}
+	}
+
+	group {
+		images {
+			image: IMAGE_NO_CONTENT	COMP;
+		}
+
+		name: "square_no_content_landscape";
+		parts {
+			part { name: "bg";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+
+			part { name: "no_content";
+				mouse_events: 0;
+				type: RECT;
+				description { state: "default" 0.0;
+					visible: 1;
+					align: 0.5 0.5;
+					min: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					max: IMAGE_NO_CONTENT_W NO_CONTENT_H;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 1.0;}
+					color: 0 0 0 0;
+				}
+			}
+
+			part {
+				name: "image";
+				type: IMAGE;
+				scale: 1;
+				mouse_events: 1;
+				description {
+					state: "default" 0.0;
+					align: 0.5 0.5;
+					rel1 { relative: 0.0 0.0; to:no_content;}
+					rel2 { relative: 1.0 (IMAGE_NO_CONTENT_H/NO_CONTENT_H); to:no_content;}
+					image.normal: IMAGE_NO_CONTENT;
+				}
+			}
+
+			part {
+				name: "elm.text";
+				type: TEXT;
+				scale: 1;
+				description { state: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 1.0; to: "image"; offset: 0 0;}
+					rel2 { relative: 1.0 1.0; to: "no_content"; offset: 0 0;}
+					color: FONT_NO_CONTENT_COLOR;
+					min: 0 46;
+					text {
+						font: FONT_NO_CONTENT;
+						text_class: "slp_roman";
+						size: FONT_NO_CONTENT_SIZE;
+						align: 0.5 0.5;
+					}
+				}
+
+			}
+		}
+	}

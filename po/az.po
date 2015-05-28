@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Qovluqlar"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Sevimlilər"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Uzun müddət ucadan qulaq assanız, bu sizin eşitmənizə mənfi təsir edə bilər"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Müğənnilər"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Avtomatik"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Bəstəkarlar"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Janrlar"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Daha çox çalınan"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musiqi menyusu"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Sonuncu dəfə əlavə edilən"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "İllər"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Zəng Tonu"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Mahnı siyahısı yaradın"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Sil"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Zəng egənin zəng tonu"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Müğənnilər"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Janrlar"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "İllər"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Əlavə etmək mümkün deyil"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Sözlər yoxdur"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1 kanalından istifadə edərkən səs effektlərini dəyişmək mümkün deyil"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "İşarəni tapın"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 kanalının səs effekti yalnız qulaqlıq rejimində işləyir"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanalı yalnız səs effektləri aktiv olmadıqda aktivləşdirilə bilər"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Mahnı siyahısı yaratmaq mümkün deyil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Etiket əldə etmək mümkün deyil"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Elementin yerini dəyişdirmək mümkün deyil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "%d musiqi faylından çox əlavə etmək mümkün deyil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Zəng zamanı səsləndirmək olmur"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albom"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Müəllif"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Müəllif hüququ"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Mahnı siyahısı yaradın"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Təsvir"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Mümkün deyil"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Yeri"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Mahnı siyahısı yoxdur"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Cığırın nömrəsi"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tip"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Naməlum"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Əlavə edildi"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Silinsin?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s silindi"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Silindi"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Silinsin?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Mahnı siyahısının adını dəyişdirmək  mümkün deyil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Zəng melodiyası kimi qurmaq mümkün deyil"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM faylını paylaşmaq mümkün deyil"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Hamısı"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Paylaş"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Musiqi siyahısina əlavə et"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Musiqi siyahılrı"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Son dəfə çalınan"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Əlavə et"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Caz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Rəqs"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Canlı"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Musiqi tərtibatı üzrə köməkçi funksiya"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Bioqrafiya"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "İştirakçıların siyahısı"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Media məlumatı"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskoqrafiya"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Sözlər"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Ad çox uzundur"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Valideyn reytinqi"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Mümkündür"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Gözdən keçir"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Musiqi siyahısı"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Artıq əlavə olunmuşdur"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Mahnılar siyahısına daxil et"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Artist"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "İstifadəsi mümkün olanlar"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Basın yüksəldilməsi"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Xor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Tərtibat proqramı"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Konsert Zalı"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Adi"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Rəqs"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekvalayzer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Kənarlaşdırma"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Göndərilir"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Janr"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Caz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Canlı"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musiqi aydınlığı"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musiqi parametrləri"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "İncəsənət albomu"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Mahnı siyahıları"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Son dəfə çalınan"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Cığırın uzunluğu"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Etibarlılıq"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Geniş"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Söndür"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Mahnı yoxdur"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Mahnılar"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Musiqi siyahısına əlavə edin"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Başlığı redaktə et"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Tarix"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Adını dəyişdir"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Yenidən nizamlayın"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Musiqi siyahısı kimi saxlayın"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Xəbərdarlıq zənginin tonu"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "%s-ə əlavə olunmuşdur"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth söndürüldü"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maksimum sayda (%d) element seçilmişdir"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "He nə seçilməmişdir"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Silmək mümkün deyil. Seçilmiş musiqi ifa olunur"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Səsləndirmək mümkün deyil. Səhv baş verdi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Çaldırmaq mümkün deyil. Dəstəklənməyən fayl növü"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Əlv et"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Bölüşün"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Hamısını"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Dirijorlar"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podkastlar"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Qurğu seç"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Bir daha göstərmə"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Siz AllShare istifadə edərək musiqini cihazlara göndərə bilərsiniz"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Kimi bax"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "İstifadəçi"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bəm səsin yüksəldilməsi"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Diskant səs yüksəldilməsi"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafe"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtual 7.1 kanal"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 dəqiqə sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 dəqiqədən sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 saatdan sonra"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 saat 30 dəqiqədən sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 saatdan sonra"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Musiqini avtomatik söndür"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Hausi"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Bunun kimi qur"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Bu səs effekti yalnız qulaqlıq və Bluetooth qulaqlığı rejimlərində işləyir"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Musiqi meydanı"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Ms.syh.aç"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Musiqi meydanında səsləndirmək üçün kifayət qədər musiqi faylı yoxdur. Ən azı %d musiqi faylı tələb olunur"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Həvəs"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Həvəsli"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Sakit"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Sevinc"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Kitabxana yeniləməsi"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Kitabxana yenilənsin?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Oxu dəyiş"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Bütün mahnılar"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Seçilmiş şəhər boşdur"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Bəstəkrlər"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Başlanğıca əlavə et"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Media məlumatı"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Əhvallar"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "İllər"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Köhnə"
+

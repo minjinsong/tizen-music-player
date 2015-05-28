@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="ug-music-player-efl" version="0.1" install-location="internal-only">
+        <label>music-player-efl</label>
+        <author email="hm2007.kim" href="www.samsung.com">Hyungmin Kim</author>
+        <description>Music player shortcut ug</description>
+        <ui-application appid="music-player-efl" exec="/usr/ug/bin/music-player-efl" nodisplay="true" multiple="true" type="capp" taskmanage="false">
+                <icon>music-player-efl.png</icon>
+                <label>Music Player Appcontrol</label>
+		<label xml:lang="en-us">Music Player Appcontrol</label>
+		<application-service>
+			<operation name="http://tizen.org/appcontrol/operation/pick" />
+			<mime name="audio/*" />
+		</application-service>
+        </ui-application>
+</manifest>

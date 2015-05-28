@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Kansiot"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albumit"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Suosikit"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Suuri äänenvoimakkuus vaurioittaa kuuloasi pitkäaikaisen kuuntelun aikana"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Esittäjät"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Automaattinen"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Säveltäjät"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Tyylilajit"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Eniten soitetut"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musiikkivalikko"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Viimeksi lisätyt"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Vuosi"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Puhelun soittoääni"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Luo soittolista"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Poista"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Soittajan soittoääni"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Esittäjät"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Tyylilajit"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Vuodet"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Lisääminen ei onnistu"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Ei sa-noitusta"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Äänitehosteita ei voi muuttaa, kun 5.1-kanava on käytössä"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Etsi tunniste"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1-kanavainen äänitehoste toimii vain kuuloketilassa"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1-kanava voidaan aktivoida vain silloin, kun äänitehosteet on poistettu käytöstä"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Soittolistan luonti epäonnistui"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Tunnistetta ei voi hakea"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Kohdetta ei voi poistaa"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Yli %d musiikkitiedostoa ei voi lisätä"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Puhelun aikana ei voi toistaa"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albumi"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Tekijä"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Tekijänoikeus"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Luo soittolista"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Kuvaus"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Muoto"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Mahdoton"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Paikka"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Ei soittolistoja"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Kappaleen numero"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tyyppi"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Tuntematon"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Poista"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Lisätty"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s poistettu"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Poistettu"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Poistetaanko?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Soittolistan nimeäminen uudelleen epäonnistui"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Ei voi asettaa soittoääneksi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM-tiedostoa ei voi jakaa"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albumit"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Kaikki"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Poista"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Jaa"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Lisää soittolistaan"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "S.listat"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Viimeksi soitetut"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Lisää"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albumit"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normaali"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Tanssi"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassinen"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Suora"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Ohjattu musiikkiasennus"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografia"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Tekijät"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Median tiedot"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografia"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Sanoitus"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Nimi on liian pitkä"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Aikuisluokitus"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Mahdollinen"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Tarkista"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Kappaleluettelo"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "On jo lisätty"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1-kanavainen"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Lisää toistoluetteloon"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Esittäjä"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Jäljellä olevat käyttökerrat"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Basson korostus"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Kuoro"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassinen"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Säveltäjä"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Konserttisali"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Mukautettu"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Tanssi"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dynaaminen"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Tehoste"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Taajuuskorjain"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Ulkoistaminen"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Edelleenlähetys"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Tyylilaji"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Suora"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musiikin selkeys"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musiikkiasetukset"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Kansitaide"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Soittolistat"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Viimeksi soitetut"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Kappaleen pituus"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Kelpoisuus"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wah-wah"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Leveä"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Pois päältä"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Ei kappaleita"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Kappaleet"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Lisää soittolista"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Muokkaa otsikkoa"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Historia"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Nimeä uudelleen"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Järjestä uudestaan"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Tallenna soittolistana"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Hälytysääni"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Lisätty kohteeseen %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth-yhteys on katkennut"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Valittujen kohteiden enimmäismäärä (%d) saavutettu"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Mitään ei valittu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Ei voi poistaa. Valittu musiikki soi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Ei voi toistaa. Tapahtui virhe"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Toisto ei onnistu. Tiedostotyyppiä ei tueta"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Lisää"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Jaa"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Kaikki"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Kap.m."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcast"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Valitse laite"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Älä näytä uudestaan"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Voit virtauttaa musiikin AllShare-laitteisiin"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "N.tapa"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normaali"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Käyttäjä"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Laulu"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bassokorostus"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Diskanttikorostus"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kahvila"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtuaalinen 7.1-kanava"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 min kuluttua"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 min kuluttua"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 tunnin kuluttua"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 h 30 min kuluttua"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 tunnin kuluttua"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Automaattinen musiikin lopetus"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Määritä"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Tämä äänitehoste toimii vain kuuloke- ja Bluetooth-kuuloketiloissa"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Musiikkineliö"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "A.s.lista"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Musiikkineliössä ei ole riittävästi toistettavia musiikkitiedostoja. Vaaditaan vähintään %d musiikkitiedostoa"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Intohimo"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Intohimoinen"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dynaaminen"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Rauhallinen"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Ilo"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Kirjaston päivitys"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Päivitetäänkö kirjasto?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Vaihda akselia"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Kaikki kappaleet"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Valittu luettelo on tyhjä"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Sävelt."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Lisää etusivulle"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Median tiedot"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Tunnelmat"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Vuodet"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Vanha"
+

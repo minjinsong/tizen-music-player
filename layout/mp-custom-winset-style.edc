@@ -1,0 +1,17 @@
+#include "mp-defines.h"
+#include "tizen-hd-inc.edc"
+
+collections {
+	#include "genlist/genlist.edc"
+
+	/* legacy style */
+	#include "mp-genlist-theme.edc"
+	#include "mp-progressbar.edc"
+	#include "mp-genlist-sweep.edc"
+	#include "mp-genlist-edit.edc"
+	#include "mp-gengrid-style.edc"
+	#include "mp-selection-info.edc"
+	#include "mp-naviframe.edc"
+	#include "mp-slider.edc"
+}
+

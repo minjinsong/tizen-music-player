@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Φάκελοι"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Άλμπουμ"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Αγαπημένα"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Η ακρόαση μουσικής σε υψηλή ένταση για μεγάλο χρονικό διάστημα μπορεί να βλάψει την ακοή σας"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Καλλιτέχνες"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Αυτόματο"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Συνθέτες"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Είδη"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Επιλέχθηκε πρόσφατα"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Μενού μουσικής"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Προστέθηκε πρόσφατα"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Έτη"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "'Ηχος κλήσης"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Δημιουργία λίστας αναπαραγωγής"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Κατάργηση"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Ήχος κλήσης καλούντος"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Καλλιτέχνες"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Είδη"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Έτη"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Δεν είναι δυνατή η προσθήκη"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Χωρίς στίχους"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Δεν είναι δυνατή η αλλαγή των ηχητικών εφέ κατά τη χρήση του καναλιού 5.1"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Αναζήτηση ετικέτας"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Τo εφέ ήχων του καναλιού 5.1 εκτελείται μόνο στη λειτουργία ακουστικών"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Το κανάλι 5.1 μπορεί να ενεργοποιηθεί μόνο όταν τα ηχητικά εφέ είναι απενεργοποιημένα"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Δεν είναι δυνατή η δημιουργία λίστας αναπαραγωγής"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Δεν είναι δυνατή η λήψη φράσης"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Δεν είναι δυνατή η αφαίρεση του στοιχείου"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Δεν είναι δυνατή η προσθήκη περισσότερων από %d αρχείων μουσικής"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Δεν είναι δυνατή η αναπαραγωγή παιχνιδιού κατά την κλήση"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Άλμπουμ"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Συντάκτης"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Πνευματικά δικαιώματα"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Δημιουργία λίστας αναπαραγωγής"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Περιγραφή"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Μορφή"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Αδύνατο"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Θέση"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Καμία λίστα αναπαραγωγής"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Αριθμός κομματιού"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Τύπος"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Άγνωστο"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Διαγραφή"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Προστέθηκε"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Διαγραφή;"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "Το %s αφαιρέθηκε"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Αφαιρέθηκε"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Αφαίρεση;"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Δεν είναι δυνατή η μετονομασία της λίστας αναπαραγωγής"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Δεν είναι δυνατός ο ορισμός ως ήχου κλήσης"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Δεν είναι δυνατή η κοινή χρήση του αρχείου DRM"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Άλμπουμ"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Όλα"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Διαγραφή"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Κοιν.χρ"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Προσ. σε λίστα αναπ."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Λίστες αναπαραγ."
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Αναπ/χθηκε πρόσφατα"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Προσθήκη"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Άλμπουμ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Κανονική"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Ποπ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Ροκ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Τζαζ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Χορός"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Κλασική"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Πραγματικός χρόνος"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Οδηγός εγκατάστασης μουσικής"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biography"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Συντελεστές"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Πληροφορίες πολυμέσων"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Δισκογραφία"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Στίχοι"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Πολύ μεγάλο όνομα"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Γονική αξιολόγηση"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Δυνατό"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Εξέταση"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Λίστα κομματιών"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Προστέθηκε ήδη"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "Κανάλι 5.1"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Προσθήκη στη λίστα αναπαραγωγής"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Καλλιτέχνης"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Διαθέσιμες χρήσεις"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Βελτίωση μπάσων"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Χορωδία"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Κλασική"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Συνθέτης"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Αίθουσα συναυλιών"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Προσαρμοσμένη"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Χορός"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Δυναμικό"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Εφέ"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ισοσταθμιστής"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Εξωτερίκευση"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Προώθηση"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Είδος"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Τζαζ"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Πραγματικός χρόνος"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Καθαρότητα μουσικής"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Ρυθμίσεις μουσικής"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Είδος άλμπουμ"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Λίστες αναπαραγωγής"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Ποπ"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Αναπ/χθηκε πρόσφατα"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Ροκ"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Διάρκεια κομματιού"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Τρέμολο"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Ισχύς"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Ευρύς"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Ανενεργό"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Δεν βρέθηκαν τραγούδια"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Τραγούδια"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Προσθήκη λίστας αναπαραγωγής"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Επεξεργασία τίτλου"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Ιστορικό"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Μετονομασία"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Επανάληψη παραγγελίας"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Αποθήκευση ως λίστα αναπαραγωγής"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Ήχος ειδοποίησης"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Προσθήκη σε %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Αποσυνδεδεμένο Bluetooth"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Επιλέχθηκε ο μέγιστος αριθμός στοιχείων (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Δεν έχει γίνει καμία επιλογή"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Δεν είναι δυνατή η διαγραφή. Γίνεται αναπαραγωγή της επιλεγμένης μουσικής"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Δεν είναι δυνατή η αναπαραγωγή. Προέκυψε σφάλμα"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Δεν είναι δυνατή η αναπαραγωγή. Ο τύπος αρχείου δεν υποστηρίζεται"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Προσθ."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Κοινή χρήση"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Όλα"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Αρχιμ."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcasts"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Επιλογή συσκευής"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Να μην εμφανιστεί ξανά"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Μπορείτε να ακούσετε τη μουσική σας μέσω ροής σε συσκευές χρησιμοποιώντας το AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Προβ. ως"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Κανονικό"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Χρήστης"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Φωνητικά"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Ενίσχυση μπάσων"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Ενίσχυση πρίμων"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Καφετέρια"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Εικονικό κανάλι 7.1"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Μετά από 15 λεπτά"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Μετά από 30 λεπτά"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Μετά από 1 ώρα"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Μετά από 1 ώρα 30 λεπτά"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Μετά από 2 ώρες"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Αυτόματη απενεργοποίηση μουσικής"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Ορισμός ως"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Αυτό το εφέ ήχων εκτελείται μόνο στη λειτουργία ακουστικών και Bluetooth"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Μουσικό κουτί"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Άν.λί.αν."
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Δεν υπάρχουν αρκετά αρχεία μουσικής προς αναπαραγωγή στο Music square. Απαιτούνται τουλάχιστον %d αρχεία μουσικής"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Πάθος"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Παθιασμένος"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Δυναμική"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Ήρεμος"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Χαρά"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Ενημέρωση βιβλιοθήκης"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Ενημέρωση βιβλιοθήκης;"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Αλλαγή άξονα"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Όλα τα τραγούδια"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Η επιλεγμένη λίστα είναι κενή"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Συνθέτες"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Προσθήκη σε αρχική σελίδα"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Πληροφορίες πολυμέσων"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Διάθεση"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Έτη"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Παλιό"
+

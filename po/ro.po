@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Foldere"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albume"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favorite"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Sunetele la volum ridicat pot afecta auzul, dacă le ascultaţi timp îndelungat"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Artişti"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Automat"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Compozitori"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Genuri"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Cea mai redată"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Meniu muzică"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Adăugat recent"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Ani"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Ton sonerie apel"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Creare listă de redare"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Eliminare"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Ton sonerie apelant"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Artişti"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Genuri"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Ani"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Imposibil de adăugat"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Fără versuri"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Imposibil de modificat efectele sonore în timpul utilizării sistemului pe 5.1 canale"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Căutare etichetă"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Efectul sonor pentru 5.1 canale funcţionează numai în modul cască"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Sistemul pe 5.1 canale poate fi activat numai când efectele sonore sunt dezactivate"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Imposibil de creat lista de redare"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Imposibil de obţinut eticheta"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Imposibil de eliminat elementul"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Imposibil de adăugat mai mult de %d fişier muzical"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Imposibil de redat în timpul unui apel"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Autor"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Drept de autor"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Creare listă de redare"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Descriere"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Imposibil"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Locaţie"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Nici o listă de redare"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Număr piesă"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tip"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Necunoscut"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Ştergere"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Adăugat"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Ştergeţi?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s a fost eliminat"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Eliminat"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Eliminare?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Imposibil de redenumit lista de redare"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Imposibil de setat ca ton de sonerie"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Imposibil de partajat fişierul DRM"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albume"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Toate"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Ştergere"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Partaj."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Ad. la lista de red."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Liste de redare"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Redate recent"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Adăugat"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albume"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Clasic"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Expert configurare muzică"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografie"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Credite"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Informaţii media"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Discografie"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Versuri"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Nume prea lung"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Evaluare părinte"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Posibil"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Examinare"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Listă de melodii"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Deja adăugat"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 canale"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Adăugare la lista de redare"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Artist"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Utilizări disponibile"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Accentuare başi"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Cor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Clasic"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Compozitor"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Sală de concert"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Particularizat"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamic"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Efect"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Egalizator"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Externalizare"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Redirecţionare"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Gen"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Claritate muzică"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Setări muzică"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Grafică album"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Liste de redare"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Redate recent"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Lungime piesă"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Valabilitate"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Larg"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Oprit"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Nu există melodii"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Melodii"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Adăugare listă de redare"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Editare titlu"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Istoric"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Redenumire"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Reordonare"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Salvare ca listă de redare"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Ton alarmă"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Adăugate la %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth deconectat"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "A fost selectat numărul maxim de elemente (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Nimic selectat"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Imposibil de şters. Muzica selectată este în curs de redare"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Imposibil de redat. A avut loc o eroare"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Imposibil de redat. Tip fişier neacceptat"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Adăug."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Partajare"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Toate"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Dirijori"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcast."
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Selectare dispozitiv"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Nu se mai afişează"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Puteţi reda în flux muzica pe dispozitive utilizând AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Viz. ca"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Utilizator"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vocală"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Accentuare başi"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Accentuare înalte"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Cafenea"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "7.1 canale virtuale"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "După 15 minute"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "După 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "După 1 oră"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "După 1 oră 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "După 2 ore"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Oprire automată muzică"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Setare ca"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Acest efect de sunet funcţionează numai în modurile cască şi cască Bluetooth"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Pătrat muzical"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Des. listă"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Nu sunt suficiente fişiere muzicale pentru redarea în pătratul muzical. Sunt necesare cel puţin %d fişiere muzicale"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Pasiune"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Pasional"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamic"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Calm"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Bucurie"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Actualizare bibliotecă"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Actualizaţi biblioteca?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Schimbare axă"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Toate melodiile"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Listă selectată goală"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Compoz."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Adăugare la ecran principal"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Informaţii media"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Stări"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Ani"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Vechi"
+

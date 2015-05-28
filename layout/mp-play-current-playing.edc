@@ -1,0 +1,252 @@
+#define MP_NOW_PLAYING
+
+#define MP_NOW_PLAYING_W 		720.
+#define MP_NOW_PLAYING_H 		100.
+
+#define MP_NOW_PLAYING_THUMB_SX		16
+#define MP_NOW_PLAYING_THUMB_SY		12
+#define MP_NOW_PLAYING_THUMB_SIZE	76
+#define MP_NOW_PLAYING_THUMB_EX		(MP_NOW_PLAYING_THUMB_SX+MP_NOW_PLAYING_THUMB_SIZE)
+#define MP_NOW_PLAYING_THUMB_EY		(MP_NOW_PLAYING_THUMB_SY+MP_NOW_PLAYING_THUMB_SIZE)
+#define MP_NOW_PLAYING_LABEL_SX		108
+
+
+#define MP_NOW_PLAYING_LABEL_SY		14
+#define MP_NOW_PLAYING_LABEL_EX		(686)
+#define MP_NOW_PLAYING_LABEL_EY		(MP_NOW_PLAYING_LABEL_SY+38)
+
+#define MP_NOW_PLAYING_PROGRESS_SX		MP_NOW_PLAYING_LABEL_SX
+#define MP_NOW_PLAYING_PROGRESS_SY		70
+#define MP_NOW_PLAYING_PROGRESS_EX		(MP_NOW_PLAYING_PROGRESS_SX+490)
+#define MP_NOW_PLAYING_PROGRESS_EY		(MP_NOW_PLAYING_PROGRESS_SY+10)
+
+#define MP_NOW_PLAYING_PLAYING_ICON_SX		MP_NOW_PLAYING_THUMB_SX
+#define MP_NOW_PLAYING_PLAYING_ICON_SY		MP_NOW_PLAYING_THUMB_SY
+#define MP_NOW_PLAYING_PLAYING_ICON_EX		MP_NOW_PLAYING_THUMB_EX
+#define MP_NOW_PLAYING_PLAYING_ICON_EY		MP_NOW_PLAYING_THUMB_EY
+
+#define MP_NOW_PLAYING_FONT_SIZE 		32
+
+
+group {
+	name: "mp_now_playing";
+
+	images {
+		image : "T02_now_playing_bar.png" COMP;
+		image: "T02_now_playing_icon_play.png" COMP;
+		image: "T02_now_playing_icon_pause.png" COMP;
+	}
+
+	parts {
+		part {
+			name: "now_playing_bg";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				min: 0 MP_NOW_PLAYING_H;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				image { normal: "T02_now_playing_bar.png"; }
+			}
+		}	//now_playing_bg
+
+		part { name: "pad.left";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min: 16 0;
+				rel1 {relative: 0.0 0.0;}
+				rel2 {relative: 0.0 1.0;}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "thumb_image";
+			type : SWALLOW;
+			//type : RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min : MP_NOW_PLAYING_THUMB_SIZE MP_NOW_PLAYING_THUMB_SIZE;
+				rel1 { relative: 1.0 MP_NOW_PLAYING_THUMB_SY/MP_NOW_PLAYING_H; to, "pad.left";}
+				rel2 { relative: 1.0 MP_NOW_PLAYING_THUMB_EY/MP_NOW_PLAYING_H; to, "pad.left";}
+			}
+		}
+
+		part { name: "innerline.top";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min: 1 1;
+				rel1 {relative: 0.0 0.0; to, "thumb_image";}
+				rel2 {relative: 1.0 0.0; to, "thumb_image";}
+				color: 0 0 0 255;
+			}
+		}
+
+		part { name: "innerline.bottom";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min: 1 1;
+				rel1 {relative: 0.0 1.0; to, "thumb_image";}
+				rel2 {relative: 1.0 1.0; to, "thumb_image";}
+				color: 0 0 0 255;
+			}
+		}
+
+		part { name: "innerline.left";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min: 1 1;
+				rel1 {relative: 0.0 0.0; to, "thumb_image";}
+				rel2 {relative: 0.0 1.0; to, "thumb_image";}
+				color: 0 0 0 255;
+			}
+		}
+
+		part { name: "innerline.right";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				min: 1 1;
+				rel1 {relative: 1.0 0.0; to, "thumb_image";}
+				rel2 {relative: 1.0 1.0; to, "thumb_image";}
+				color: 0 0 0 255;
+			}
+		}
+
+		part { name: "pad.right";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 1 0;
+				min: 16 1;
+				rel1 {relative: 1.0 0.0;}
+				rel2 {relative: 1.0 1.0;}
+				color: 0 0 0 0;
+			}
+		}
+
+		part {
+			name: "now_playing_label";
+			type : TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				color: 255 255 255 255;
+				rel1 { relative: 1.0 MP_NOW_PLAYING_LABEL_SY/MP_NOW_PLAYING_H; to, "thumb_image"; offset: 16 0;}
+				rel2 { relative: 0.0 MP_NOW_PLAYING_LABEL_EY/MP_NOW_PLAYING_H; to, "pad.right";}
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: MP_NOW_PLAYING_FONT_SIZE;
+					align: 0 0.5;
+					text: "Title / Artist";
+              	      		}
+			}
+		}
+
+		part { name: "progress_bar";
+			type : SWALLOW;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 1.0 MP_NOW_PLAYING_PROGRESS_SY/MP_NOW_PLAYING_H; to, "thumb_image"; offset: 16 0;}
+				rel2 { relative: 0.0 MP_NOW_PLAYING_PROGRESS_EY/MP_NOW_PLAYING_H; to, "pad.right";}
+			}
+		}
+
+		part { name: "playing_icon";
+			//type : SWALLOW;
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0 0; to, "thumb_image"; }
+				rel2 { relative: 1 1; to, "thumb_image"; }
+				image { normal: "T02_now_playing_icon_pause.png"; }
+			}
+			description {
+				state: "pause" 0.0;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0 0; to, "thumb_image"; }
+				rel2 { relative: 1 1; to, "thumb_image"; }
+				image { normal: "T02_now_playing_icon_play.png"; }
+			}
+		}
+
+	}	//parts
+
+	programs {
+		program {
+			name: "now_playing_clicked";
+			source: "now_playing_bg";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "now_playing_clicked" 0.0;
+		}
+		program {
+			name: "play_clicked";
+			source: "playing_icon";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "play_pause_clicked" 0.0;
+		}
+
+		program {
+			name: "pause";
+			source: "playing_icon";
+			signal: "pause";
+			action: STATE_SET "pause" 0.0;
+			target: "playing_icon";
+		}
+		program {
+			name: "play";
+			source: "playing_icon";
+			signal: "play";
+			action: STATE_SET "default" 0.0;
+			target: "playing_icon";
+		}
+	}
+
+}
+
+

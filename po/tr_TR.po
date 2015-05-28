@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Klasörler"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albümler"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favorilerim"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Yüksek ses düzeyi, uzun süre dinlemeniz durumunda işitme duyunuza zarar verebilir"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Sanatçılar"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Otomatik"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Bestekarlar"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Tarzlar"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "En sık çalınanlar"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Müzik menüsü"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Son eklenenler"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Yıl"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Arayan zil sesi"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Çalma listesi oluştur"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Kaldır"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Arayan zil sesi tonu"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Sanatçılar"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Tarzlar"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Yıl"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Eklenemiyor"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Söz yok"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1 kanalı kullanılırken ses efektleri değiştirilemiyor"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Etiket bul"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 kanal ses efekti sadece kulaklık modunda çalışır"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanalı sadece ses efektleri kapalı olduğunda etkinleştirilebilir"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Parça listesi oluşturulamıyor"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "İm alınamıyor"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Öğe kaldırılamıyor"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr " %d müzik dosyasından fazlası eklenemiyor"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Görüşme sırasında çalınamaz"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albüm"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Yazar"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Telif hakkı"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Çalma listesi oluştur"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Açıklama"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Biçim"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "İmkansız"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Konum"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Çalma listesi yok"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Parça numarası"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tür"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Bilinmeyen"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Eklendi"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Sil?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s kaldırıldı"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Kaldırıldı"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Kaldır?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Parça listesi yeniden adlandırılamıyor"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Zil sesi olarak ayarlanamadı"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM dosyası paylaşılamıyor"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albümler"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Tümü"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Sil"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Paylaş"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Parça listesine ekle"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Parça listeleri"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Son çalınanlar"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Ekle"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albümler"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dans"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klasik"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Canlı"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Müzik kurulum sihirbazı"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biyografi"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Krediler"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Medya bilgisi"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografi"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Lirik"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Ad çok uzun"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Ebeveyn sıralaması"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Mümkün"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "İzleme"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Parça listesi"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Zaten eklenmiş"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Çalma listesine ekle"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Sanatçı"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Mevcut kullanımlar"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Bas iyileştirme"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Koro"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klasik"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Bestekar"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Konser salonu"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Özel"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dans"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Efekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekolayzer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Dışsallaştırma"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "İletme"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Tarz"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Canlı"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Müzik netliği"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Müzik ayarları"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albüm kapağı"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Parça listeleri"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Son çalınanlar"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Parça uzunluğu"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Titreklik"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Geçerlilik"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Geniş"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Kapalı"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Hiç şarkı yok"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Şarkılar"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Parça listesi ekle"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Başlığı düzenle"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Geçmiş"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Yeniden adlandır"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Yeniden düzenle"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Parça listesi olarak kaydet"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Alarm sesi"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "%s öğesine eklendi"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth bağlantısı kesildi"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maksimum seçilen öğe sayısı (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Bir şey seçilmedi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Silinemiyor. Seçilen müzik çalıyor"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Çalınamıyor. Hata meydana geldi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Çalınamıyor. Desteklenmeyen dosya türü"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Ekle"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Paylaş"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Hepsi"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Kondüktor"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Pod cast’ler"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Cihaz seçin"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Bir daha gösterme"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "AllShare kullanarak, müziğinizi cihazlara yayınlayabilirsiniz"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Göster"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Kullanıcı"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bas güçlendirme"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Tiz güçlendirme"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafe"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtual 7.1 ch"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 dak. sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 dakika sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 saat sonra"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 saat 30 dakika sonra"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 saat sonra"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Müziği otomatik kapat"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Ayarla"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Bu ses efekti sadece kulaklık ve Bluetooth kulaklık modlarında çalışır"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Müzik meydanı"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Yür lst aç"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Müzik meydanında çalmak için yeterli müzik dosyası yok. En az %d müzik dosyası gerekli"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Tutku"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Tutkulu"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Sakin"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Eğlence"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Kütüphane güncellemesi"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Kütüphane güncellensin mi?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Ekseni değiştir"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Tüm şarkılar"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Seçilen liste boş"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Besteci"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Ana sayfaya ekle"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Medya bilgisi"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Ruh halleri"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Yıl"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Eski"
+

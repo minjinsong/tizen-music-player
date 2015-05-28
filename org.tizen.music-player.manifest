@@ -1,0 +1,17 @@
+<manifest>
+	<define>
+		<domain name="org.tizen.music-player" />
+	</define>
+	<request>
+		<domain name="org.tizen.music-player" />
+	</request>
+	<assign>
+		<filesystem path="/opt/usr/apps/org.tizen.music-player/data" label="org.tizen.music-player" type="transmutable" />
+		<filesystem path="/opt/usr/apps/org.tizen.sound-player/data" label="org.tizen.music-player" type="transmutable" />
+		<filesystem path="/usr/share/applications/org.tizen.music-player.desktop" label="_" />
+		<filesystem path="/usr/share/icons/default/small/org.tizen.music-player.png" label="_" />
+		<filesystem path="/usr/share/applications/org.tizen.sound-player.desktop" label="_" />
+		<filesystem path="/usr/share/icons/default/small/org.tizen.sound-player.png" label="_" />
+		<filesystem path="/usr/apps/org.tizen.music-player/res/*" label="_" />
+	</assign>
+</manifest>

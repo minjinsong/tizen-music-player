@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Karpetak"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albumak"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Gogokoenak"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Baliteke bolumen handien zure entzumena kaltetzea denbora luzean entzuten baduzu"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Artistak"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Auto"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Egileak"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Generoak"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Gehienetan erreproduzitutakoak"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musikaren menua"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Azken gehitutakoak"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Urteak"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Dei doinua"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Erreprodukzio zerrenda sortu"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Kendu"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Dei egilearen dei doinua"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Artistak"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Generoak"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Urteak"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Ezin da gehitu"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Letrarik ez"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Ezin dira soinu efektuak aldatu 5.1 kanala erabiltzerakoan"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Bilatu etiketa"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 kanalaren soinu efektuak aurikular moduan soilik funtzionatzen du"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanala soinu efektuak itzalita daudenean bakarrik aktibatu daiteke"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Ezin da erreprodukzio zerrenda sortu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Ezin da etiketa eskuratu"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Ezin da elementua kendu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Ezin izan dira %d musika fitxategi baino gehiago gehitu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Ezin da deian zehar erreproduzitu"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albuma"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Egilea"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Copyright"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Erreprodukzio zerrenda sortu"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Deskribapena"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Formatua"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Ezinezkoa"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Kokalekua"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Erreprodukzio zerrendarik ez"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Abesti zenbakia"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Mota"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Ezezaguna"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Ezabatu"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Gehituta"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Ezabatu?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s ezabatu da"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Kenduta"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Kendu?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Ezin da erreprodukzio zerrenda berrizendatu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Ezin da dei tonu gisa ezarri"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Ezin da DRM fitxategia partekatu"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albumak"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Guztiak"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Ezabatu"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Partek."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Gehitu erreprod. zerrendara"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Errepr. zerrendak"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Azken erreproduzituak"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Gehitu"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albumak"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Arrunta"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klasikoa"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Zuzenean"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Musika konfigurazio laguntzailea"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografia"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Kredituak"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Multimedia informazioa"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografia"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Lirikoa"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Izen luzeegia"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Gurasoen balorazioa"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Posible"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Berrikusi"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Pisten zerrenda"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Gehituta dago lehendik"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanala"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Erreprodukzio zerrendara gehitu"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Artista"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Erabilera eskuragarriak"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Baxuak hobetu"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Chorus"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klasikoa"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Egilea"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Antzokia"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Pertsonalizatua"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamikoa"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Efektua"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekualizadorea"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Kanporatzea"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Birbidaltzea"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Generoa"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Zuzenean"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musikaren argitasuna"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musika konfigurazio"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albumaren azala"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Erreprodukzio zerrendak"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Azken erreproduzituak"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Abesti iraupena"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Baliozkotasuna"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Zabala"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Desaktibatu"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Abestirik ez"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Abestiak"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Gehitu erreprodukzio zerrenda"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Izenburua editatu"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Historia"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Berrizendatu"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Ordenatu berriro"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Gorde erreprodukzio zerrenda gisa"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Alarma doinua"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "%s zerrendan gehitua"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth deskonektatuta"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Elementuen kopuru maximoa (%d) hautatu duzu"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ez da ezer aukeratu"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Ezin da ezabatu. Hautatutako musika erreproduzitzen ari da"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Ezin da erreproduzitu. Errorea gertatu da"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Ezin da erreproduzitu. Fitxategi mota ez onartua"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Gehitu"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Partekatu"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Guztia(k)"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Zuzend."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcast-ak"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Gailua aukeratu"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ez erakutsi berriro"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Zure musikaren stream egin dezakezu gailuetara AllShare bidez"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Ik. hon."
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Arrunta"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Erabiltzailea"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Ahots musika"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bass boost"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Treble boost"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafetegia"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "7.1 kate birtuala"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 min. geroago"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 min ostean"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Ordu 1en ostean"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Ordu 1 eta 30 minutu ondoren"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 orduren ostean"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Musika automatikoa itzalita"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Ezarri"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Soinu efektu honek aurikular eta Bluetooth aurikular moduetan soilik funtzionatzen du"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Musika plaza"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Err. zr. ir."
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Ez dago nahikoa musika fitxategi erreproduzitzeko Music square-n. Gutxienez %d musika fitxategi behar dira"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Pasioa"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Apasionatua"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamikoa"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Lasaia"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Poztasuna"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Liburutegi eguneraketa"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Eguneratu liburutegia?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Aldatu ardatza"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Abesti guztiak"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Hautatutako zerrenda hutsik"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Konposit."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Gehitu nagusira"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Multimedia informazioa"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Aldarteak"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Urteak"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Zaharra"
+

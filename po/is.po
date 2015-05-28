@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Möppur"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Plötur"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Eftirlæti"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Hátt spiluð tónlist getur skaðað heyrn þína ef hlustað er í langan tíma í einu"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Flytjandi"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Sjálfvirkt"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Höfundar"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Tónlistartegund"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Spilað mest"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Tónlistarvalmynd"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Bætt við nýlega"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Ár"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Hringitónn viðmælanda"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Búa til afspilunarlista"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Fjarlægja"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Hringitónn hringjanda"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Flytjandi"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Tónlistartegund"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Ár"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Ekki tókst að bæta við"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Enginn texti"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Mistókst að breyta hljóðhrifum þegar 5.1 rás er notuð"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Leita að merki"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Hljóðbrellan „5.1 rás“ virkar aðeins með heyrnartólum"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Einungis er hægt að kveikja á 5.1 stöð þegar slökkt er á hljóðhrifum"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Ekki tókst að búa til afspilunarlista"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Merki fannst ekki"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Ekki tókst að fjarlægja atriði"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Ekki tókst að bæta við nema %d tónlistarskrám"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Ekki er hægt að spila á meðan símtal stendur yfir"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albúm"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Höfundur"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Höfundaréttur"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Búa til afspilunarlista"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Lýsing"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Snið"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Ekki hægt"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Staðsetning"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Engir spilunarlistar"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Númer lags"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tegund"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Óþekkt"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Eyða"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Bætt við"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Á að eyða?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s var fjarlægt"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Fjarlægt"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Á að fjarlægja?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Ekki tókst að endurnefna afspilunarlista"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Ekki hægt að nota sem hringitón"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Mistókst að vista höfundarréttarvarða skrá"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albúm"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Allt"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Eyða"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Samnýta"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Bæta á spilunarl."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Spilunarlistar"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Spilað nýlega"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Bæta við"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Möppur"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Venjulegt"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Popp"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rokk"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jass"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dans"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Sígilt"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Bein sending"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Uppsetningarforrit tónlistar"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Upplýsingar"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Höfundar"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Miðlaupplýsingar"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Útgáfusaga"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Texti"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Nafn of langt"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Einkunn foreldra"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Mögulegt"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Endurskoða"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Lagalisti"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Þegar bætt við"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 rás"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Bæta við lagalista"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Listamaður"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Tiltæk notkun"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Viðbótarbassi"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Kór"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Sígilt"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Tónskáld"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Tónleikasalur"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Sérstilla"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dans"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Breytilegt"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Brella"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Tónjafnari"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Útvíkkun"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Framsending"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Stefna"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jass"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Bein sending"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Skýrleiki tónlistar"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Tónlistarstillingar"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albúmmyndir"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Lagalistar"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Popp"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Spilað nýlega"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rokk"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Lengd lags"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Gildistími"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Breitt"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Slökkt"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Engin lög"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Lög"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Setja inn spilunarlista"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Breyta titli"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Saga"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Endurnefna"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Panta aftur"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Vista sem lagalista"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Vekjaratónn"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Bætt við %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth aftengt"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Komið er að hámarksfjölda valinna atriða (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ekkert er valið"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Mistókst að eyða. Valda tónlistin er í spilun"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Mistókst að spila. Villa kom upp"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Ekki tókst að spila. Óstutt skrársnið"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Bæta"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Samnýta"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Allt"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Stjórar"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Netvörp"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Veldu tæki"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ekki birta aftur"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Þú getur streymt tónlistina þína í tæki sem nota AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Birta sem"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Venjulegt"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Notandi"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Söngur"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bassaaukning"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Hátónaaukning"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kaffihús"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Sýndar 7.1 ch"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Eftir 15 mín."
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Eftir 30 mín."
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Eftir 1 klst."
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Eftir 1 klst. 30 mín."
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Eftir 2 klukkustundir"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Sjálfvirk lokun"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House-tónlist"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Nota sem"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Þessi hljóðbrella virkar aðeins í með heyrnartólum og Bluetooth höfuðtólum"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Tónfern."
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Opna sp.lista"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Of fáar tónlistarskrár til að spila í Tónlistarferningi . Lágmarkið er %d tónlistarskrár"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Ástríða"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Ástríðufullt"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Breytilegt"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Rólegt"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Gleði"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Uppfærsla á safni"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Uppfæra safn?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Breyta ás"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Öll lög"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Listinn er tómur"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Höfundar"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Bæta við heimaskjá"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Miðlaupplýsingar"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Lyndi"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Ár"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Eldri"
+

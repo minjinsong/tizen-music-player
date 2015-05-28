@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Mappen"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favorieten"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Hoog volume kan uw gehoor beschadigen wanneer u er lang naar luistert"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Artiesten"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Automatisch"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Componisten"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Genres"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Meest afgespeeld"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Muziekmenu"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Onlangs toegevoegd"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Jaar"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Beltoon voor oproep"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Afspeellijst maken"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Wissen"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Beltoon beller"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Artiest"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Genres"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Jaren"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Kan niet toevoegen"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Geen songtkst"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Kan geluidseffecten niet wijzigen bij gebruik van 5.1-kanaals"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Tag zoeken"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1-kanaals geluidseffect werkt alleen met oortelefoonstand"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1-kanaal kan alleen worden geactiveerd wanneer geluidseffecten zijn uitgeschakeld"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Kan de afspeellijst niet maken"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Kan tag niet ophalen"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Kan het item niet wissen"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Kan niet meer dan %d muziekbestanden toevoegen"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Niet mogelijk tijdens gesprek"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Auteur"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Copyright"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Afspeellijst maken"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Omschrijving"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Formaat"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Niet mogelijk"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Locatie"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Geen afspeellijsten"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Tracknummer"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Type"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Onbekend"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Wissen"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Toegevoegd"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s verwijderd"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Verwijderd"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Verwijderen?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Kan de naam van de afspeellijst niet wijzigen"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Kan niet ingesteld worden als beltoon"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Kan DRM-bestand niet delen"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Alles"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Wissen"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Delen"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Toev. aan afspeellijst"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Afspl. lijsten"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Onlangs afgespeeld"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Toevoegen"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albums"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normaal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassiek"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Wizard Muziek instellen"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biografie"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Credits"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Media-info"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Discografie"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Songtekst"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Naam te lang"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Leeftijdsclassificatie"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Mogelijk"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Overzicht"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Afspeellijst"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Al toegevoegd"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1-kanaals"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Naar afspeellijst"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Artiest"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Aantal keer dat het gebruikt mag worden"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Lage tonen versterken"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Koor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassiek"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Componist"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Concertzaal"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Aangepast"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dynamisch"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effect"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Equalizer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Weergeven als extern geluid"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Doorsturen"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Genre"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Helderheid muziek"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Muziekinstellingen"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Album art"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Afspeellijsten"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Onlangs afgespeeld"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Lengte track"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Vibrato"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Geldigheid"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Ruimtelijk"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Uit"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Geen nummers"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Nummers"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Afspeellijst toevoegen"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Titel bewerken"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Geschiedenis"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Naam wijzigen"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Indeling wijzigen"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Opslaan als afspeellijst"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Alarmtoon"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Toegevoegd aan %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Verbinding met Bluetooth verbroken"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maximumaantal items (%d) geselecteerd"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Niets geselecteerd"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Kan niet verwijderen. Geselecteerde muziek wordt afgespeeld"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Kan niet afspelen. Fout opgetreden"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Kan niet afspelen. Niet-ondersteund bestandstype"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Voeg toe"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Delen"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Alles"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Dirigent"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcasts"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Apparaat selecteren"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Niet meer tonen"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Gebruik AllShare voor streaming van muziek naar apparaten"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Weergave"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normaal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Gebruiker"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Zang"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Basboost"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Hoge-tonenboost"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Café"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtueel 7.1 kanaals"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Na 15 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Na 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Na 1 uur"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Na 1 uur 30 min."
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Na 2 uur"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Muziek automatisch uit"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Instellen als"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Dit geluidseffect werkt alleen in de oortelefoon- en Bluetooth-headsetstand"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Music square"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Afsp.lijst"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Onvoldoende muziekbestanden om af te spelen in Music square. Ten minste %d bestanden vereist"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Passion"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Vurig"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dynamisch"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Rustig"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Joy"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Bibliotheek bijwerken"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Bibliotheek bijwerken?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "As wijzigen"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Alle nummers"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Geselecteerde lijst is leeg"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Compon."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Toevoegen aan startpagina"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Media-info"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Stemmingen"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Jaren"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Oud"
+

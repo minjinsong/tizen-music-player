@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Қалталар"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Альбомдар"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Таңдаулылар"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Ұзақ уақыт тыңдайтын болсаңыз, қатты дауыс деңгейі есту мүшеңізді зақымдауы мүмкін"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Орындаушылар"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Авто"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Композиторлар"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Жанрлары"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Әйгілі файлдар"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Музыка мәзірі"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Соңғы қосылғандар"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Жылдар"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Қоңырау рингтоны"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Әндер тізімін құру"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Жоғалту"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Телефон шалушы әуені"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Орындаушылар"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Жанрлары"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Жылдар"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Қосу мүмкін емес"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Лирикасыз"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1 арнасы пайдаланылғанда дыбыстық әсерлерді өзгерту мүмкін емес"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Белгісін табу"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 арнаның дыбыс әсері гарнитура қосылғанда ғана істейді"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Дыбыстық әсерлер өшірілгенде ғана 5.1 арнасын іске қосуға болады"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Ойнату тізімін құру мүмкін емес"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Тег алу мүмкін емес"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Тармақ ауыстырла алмайды"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Музыкалық файл қосудың реті келмеді: %d артық емес"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Сөйлесу барысында ойнатуға мүмкіндік жоқ"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Альбом"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Aвтор"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Авторлық құқықтар"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Әндер тізімін құру"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Сипаттама"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Форматтау"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Мүмкін емес"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Орналасу орны"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Ойнату тізімі жоқ"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Нөмір жолағы"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Түрі"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Белгісіз"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Жою"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Қосылды"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Өшіресіз бе?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s жойылды"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Жойылған"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Жоясыз ба?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Ойнату тізімін атын өзгерту мүмкін емес"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Рингтон ретінде орнату мүмкін емес"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM файлын бөлісу мүмкін емес"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Альбомдар"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Барлығы"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Жою"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Бөлісу"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Файлдар тізіміне қосу"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Файл тізімдері"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Соңғы файлдар"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Қосу"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Альбом-р"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Қалыпты"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Поп"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Джаз"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Би"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Классика"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Тікелей трансляция"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Пішіндеу шебері"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Өмірбаян"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Орындаушылар құрамы"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Медиялық ақпарат"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Дискография"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Лирикалық"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Тым үлкен атауы"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Ата-ана қамқорлығы"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Мүмкін"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Қарап шығу"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Тректер тізімі"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Қосылып қойған"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 арна"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Ойнату тізіміне қосу"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Орындаушы"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Пайдалануға жарамды"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Басс дыбысын күшейту"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Хор"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Классика"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Сазгер"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Концерт залы"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Әдеттегі"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Би"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Динамикалық"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Әсер"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Эквалайзер"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Экстернализация"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Басқа біреуге жіберу"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Жанр"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Джаз"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Тікелей трансляция"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Музыка тазалығы"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Музыка параметрлері"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Көрініс альбомы"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Әндер тізімі"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Поп"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Соңғы файлдар"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Ұзақтығы"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Тремоло"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Жарамдылық"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Уа-уа"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Кеңейтілген"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Өшірілген"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Өлеңдер жоқ"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Әндер"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Файлдар тізімін қосу"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Тақырыпты өзгерту"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Тарих"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Атын өзгерту"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Қайта ретке келтіру"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Файлдар тізімі ретінде сақтау"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Сигнал дыбысы"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "%s құрамына қосылған"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth ажыратылған"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Ең көп элемент саны (%d) таңдалды"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Ештенке таңдалмады"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Жою мүмкін емес. Таңдалған музыка ойнап тұр"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Ойнату мүмкін емес. Қате пайда болды"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Ойнату мүмкін емес. Файл түріне қолдау жоқ"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Қосу"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Бөлісу"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Барлығы"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Дирижерлар"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Подкасттар"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Құрылғыны таңдау"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Қайта көрсетпеңіз"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "AllShare арқылы музыкаңызды құрылғыларға жіберуге болады"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Бас. көру"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Қалыпты"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Тұтыныш"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Вокал"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Басс күшейту"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Жоғары жиілікті күшейту"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Кафе"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Виртуалды 7.1 арна"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 мин кейін"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 минуттан кейін"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 сағаттан кейін"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 сағат 30 мин кейін"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 сағаттан кейін"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Музыканы авто өшіру"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Хаус"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Орнату реті"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Бұл дыбыс әсері тек құлақаспап және Bluetooth гарнитурасы режимдерінде істейді"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Музыка. квадрат"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Ә. тіз.аш"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Музыкалық квадратта ойнатуға музыкалық файлдар жеткілікті емес. Кемінде %d музыкалық файл қажетті"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Құмарлық"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Ашулы"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Динамикалық"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Тыныш"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Қуаныш"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Кітапхана жаңарту"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Кітапхананы жаңарту керек пе?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Осін өзгерту"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Барлық өлеңдер"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Таңдалған тізім бос"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Компози-р"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Бастапқы бетке қосу"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Медиялық ақпарат"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Қөңілдер"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Жылдар"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Ескі"
+

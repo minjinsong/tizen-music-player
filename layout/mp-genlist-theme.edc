@@ -1,0 +1,3424 @@
+
+#include "mp_genlist_macro.edc"
+#include "mp_genlist_define.edc"
+
+#define TEST_RECT(test)\
+	part { name: "test_rect";\
+            type: RECT; \
+            description { state: "default" 0.0; \
+               color: 255 0 0 255; \
+               rel1 {relative: 0.0 0.0; to, test;}\
+               rel2 {relative: 1.0 1.0; to, test;}\
+               }\
+         }
+
+#define TEST_RECT2(test)\
+	part { name: "test_rect2";\
+            type: RECT; \
+            description { state: "default" 0.0; \
+               color: 255 255 0 255; \
+               rel1 {relative: 0.0 0.0; to, test;}\
+               rel2 {relative: 1.0 1.0; to, test;}\
+               }\
+         }
+
+#define TEST_RECT3(test)\
+	part { name: "test_rect3";\
+            type: RECT; \
+            description { state: "default" 0.0; \
+               color: 255 0 255 255; \
+               rel1 {relative: 0.0 0.0; to, test;}\
+               rel2 {relative: 1.0 1.0; to, test;}\
+               }\
+         }
+
+#define GENLIST_PART_LIST_LINE_COLOR_INC MP_BOTTOM_LINE_COLOR
+
+#define GENLIST_SIZE_60_INC	60
+
+#define GENLIST_FONT_35_INC 35
+
+#define GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC 124 124 124 255
+#define GENLIST_PART_TEXT_PRESS_COLOR_INC 249 249 249 255
+
+#define MP_MAIN_TEXT_SIZE	36
+#define MP_MAIN_TEXT_COLOR	0 0 0 255
+#define MP_MAIN_TEXT_STYLE_COLOR	"000000FF"
+
+#define MP_SUB_TEXT_SIZE	32
+#define MP_SUB_TEXT_COLOR	124 124 124 255
+#define MP_SUB_TEXT_STYLE_COLOR		"7C7C7CFF"
+
+#define MP_VIDEO_TEXT_SIZE 24
+#define MP_VIDEO_TEXT_COLOR 114 114 114 255
+
+#define MP_MAIN_TEXT_01_SIZE	36
+#define MP_MAIN_TEXT_01_COLOR	0 0 0 255
+#define MP_MAIN_TEXT_01_STYLE_COLOR	"000000FF"
+#define MP_MAIN_TEXT_01_STYLE_COLOR_PRESS "FFFFFFFF"
+
+#define MP_SUB_TEXT_01_COLOR	114 114 114 255
+#define GENLIST_PART_ALBUM_TITLE_BASE_COLOR	72 72 72 255
+
+#define MP_INDEX_LIST_TEXT_FONT	FONT_STYLE_BOLD
+#define MP_INDEX_LIST_TEXT_SIZE	32
+#define MP_INDEX_LIST_TEXT_COLOR	218 216 212 255
+
+#define GENLIST_PART_MATCH_TAG_COLOR_INC "+ color=#31A1FF"
+#define GENLIST_PART_BASE_COLOR_INC 000000
+
+#define MP_ALBUM_MAIN_TEXT_COLOR 90 99 104 255
+#define MP_ALBUM_MAIN_TEXT_SIZE 36
+#define MP_ALBUM_SUB_TEXT_SIZE 28
+
+#define TEXTBLOCK_TAG \
+      tag:  "br" "\n";\
+      tag:  "ps" "ps";\
+      tag:  "tab" "\t";\
+      tag:  "b" "+ font=SLP:style=Bold text_class=slp_medium";\
+      tag:  "match" GENLIST_PART_MATCH_TAG_COLOR_INC;
+
+styles {
+   style { name: "genlist_textblock_style";
+      base: "font=SLP:style=Roman text_class=slp_roman font_size="MP_MAIN_TEXT_SIZE" color=#"MP_MAIN_TEXT_01_STYLE_COLOR" text_class=list_item ellipsis=1.0";
+      TEXTBLOCK_TAG
+   }
+}
+
+styles {
+   style { name: "genlist_textblock_style_press";
+      base: "font=SLP:style=Roman text_class=slp_roman font_size="MP_MAIN_TEXT_SIZE" color=#"MP_MAIN_TEXT_01_STYLE_COLOR_PRESS" text_class=list_item ellipsis=1.0";
+      TEXTBLOCK_TAG
+   }
+}
+
+  group { name: "elm/genlist/item/music/1icon/with_no_line/default";
+      alias: "elm/genlist/item_odd/music/1icon/with_no_line/default";
+      alias: "elm/genlist/item_compress/music/1icon/with_no_line/default";
+      alias: "elm/genlist/item_compress_odd/music/1icon/with_no_line/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "contents" "elm.icon";
+      parts {
+         part { name: "base";
+            type: RECT;
+            repeat_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               color: MP_GENLIST_BG_COLOR;
+            }
+         }
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+               }
+            }
+         }
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music/1icon/default";
+      alias: "elm/genlist/item_odd/music/1icon/default";
+      alias: "elm/genlist/item_compress/music/1icon/default";
+      alias: "elm/genlist/item_compress_odd/music/1icon/default";
+      inherit: "elm/genlist/item/music/1icon/with_no_line/default";
+      parts {
+         part { name: "bottom_line";
+            insert_after: "elm.padding.right";
+            type: RECT;
+            mouse_events: 0;
+            description { state: "default" 0.0;
+               min: 0 1;
+               fixed: 0 1;
+               visible: 1;
+               color: GENLIST_PART_LIST_LINE_COLOR_INC;
+               rel1 {
+                  relative: 0.0 1.0;
+                  offset: 0 -1;
+               }
+            }
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/1icon.3text/default";
+      alias: "elm/genlist/item_odd/music_player/1icon.3text/default";
+      alias: "elm/genlist/item_compress/music_player/1icon.3text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/1icon.3text/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2 elm.text.3";
+      data.item: "contents" "elm.icon";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               max: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.5;
+            }
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         MP_LIST_THUMBNAIL_INNER_LINE
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_16_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               align: 0.0 0.0;
+               visible: 0;
+            }
+         }
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_154_INC GENLIST_SIZE_48_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.2";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.2";
+               }
+               align: 1.0 0.0;
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.padding.text3.left";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_32_INC 0;
+               fixed: 1 0;
+               rel1.to_x: "elm.text.3";
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.text.3";
+               }
+               align: 1.0 0.5;
+               visible: 0;
+            }
+         }
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               //max: 720 GENLIST_SIZE_48_INC;
+               min: 0 GENLIST_SIZE_48_INC;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 0.0 1.0;
+                  //to_x: "elm.padding.icon.right";
+                  //to_y: "elm.text.1";
+                  to: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  //to_x: "elm.text.3";
+                  to_x: "elm.padding.text3.left";
+                  to_y: "elm.padding.bottom";
+               }
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_3TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            target: "elm.text.3";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_3TEXT_1ICON
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/folder/default";
+      alias: "elm/genlist/item_odd/music_player/folder/default";
+      alias: "elm/genlist/item_compress/music_player/folder/default";
+      alias: "elm/genlist/item_compress_odd/music_player/folder/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2 elm.text.3";
+      data.item: "contents" "elm.icon elm.icon.storage";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               max: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.5;
+            }
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         MP_LIST_THUMBNAIL_INNER_LINE
+
+		 part { name: "elm.icon.storage";
+			clip_to: "disclip";
+			type: SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 0; to: "elm.icon"; }
+				rel2 { relative: 1 0; to: "elm.icon"; }
+				min: 46 46;
+				align: 1 0;
+				fixed: 1 1;
+			}
+		 }
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_16_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               align: 0.0 0.0;
+               visible: 0;
+            }
+         }
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_154_INC GENLIST_SIZE_48_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.2";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.2";
+               }
+               align: 1.0 0.0;
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.padding.text3.left";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_32_INC 0;
+               fixed: 1 0;
+               rel1.to_x: "elm.text.3";
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.text.3";
+               }
+               align: 1.0 0.5;
+               visible: 0;
+            }
+         }
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_48_INC;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.text3.left";
+                  to_y: "elm.padding.bottom";
+               }
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_3TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            target: "elm.text.3";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_3TEXT_1ICON
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/1icon.2text/default";
+      alias: "elm/genlist/item_odd/music_player/1icon.2text/default";
+      alias: "elm/genlist/item_compress/music_player/1icon.2text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/1icon.2text/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2";
+      data.item: "contents" "elm.icon";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               max: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.5;
+            }
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         MP_LIST_THUMBNAIL_INNER_LINE
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_16_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               align: 0.0 0.0;
+               visible: 0;
+            }
+         }
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.text2.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.padding.text2.left";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_16_INC 0;
+               fixed: 1 0;
+               rel1.to_x: "elm.text.2";
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.text.2";
+               }
+               align: 1.0 0.5;
+               visible: 0;
+            }
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC 0;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 1.0 0.0;
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_2TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_2TEXT_1ICON
+      }
+   }
+
+ group { name: "elm/genlist/item/music_player/2text/default";
+      alias: "elm/genlist/item_odd/music_player/2text/default";
+      alias: "elm/genlist/item_compress/music_player/2text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/2text/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.3";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_113_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_154_INC GENLIST_SIZE_48_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.1";
+               }
+               align: 1.0 0.0;
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.padding.text3.left";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_32_INC 0;
+               fixed: 1 0;
+               rel1.to_x: "elm.text.3";
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.text.3";
+               }
+               align: 1.0 0.5;
+               visible: 0;
+            }
+         }
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.text3.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.bottom";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.text.3";
+                  to_y: "elm.padding.bottom";
+               }
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_3TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            target: "elm.text.3";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_3TEXT
+      }
+   }
+  group { name: "elm/genlist/item/music_player/2text.2/default";
+      alias: "elm/genlist/item_odd/music_player/2text.2/default";
+      alias: "elm/genlist/item_compress/music_player/2text.2/default";
+      alias: "elm/genlist/item_compress_odd/music_player/2text.2/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_2TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_2TEXT
+      }
+   }
+
+   group { name: "elm/genlist/item/music_player/mp_info/default";
+
+      alias: "elm/genlist/item_odd/music_player/mp_info/default";
+      alias: "elm/genlist/item_compress/music_player/mp_info/default";
+      alias: "elm/genlist/item_compress_odd/music_player/mp_info/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.title";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_113_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+
+         part { name: "elm.text.title";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_40_INC;
+               fixed: 0 1;
+               align: 0 0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: MP_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: MP_MAIN_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               visible: 1;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+           }
+         }
+
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.title";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.title";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/track/default";
+
+      alias: "elm/genlist/item_odd/music_player/track/default";
+      alias: "elm/genlist/item_compress/music_player/track/default";
+      alias: "elm/genlist/item_compress_odd/music_player/track/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.title";
+      data.item: "contents" "elm.swallow.icon elm.swallow.end elm.swallow.btn.bg elm.swallow.btn";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_113_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part { name: "elm.text.title";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_40_INC;
+               fixed: 0 1;
+               align: 0 0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: (-GENLIST_SIZE_60_INC) 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: MP_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: MP_MAIN_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+	 part { name: "elm.swallow.btn.bg";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+	          fixed: 0 0;
+	          align: 1 0.5;
+	          min: GENLIST_SIZE_80_INC GENLIST_SIZE_80_INC;
+	          max: GENLIST_SIZE_80_INC GENLIST_SIZE_80_INC;
+              rel1 {
+                  relative: 1.0 0.0;
+                  to: "elm.text.title";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  offset: (-GENLIST_PADDING_10_INC) 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.title";
+               }
+            }
+         }
+	part { name: "elm.swallow.btn";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+	          fixed: 0 0;
+	          align: 0 0;
+              rel1 {
+                  relative: 0.0 0.0;
+                  to: "elm.swallow.btn.bg";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  to: "elm.swallow.btn.bg";
+               }
+            }
+         }
+          part { name: "elm.swallow.end";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 0;
+               align: 1.0 0.5;
+               rel1.to_x: "elm.padding.right";
+               rel2 {
+                  relative: 0.0  1.0;
+                  to_x: "elm.padding.right";
+               }
+            }
+         }
+
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/folder_track/default";
+      alias: "elm/genlist/item_odd/music_player/folder_track/default";
+      alias: "elm/genlist/item_compress/music_player/folder_track/default";
+      alias: "elm/genlist/item_compress_odd/music_player/folder_track/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2";
+      data.item: "contents" "elm.icon elm.icon.storage";
+      data.item: "flips" "elm.flip.content";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               max: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.5;
+            }
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+         MP_LIST_THUMBNAIL_INNER_LINE
+
+         part { name: "elm.icon.storage";
+			clip_to: "disclip";
+			type: SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 0; to: "elm.icon"; }
+				rel2 { relative: 1 0; to: "elm.icon"; }
+				min: 46 46;
+				align: 1 0;
+				fixed: 1 1;
+			}
+		 }
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_16_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               align: 0.0 0.0;
+               visible: 0;
+            }
+         }
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 1 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.text2.left";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 0.0 0.0;
+               text {
+                  style: "genlist_textblock_style";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               //color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+               text {
+                  style: "genlist_textblock_style_press";
+		  TEXT_CLASS_ROMAN
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         part { name: "elm.padding.text2.left";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_16_INC 0;
+               fixed: 1 0;
+               rel1.to_x: "elm.text.2";
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.text.2";
+               }
+               align: 1.0 0.5;
+               visible: 0;
+            }
+         }
+
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC 0;
+               fixed: 1 1;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               align: 1.0 0.0;
+               color: GENLIST_PART_FONT_LIST_SUB_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+            }
+            GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+            GENLIST_DESCRIPTION_FLIP_ENABLED
+         }
+
+         GENLIST_PART_FLIP
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         // signal: elm,state,%s,active
+         //   a "check" item named %s went active
+         // signal: elm,state,%s,passive
+         //   a "check" item named %s went passive
+         // default is passive
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            GENLIST_PROGRAM_SCRIPT_FLIP_SELECT_2TEXT
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         GENLIST_PROGRAM_FLIP_2TEXT_1ICON
+      }
+   }
+
+#define RICH_INFO_RELATED_VIDEO_TITLE_WIDTH 266.0
+#define RICH_INFO_RELATED_VIDEO_HEIGHT 283
+#define RICH_INFO_RELATED_VIDEO_WIDTH (800-154)
+
+
+group { name: "elm/genlist/item/music_player/related_video/default";
+
+      alias: "elm/genlist/item_odd/music_player/related_video/default";
+      alias: "elm/genlist/item_compress/music_player/related_video/default";
+      alias: "elm/genlist/item_compress_odd/music_player/related_video/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "contents" "elm.icon.2 elm.icon.3 elm.icon.4";
+      data.item: "texts" "elm.text.1 elm.text.2 elm.text.2.1 elm.text.3 elm.text.3.1 elm.text.4 elm.text.4.1";
+
+      images {
+		image: 	"T02_youtube.png" COMP;
+      }
+
+      parts {
+         GENLIST_PART_BASE( RICH_INFO_RELATED_VIDEO_HEIGHT )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_11_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_7_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part {
+		name: "elm.text.1";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			min: 250 GENLIST_SIZE_48_INC;
+			max: 250 GENLIST_SIZE_48_INC;
+			rel1 {relative: 1 1; to_x: "elm.padding.left"; to_y: "elm.padding.top";}
+			rel2 {relative: 272/RICH_INFO_RELATED_VIDEO_WIDTH 	(59/RICH_INFO_RELATED_VIDEO_HEIGHT); offset: 16 0;}
+			color, MP_MAIN_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_ROMAN;
+				TEXT_CLASS_ROMAN
+				size: 36;
+				align: 0.0 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+	part { name: "elm.line";
+            clip_to: "disclip";
+            type: RECT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               align: 0 0;
+               min : 1 0;
+               color: 112 112 112 255;
+               rel1 { relative: 1.0 0.0; to, "elm.text.1"; offset: 0 8;}
+               rel2 {relative:  1.0 1.0; to, "elm.text.1"; offset: 0 -8;}
+            }
+         }
+         //youtube icon
+         part { name: "youtube_image";
+            clip_to: "disclip";
+            type: IMAGE;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+            	image { normal: "T02_youtube.png"; }
+               fixed: 1 1;
+               align: 0 0;
+               min : 96 48;
+               rel1 { relative: 1.0 0.0; to, "elm.line"; offset: 16 -8;}
+               rel2 {relative:  1.0 1.0; to, "elm.line"; offset: 16 8;}
+            }
+         }
+
+         //thumbnail icon
+         part { name: "elm.icon.2";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               align: 0 0;
+               min : 162 128;
+               max : 162 128;
+               rel1 { relative:  0.0 1.0; to, "elm.text.1"; offset: 0 11;}
+               rel2 { relative:  0.0 1.0; to, "elm.text.1"; offset: 0 11;}
+            }
+         }
+
+         part { name: "elm.icon.3";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               align: 0 0;
+               min : 162 128;
+               max : 162 128;
+               rel1 { relative:  1.0 0.0; to, "elm.icon.2"; offset: 22 0;}
+               rel2 { relative:  1.0 1.0; to, "elm.icon.2"; offset: 22 0;}
+            }
+         }
+
+         part { name: "elm.icon.4";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               align: 0 0;
+               min : 162 128;
+               max : 162 128;
+               rel1 { relative:  1.0 0.0; to, "elm.icon.3"; offset: 22 0;}
+               rel2 { relative:  1.0 1.0; to, "elm.icon.3"; offset: 22 0;}
+            }
+         }
+
+	//video title
+         part {
+		name: "elm.text.2";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.icon.2"; offset: 0 5;}
+			rel2 {relative: 1 1; to: "elm.icon.2"; offset: 0 5;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+	part {
+		name: "elm.text.2.1";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.text.2"; offset: 0 6;}
+			rel2 {relative: 1 1; to: "elm.text.2"; offset: 0 6;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+
+	part {
+		name: "elm.text.3";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.icon.3"; offset: 0 5;}
+			rel2 {relative: 1 1; to: "elm.icon.3"; offset: 0 5;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+	part {
+		name: "elm.text.3.1";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.text.3"; offset: 0 6;}
+			rel2 {relative: 1 1; to: "elm.text.3"; offset: 0 6;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+
+	part {
+		name: "elm.text.4";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.icon.4"; offset: 0 5;}
+			rel2 {relative: 1 1; to: "elm.icon.4"; offset: 0 5;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+
+	part {
+		name: "elm.text.4.1";
+		clip_to: "disclip";
+		type: TEXT;
+		scale: 1;
+		description { state: "default" 0.0;
+			visible: 1;
+			fixed: 1 1;
+			align: 0 0;
+			min: 162 28;
+			max: 162 28;
+			rel1 {relative: 0 1; to: "elm.text.4"; offset: 0 6;}
+			rel2 {relative: 1 1; to: "elm.text.4"; offset: 0 6;}
+			color, MP_VIDEO_TEXT_COLOR;
+			text {
+				font: FONT_STYLE_REGULAR;
+				TEXT_CLASS_REGULAR
+				size: MP_VIDEO_TEXT_SIZE;
+				align: 0.5 0.5;
+      			}
+		}
+		description { state: "selected" 0.0;
+			inherit: "default" 0.0;
+			color, GENLIST_PART_TEXT_PRESS_COLOR_INC;
+		}
+		GENLIST_DESCRIPTION_INVISIBLE_SELECTED
+		GENLIST_DESCRIPTION_FLIP_ENABLED
+	}
+
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            target: "elm.text.2.1";
+            target: "elm.text.3";
+            target: "elm.text.3.1";
+            target: "elm.text.4";
+            target: "elm.text.4.1";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            target: "elm.text.2.1";
+            target: "elm.text.3";
+            target: "elm.text.3.1";
+            target: "elm.text.4";
+            target: "elm.text.4.1";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/tag_btn/default";
+
+      alias: "elm/genlist/item_odd/music_player/tag_btn/default";
+      alias: "elm/genlist/item_compress/music_player/tag_btn/default";
+      alias: "elm/genlist/item_compress_odd/music_player/tag_btn/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.tag";
+      //data.item: "texts" "elm.icon.tag";
+
+      parts {
+         GENLIST_PART_BASE( 112 )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_32_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_32_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_BOTTOM_LINE
+          part { name: "top_line";
+            type: RECT;
+            clip_to: "disclip";
+            mouse_events: 0;
+            description { state: "default" 0.0;
+               min: 0 1;
+               fixed: 0 1;
+               visible: 1;
+               color: MP_BOTTOM_LINE_COLOR;
+               rel1 {
+                  relative: 0.0 0.0;
+               }
+               rel2 {
+                  relative: 1.0 0.0;
+               }
+            }
+         }
+
+         part { name: "elm.text.tag";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_42_INC;
+               fixed: 0 1;
+               align: 0 0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               color: MP_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: 36;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				color: GENLIST_PART_TEXT_PRESS_COLOR_INC;
+			}
+         }
+	 GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.tag";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.tag";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/info_header/default";
+
+      alias: "elm/genlist/item_odd/music_player/info_header/default";
+      alias: "elm/genlist/item_compress/music_player/info_header/default";
+      alias: "elm/genlist/item_compress_odd/music_player/info_header/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1";
+      //data.item: "texts" "elm.icon.tag";
+
+      parts {
+         GENLIST_PART_BASE( 70 )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_PADDING_TOP( 10 )
+         GENLIST_PART_PADDING_BOTTOM( 0 )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_42_INC;
+               fixed: 0 1;
+               align: 0 0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               color: MP_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: 36;
+                  min: 0 1;
+                  align: 0.0 0.5;
+                  text: "Media info";
+               }
+            }
+         }
+	 GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item_compress/multiline/music_player/info/default";
+      alias: "elm/genlist/item_compress_odd/multiline/music_player/info/default";
+      alias: "elm/genlist/item_compress/multiline.music_player/info/default";
+      alias: "elm/genlist/item_compress_odd/multiline.music_player/info/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2";
+
+      styles {
+        style { name: "name_style";
+          base: "font=SLP:style=Roman font_size=36 color=#"MP_MAIN_TEXT_01_STYLE_COLOR" wrap=char text_class=list_item";
+          tag:  "br" "\n";
+          tag:  "ps" "ps";
+          tag:  "tab" "\t";
+          tag:  "b" "+ font=SLP:style=Bold";
+        }
+      }
+
+      parts {
+         part { name: "base";
+            type: RECT;
+            repeat_events: 1;
+            description { state: "default" 0.0;
+               color: MP_GENLIST_BG_COLOR;
+            }
+         }
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_PADDING_TOP( 0 )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_32_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_42_INC;
+               fixed: 0 1;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               align: 0.0 0.0;
+               color: MP_SUB_TEXT_01_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: 32;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_PART_TEXT_SELECTED_COLOR_INC;
+            }
+         }
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXTBLOCK;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               text {
+                  style: "name_style";
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.1";
+            target: "elm.text.2";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+#define RICH_INFO_STARS_BG_W 208
+#define RICH_INFO_STARS_BG_H 48
+#define RICH_INFO_STARS_W_H 32
+#define RICH_INFO_STARS_GAP 4
+#define RICH_INFO_STARS_SX(pos)	(16+(RICH_INFO_STARS_W_H+RICH_INFO_STARS_GAP)*pos)
+#define RICH_INFO_STARS_EX(pos)	(16+(RICH_INFO_STARS_W_H+RICH_INFO_STARS_GAP)*pos+RICH_INFO_STARS_W_H)
+
+group { name: "elm/genlist/item/music_player/discography/default";
+
+      alias: "elm/genlist/item_odd/music_player/discography/default";
+      alias: "elm/genlist/item_compress/music_player/discography/default";
+      alias: "elm/genlist/item_compress_odd/music_player/discography/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.title elm.text.time";
+      data.item: "contents" "elm.icon elm.icon.star1 elm.icon.star2 elm.icon.star3 elm.icon.star4 elm.icon.star5 elm.icon.btn";
+
+      parts {
+         GENLIST_PART_BASE( GENLIST_HEIGHT_129_INC )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_10_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               visible: 0;
+            }
+         }
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               max: GENLIST_SIZE_112_INC GENLIST_SIZE_112_INC;
+               fixed: 1 1;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+               }
+            }
+         }
+
+          part { name: "elm.text.title";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               align: 0 0.0;
+               min: 0 60;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.icon.btn";
+                  to_y: "elm.padding.top";
+               }
+               color: MP_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: GENLIST_FONT_35_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+
+         part { name: "elm.text.time";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               align: 0 0;
+               min: GENLIST_SIZE_96_INC 0;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to: "elm.text.title";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  to_x: "elm.text.title";
+                  to_y: "elm.padding.bottom";
+               }
+               color, 151 150 150 255;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: GENLIST_FONT_32_INC;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+
+         part{
+		name, "star_bg";
+		type, RECT;
+		scale: 1;
+		mouse_events: 0;
+		description {
+			state, "default" 0.0;
+			fixed: 1 1;
+			align: 0 0;
+			min: RICH_INFO_STARS_BG_W 0;
+			rel1 { relative: 1.0 8/48; to, "elm.text.time";}
+			rel2 { relative: 1.0 40/48;to , "elm.text.time";}
+			color: 0 0 0 0;
+		}
+	}
+
+	 part{name,"elm.icon.star1";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(0)/RICH_INFO_STARS_BG_W 0.0;
+						to , "star_bg";
+ 					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(0)/RICH_INFO_STARS_BG_W 1.0;
+						to , "star_bg";
+					}
+			}
+		}
+
+		part{name,"elm.icon.star2";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(1)/RICH_INFO_STARS_BG_W 0.0;
+						to , "star_bg";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(1)/RICH_INFO_STARS_BG_W 1.0;
+						to , "star_bg";
+					}
+			}
+		}
+
+		part{name,"elm.icon.star3";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(2)/RICH_INFO_STARS_BG_W 0.0;
+						to , "star_bg";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(2)/RICH_INFO_STARS_BG_W 1.0;
+						to , "star_bg";
+					}
+			}
+		}
+
+		part{name,"elm.icon.star4";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(3)/RICH_INFO_STARS_BG_W 0.0;
+						to , "star_bg";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(3)/RICH_INFO_STARS_BG_W 1.0;
+						to , "star_bg";
+					}
+			}
+		}
+
+		part{name,"elm.icon.star5";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(4)/RICH_INFO_STARS_BG_W 0.0;
+						to , "star_bg";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(4)/RICH_INFO_STARS_BG_W 1.0;
+						to , "star_bg";
+					}
+			}
+		}
+
+         part { name: "elm.icon.btn";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               align: 0.5 0.5;
+               // TODO: enable btn after buy function implemented...
+               // min: GENLIST_SIZE_80_INC GENLIST_SIZE_80_INC;
+               //max: GENLIST_SIZE_80_INC GENLIST_SIZE_80_INC;
+               min: 1 GENLIST_SIZE_80_INC;
+               max: 1 GENLIST_SIZE_80_INC;
+              rel1 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+            }
+         }
+
+       GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.time";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.time";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+group { name: "elm/genlist/item/music_player/3text/default";
+
+      alias: "elm/genlist/item_odd/music_player/3text/default";
+      alias: "elm/genlist/item_compress/music_player/3text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/3text/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text.1 elm.text.2 elm.text.3";
+
+      parts {
+         GENLIST_PART_BASE( 90 )
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 40;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               color: 255 255 255 255;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: 32;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 30;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0  1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0 1;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.text.1";
+               }
+               color: MP_SUB_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: 22;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 40;
+               fixed: 1 1;
+               align: 1.0 0.0;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               color: 229 144 30 255;
+               text {
+                  font: FONT_STYLE_ROMAN;
+		  TEXT_CLASS_ROMAN
+                  size: 18;
+                  min: 1 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: 225 225 225 255;
+            }
+         }
+       GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "bg_image";
+            target: "elm.text.3";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "bg_image";
+            target: "elm.text.3";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+   #define GENLIST_GROUP_PART_BASE_EVENT_INC \
+         part { name: "base_event";\
+            type: RECT;\
+            repeat_events: 0;\
+            description { state: "default" 0.0;\
+               color: 0 0 0 0;\
+            }\
+         }
+   #define GENLIST_GROUP_PART_TEXT_COLOR_INC 255 255 255 255
+
+   group { name: "elm/genlist/item/music_player/grouptitle/default";
+      alias: "elm/genlist/item_odd/music_player/grouptitle/default";
+      alias: "elm/genlist/item_compress/music_player/grouptitle/default";
+      alias: "elm/genlist/item_compress_odd/music_player/grouptitle/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text";
+      data.item: "treesize" "20";
+
+      parts {
+         GENLIST_GROUP_PART_BASE_EVENT_INC
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+         part { name: "rect";
+            type: RECT;
+            repeat_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 30;
+               color: 121 121 121 255;
+            }
+            description { state: "alpha_off" 0.0;
+               min: 0 30;
+               color: 121 121 121 0;
+            }
+         }
+
+         part { name: "elm.text";
+            type: TEXT;
+            scale: 1;
+            description { state: "default" 0.0;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+               }
+               color: GENLIST_GROUP_PART_TEXT_COLOR_INC;
+               text {
+                  font: FONT_STYLE_MEDIUM;
+		  TEXT_CLASS_MEDIUM
+                  size: 32;
+                  min: 1 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+      }
+       program {
+          name:    "enable_alpha";
+          signal:  "elm,state,alpha,enable";
+          source:  "elm";
+          action:  STATE_SET "default" 0.0;
+          target:  "rect";
+       }
+       program {
+          name:    "disable_alpha";
+          signal:  "elm,state,alpha,disable";
+          source:  "elm";
+          action:  STATE_SET "alpha_off" 0.0;
+          target:  "rect";
+       }
+      program {
+          name: "selected";
+         source: "rect";
+         signal: "mouse,clicked,1";
+         action:  SIGNAL_EMIT "elm,title_action,item,click" "elm";
+      }
+   }
+
+   group { name : "elm/genlist/item/music_player/dialogue_title/default";
+      alias: "elm/genlist/item_odd/music_player/dialogue_title/default";
+      alias: "elm/genlist/item_compress/music_player/dialogue_title/default";
+      alias: "elm/genlist/item_compress_odd/music_player/dialogue_title/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+	  data.item: "texts" "elm.text.1 elm.text.2 elm.text.3";
+	  data.item: "contents" "elm.icon";
+	  data.item: "treesize" "34";
+
+      parts {
+	 ALBUM_GENLIST_PART_BASE
+         GENLIST_PART_PADDING_TOP( 9 )
+         GENLIST_PART_PADDING_BOTTOM( 9 )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_16_INC )
+         GENLIST_PART_BOTTOM_LINE
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_16_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               visible: 0;
+            }
+         }
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 76 76;
+               max: 76 76;
+               fixed: 1 1;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+               }
+            }
+         }
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_48_INC;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.text.3";
+                  to_y: "elm.padding.top";
+               }
+               color: MP_ALBUM_MAIN_TEXT_COLOR;
+               text {
+                 font: FONT_STYLE_REGULAR;
+		 TEXT_CLASS_REGULAR
+                 size: MP_ALBUM_MAIN_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         part { name: "elm.text.2";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_42_INC;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0  1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0 1;
+                  offset: 0 0;
+                  to_x: "elm.text.3";
+                  to_y: "elm.text.1";
+               }
+               color: MP_ALBUM_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_REGULAR ;
+		  TEXT_CLASS_REGULAR
+                  size: MP_ALBUM_SUB_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               fixed: 1 1;
+               min: GENLIST_SIZE_56_INC GENLIST_SIZE_48_INC;
+               fixed: 0 1;
+               align: 1.0 0.5;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: MP_ALBUM_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_BOLD;
+		  TEXT_CLASS_BOLD
+                  size: MP_ALBUM_SUB_TEXT_SIZE;
+                  min: 1 1;
+                  align: 1.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: 225 225 225 255;
+            }
+         }
+
+       GENLIST_PART_DISCLIP
+      }
+   }
+
+   group { name : "elm/genlist/item/music_player/album_title/default";
+      alias: "elm/genlist/item_odd/music_player/album_title/default";
+      alias: "elm/genlist/item_compress/music_player/album_title/default";
+      alias: "elm/genlist/item_compress_odd/music_player/album_title/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+	  data.item: "texts" "elm.text.1 elm.text.3";
+	  data.item: "contents" "elm.icon elm.text.swallow";
+	  data.item: "treesize" "34";
+
+      parts {
+  	ALBUM_GENLIST_PART_BASE
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_8_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_BOTTOM_LINE
+
+         part { name: "elm.padding.icon.right";
+            clip_to: "disclip";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_PADDING_10_INC 0;
+               fixed: 1 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               visible: 0;
+            }
+         }
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 76 76;
+               max: 76 76;
+               fixed: 1 1;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.padding.left";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.left";
+               }
+            }
+         }
+
+         part { name: "elm.text.1";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_48_INC;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 1.0;
+                  offset: 0 0;
+                  to_x: "elm.text.3";
+                  to_y: "elm.padding.top";
+               }
+               color: MP_ALBUM_MAIN_TEXT_COLOR;
+               text {
+                 font: FONT_STYLE_REGULAR;
+		 TEXT_CLASS_REGULAR
+                 size: MP_ALBUM_MAIN_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+         }
+         part { name: "elm.text.swallow";
+            clip_to: "disclip";
+            type: SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_42_INC;
+               fixed: 0 1;
+               align: 0.0 0.0;
+               rel1 {
+                  relative: 1.0  1.0;
+                  to_x: "elm.padding.icon.right";
+                  to_y: "elm.text.1";
+               }
+               rel2 {
+                  relative: 0 1;
+                  offset: 0 0;
+                  to_x: "elm.text.3";
+                  to_y: "elm.text.1";
+               }
+            }
+         }
+         part { name: "elm.text.3";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_56_INC GENLIST_SIZE_48_INC;
+               fixed: 0 1;
+               align: 1.0 0.5;
+               rel1 {
+                  relative: 0.0 1.0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.top";
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: MP_ALBUM_MAIN_TEXT_COLOR;
+               text {
+                  font: FONT_STYLE_BOLD;
+		  TEXT_CLASS_BOLD
+                  size: MP_ALBUM_SUB_TEXT_SIZE;
+                  min: 1 1;
+                  align: 1.0 0.5;
+               }
+            }
+	}
+	GENLIST_PART_DISCLIP
+      }
+   }
+
+   group { name: "elm/genlist/item/music_player/1text/default";
+
+      alias: "elm/genlist/item_odd/music_player/1text/default";
+      alias: "elm/genlist/item_compress/music_player/1text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/1text/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text";
+
+      parts {
+         part { name: "base";
+            type: RECT;
+            repeat_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_HEIGHT_77_INC;
+               color: 0 0 0 0;
+            }
+         }
+
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+
+         part { name: "elm.text";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 0 1;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0  1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";;
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: 125 125 125 255;
+               text {
+                  font: FONT_STYLE_REGULAR;
+		  TEXT_CLASS_REGULAR
+                  size: 32;
+                  min: 0 1;
+                  align: 0.0 0.5;
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: 255 255 255 255;
+            }
+         }
+
+       	 GENLIST_PART_DISCLIP
+      }
+
+        programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "elm.text";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "elm.text";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+      }
+   }
+
+   group { name: "elm/genlist/item/music_player/grouptitle/1text/default";
+
+      alias: "elm/genlist/item_odd/music_player/grouptitle/1text/default";
+      alias: "elm/genlist/item_compress/music_player/grouptitle/1text/default";
+      alias: "elm/genlist/item_compress_odd/music_player/grouptitle/1text/default";
+
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text";
+
+      parts {
+         part { name: "base";
+            type: RECT;
+            repeat_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_HEIGHT_77_INC;
+               color: 0 0 0 0;
+            }
+         }
+
+         GENLIST_PART_PADDING_TOP( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_BOTTOM( GENLIST_PADDING_5_INC )
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_10_INC )
+         GENLIST_PART_PADDING_RIGHT( GENLIST_PADDING_10_INC )
+
+         part { name: "elm.text";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 GENLIST_SIZE_60_INC;
+               fixed: 0 1;
+               align: 0.5 0.5;
+               rel1 {
+                  relative: 1.0  1.0;
+                  to_x: "elm.padding.left";
+                  to_y: "elm.padding.top";;
+               }
+               rel2 {
+                  relative: 0.0 0.0;
+                  offset: 0 0;
+                  to_x: "elm.padding.right";
+                  to_y: "elm.padding.bottom";
+               }
+               color: 252 252 252 255;
+               text {
+                  font: FONT_STYLE_LIGHT;
+                  size: 43;
+                  min: 0 1;
+                  align: 0.5 0.5;
+               }
+            }
+         }
+      }
+   }
+
+#define GENLIST_ICON_BIG_SIZE     64
+
+#define GENLIST_LIST_MAIN_TEXT_SIZE 44
+#define GENLIST_LIST_MAIN_TEXT_READ_COLOR 124 124 124 255
+#define GENLIST_LIST_MAIN_TEXT_READ_COLOR_STYLE "#7C7C7CFF"
+#define GENLIST_LIST_MAIN_TEXT_UNREAD_COLOR 0 0 0 255
+#define GENLIST_LIST_MAIN_TEXT_UNREAD_COLOR_STYLE "#000000FF"
+#define GENLIST_LIST_MAIN_TEXT_FOCUS_COLOR 249 249 249 255
+#define GENLIST_LIST_MAIN_TEXT_FOCUS_COLOR_STYLE "#F9F9F9FF"
+
+#define GENLIST_HEIGHT_1LINE 114
+#define GENLIST_PART_EXPANDABLE_2ND_DEPTH_BG_COLOR_INC 215 225 232 255
+
+   group { name: "elm/genlist/item/music/dialogue/1text.2icon/expandable2/default";
+      alias: "elm/genlist/item_odd/music/dialogue/1text.2icon/expandable2/default";
+      alias: "elm/genlist/item_compress/music/dialogue/1text.2icon/expandable2/default";
+      alias: "elm/genlist/item_compress_odd/music/dialogue/1text.2icon/expandable2/default";
+      data.item: "stacking" "above";
+      data.item: "selectraise" "on";
+      data.item: "texts" "elm.text";
+      data.item: "contents" "elm.icon elm.icon.2";
+      data.item: "treesize" "GENLIST_TREESIZE_16_INC";
+      images {
+         image: "00_list_bar_press_1x80.png" COMP;
+         image: "00_list_expandable_bg.png" COMP;
+      }
+      parts {
+         GENLIST_EXPANDABLE_PART_PERSPECTIVE_POINT()
+         GENLIST_EXPANDABLE_PART_BASE( GENLIST_HEIGHT_1LINE, GENLIST_PART_EXPANDABLE_2ND_DEPTH_BG_COLOR_INC )
+         GENLIST_PART_BOTTOM_EFFECT_LINE
+         GENLIST_PART_PADDING_LEFT( GENLIST_PADDING_32_INC )
+         GENLIST_PART_PADDING_RIGHT( 32 )
+         GENLIST_PART_DIALOGUE_EXPANDABLE_ITEM
+         GENLIST_PART_DIALOGUE_RIGHT_LINE
+         GENLIST_PART_EXPANDABLE_SWALLOW_PADDING
+         part { name: "elm.padding.icon.right";
+            type: RECT;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_SIZE_16_INC 0;
+               fixed: 1 0;
+               visible: 0;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.icon";
+               }
+               rel2.to_x: "elm.icon";
+               align: 0.0 0.0;
+            }
+         }
+         part { name: "elm.icon";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: GENLIST_ICON_BIG_SIZE GENLIST_ICON_BIG_SIZE;
+               max: GENLIST_ICON_BIG_SIZE GENLIST_ICON_BIG_SIZE;
+               fixed: 1 1;
+               align: 0.0 0.5;
+               rel1 {
+                  relative: 1.0 0.0;
+                  to_x: "elm.swallow.pad";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.swallow.pad";
+               }
+            }
+            GENLIST_PART_MAP_START(-90.0, 0.0, 0.0)
+            GENLIST_PART_MAP_FINISH(0.0, 0.0, 0.0)
+         }
+         part { name: "elm.text";
+            clip_to: "disclip";
+            type: TEXT;
+            mouse_events: 0;
+            scale: 1;
+            description { state: "default" 0.0;
+               rel1 {
+                  relative: 1.0  0.0;
+                  to_x: "elm.padding.icon.right";
+               }
+               rel2 {
+                  relative: 0.0  1.0;
+                  to_x: "elm.icon.2";
+                  offset: 16 0;
+               }
+               color: GENLIST_LIST_MAIN_TEXT_UNREAD_COLOR;
+               text {
+                  font: FONT_STYLE_REGULAR;
+		  TEXT_CLASS_REGULAR
+                  size: GENLIST_LIST_MAIN_TEXT_SIZE;
+                  min: 0 1;
+                  align: 0.0 0.5;
+                  text_class: "list_item";
+               }
+            }
+            description { state: "selected" 0.0;
+               inherit: "default" 0.0;
+               color: GENLIST_LIST_MAIN_TEXT_FOCUS_COLOR;
+            }
+            GENLIST_PART_MAP_START(-90.0, 0.0, 0.0)
+            GENLIST_PART_MAP_FINISH(0.0, 0.0, 0.0)
+         }
+
+         part { name: "elm.icon.2";
+            clip_to: "disclip";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 160 GENLIST_ICON_BIG_SIZE;
+               max: 160 GENLIST_ICON_BIG_SIZE;
+               fixed: 1 1;
+               align: 1.0 0.5;
+               rel1 {
+                  relative: 0.0 0.0;
+                  //to_x: "elm.padding.right";
+               }
+               rel2 {
+                  relative: 1.0 1.0;
+                  to_x: "elm.padding.right";
+                  offset: -16 0;
+               }
+            }
+            GENLIST_PART_MAP_START(-90.0, 0.0, 0.0)
+            GENLIST_PART_MAP_FINISH(0.0, 0.0, 0.0)
+         }
+         GENLIST_PART_DISCLIP
+      }
+      programs {
+         program { name: "go_active";
+            signal: "elm,state,selected";
+            source: "elm";
+            action: STATE_SET "selected" 0.0;
+            target: "base";
+            target: "elm.text";
+         }
+         program { name: "go_passive";
+            signal: "elm,state,unselected";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "base";
+            target: "elm.text";
+            transition: LINEAR 0.1;
+         }
+         program { name: "go_disabled";
+            signal: "elm,state,disabled";
+            source: "elm";
+            action: STATE_SET "disabled" 0.0;
+            target: "disclip";
+         }
+         program { name: "go_enabled";
+            signal: "elm,state,enabled";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "disclip";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_ROTATE_EXPAND_START()
+            target: "base";
+            target: "elm.text";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "bottom_line";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_ROTATE_EXPAND_FINISH( 0.2 )
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_EXPAND_END()
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_ROTATE_CONTRACT_START()
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_ROTATE_CONTRACT_FINISH( 0.5 )
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            GENLIST_PROGRAM_MAP_CONTRACT_END()
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            name: "show";
+            signal: "elm,state,show";
+            action: STATE_SET "default" 0.0;
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+         program {
+            name: "hide";
+            signal: "elm,state,hide";
+            action: STATE_SET "hide" 0.0;
+            target: "base";
+            target: "elm.text";
+            target: "elm.icon";
+            target: "elm.icon.2";
+            target: "elm.rect.dialogue";
+            target: "elm.swallow.pad";
+            target: "bottom_line";
+         }
+      }
+   }
+

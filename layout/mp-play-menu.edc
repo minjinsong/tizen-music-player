@@ -1,0 +1,411 @@
+#define PLAYER_MENU_BTN_PRESS_BG "player/T02_function_btn_press.png"
+
+#define PART_BTN_BG(_name, _to) \
+part { name: _name; \
+	type: RECT; \
+	mouse_events: 0; \
+	scale: 1; \
+	description { state: "default" 0.0; \
+		rel1.to: _to; \
+		rel2.to: _to; \
+		color: 150 150 150 255; \
+		visible: 0; \
+	} \
+	description { state: "clicked" 0.0; \
+		inherit: "default" 0.0; \
+		visible: 1; \
+	} \
+} \
+part { name: _name"_image"; \
+	type: IMAGE; \
+	mouse_events: 0; \
+	scale: 1; \
+	clip_to: _name; \
+	description { state: "default" 0.0; \
+		rel1.to: _name; \
+		rel2.to: _name; \
+		image { normal: PLAYER_MENU_BTN_PRESS_BG; border: 3 3 1 1; } \
+	} \
+}
+
+group {
+	name: "mp_play_menu";
+
+	images {
+		image: 	"T02_option_shuffle_on.png" COMP;
+		image: 	"T02_option_shuffle_off.png" COMP;
+		image: 	"T02_option_rep_1.png" COMP;
+		image: 	"T02_option_rep_all.png" COMP;
+		image: 	"T02_option_rep_A.png" COMP;
+		image:  "T02_option_add_playlist.png" COMP;
+		//image:  "T02_option_favorite_on.png" COMP;
+		image:  "T02_option_bg.png" COMP;
+		image: PLAYER_MENU_BTN_PRESS_BG COMP;
+	}
+
+	parts {
+		/* Menu Box **********************************************************************/
+		part {
+			name: "menu_box_bg";
+			type: RECT;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color : 0 0 0 0;
+			}
+		}
+		PART_BTN_BG("shuffle_bg", "shuffle")
+
+		part {
+			name: "shuffle";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				image { normal: "T02_option_shuffle_on.png"; }
+				rel1 { relative: MENU_SHUFFLE_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+				rel2 { relative: MENU_SHUFFLE_EX MENU_EY; offset: -1 0; to: "menu_box_bg"; }
+			}
+			description {
+				state: "clicked" 0.0;
+				inherit: "default" 0.0;
+				image { normal: "T02_option_shuffle_on.png"; }
+			}
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+
+		part {
+			name: "shuffle_non";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+	                    state: "default" 0.0;
+	                    image { normal: "T02_option_shuffle_off.png"; }
+       	             rel1 { relative: MENU_SHUFFLE_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+              	      rel2 { relative: MENU_SHUFFLE_EX MENU_EY; offset: 0 0; to: "menu_box_bg"; }
+			}
+			description {
+				state: "clicked" 0.0;
+				inherit: "default" 0.0;
+				image { normal: "T02_option_shuffle_off.png"; }
+			}
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+
+		PART_BTN_BG("repeat_bg", "rep_all")
+
+		part {
+			name: "rep_all";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+	                    state: "default" 0.0;
+	                    image { normal: "T02_option_rep_all.png"; }
+       	             rel1 { relative: MENU_REP_ALL_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+              	      rel2 { relative: MENU_REP_ALL_EX MENU_EY; offset: 0 0; to: "menu_box_bg"; }
+			}
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+
+		part {
+			name: "rep_non";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				image { normal: "T02_option_rep_A.png"; }
+				rel1 { relative: MENU_REP_ALL_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+				rel2 { relative: MENU_REP_ALL_EX MENU_EY; offset: 0 0; to: "menu_box_bg"; }
+			}
+			/*description {
+				state: "clicked" 0.0;
+				inherit: "default" 0.0;
+				image { normal: "34_menu_rep_non_press.png"; }
+			}*/
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+
+		part {
+			name: "rep_1";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				image { normal: "T02_option_rep_1.png"; }
+				rel1 { relative: MENU_REP_ALL_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+				rel2 { relative: MENU_REP_ALL_EX MENU_EY; offset: 0 0; to: "menu_box_bg"; }
+			}
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+
+		PART_BTN_BG("add_to_playlist_bg", "add_to_playlist")
+		part {
+			name: "add_to_playlist";
+			type: IMAGE;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				visible: 1;
+				image { normal: "T02_option_add_playlist.png"; }
+				rel1 { relative: MENU_FAVORITE_SX MENU_SY; offset: 0 0; to: "menu_box_bg"; }
+				rel2 { relative: MENU_FAVORITE_EX MENU_EY; offset: 0 0; to: "menu_box_bg"; }
+			}
+			description {
+				state: "invisible" 0.0;
+				inherit: "default" 0.0;
+				visible: 0;
+			}
+		}
+	}
+
+	programs {
+		program { name: "shuffle_down";
+			source: "shuffle";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "shuffle";
+			target: "shuffle_bg";
+		}
+		program { name: "shuffle_up";
+			source: "shuffle";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "shuffle";
+			target: "shuffle_bg";
+		}
+		program {
+			name: "shuffle_clicked";
+			source: "shuffle";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "shuffle_clicked" 0.0;
+		}
+
+		program {
+			name: "shuffle_visible" ;
+			signal: "shuffle_visible";
+			source: "shuffle";
+			action:   STATE_SET "default" 0.0;
+			target: "shuffle";
+		}
+
+		program {
+			name: "shuffle_invisible" ;
+			signal: "shuffle_invisible";
+			source: "shuffle";
+			action:   STATE_SET "invisible" 0.0;
+			target: "shuffle";
+		}
+
+		program {
+			name: "shuffle_non_down";
+			source: "shuffle_non";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "shuffle_non";
+			target: "shuffle_bg";
+		}
+
+		program {
+			name: "shuffle_non_up";
+			source: "shuffle_non";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "shuffle_non";
+			target: "shuffle_bg";
+		}
+
+		program {
+			name: "shuffle_non_clicked";
+			source: "shuffle_non";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "shuffle_non_clicked" 0.0;
+		}
+
+		program {
+			name: "shuffle_non_visible" ;
+			signal: "shuffle_non_visible";
+			source: "shuffle_non";
+			action:   STATE_SET "default" 0.0;
+			target: "shuffle_non";
+		}
+
+		program {
+			name: "shuffle_non_invisible" ;
+			signal: "shuffle_non_invisible";
+			source: "shuffle_non";
+			action:   STATE_SET "invisible" 0.0;
+			target: "shuffle_non";
+		}
+
+		program {
+			name: "rep_all_down";
+			source: "rep_all";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "rep_all";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_all_up";
+			source: "rep_all";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "rep_all";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_all_clicked";
+			source: "rep_all";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "rep_all_clicked" 0.0;
+		}
+
+		program {
+			name: "rep_all_visible" ;
+			signal: "rep_all_visible";
+			source: "rep_all";
+			action:   STATE_SET "default" 0.0;
+			target: "rep_all";
+		}
+
+		program {
+			name: "rep_all_invisible" ;
+			signal: "rep_all_invisible";
+			source: "rep_all";
+			action:   STATE_SET "invisible" 0.0;
+			target: "rep_all";
+		}
+
+		program {
+			name: "rep_non_down";
+			source: "rep_non";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "rep_non";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_non_up";
+			source: "rep_non";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "rep_non";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_non_clicked";
+			source: "rep_non";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "rep_non_clicked" 0.0;
+		}
+
+		program {
+			name: "rep_non_visible" ;
+			signal: "rep_non_visible";
+			source: "rep_non";
+			action:   STATE_SET "default" 0.0;
+			target: "rep_non";
+		}
+
+		program {
+			name: "rep_non_invisible" ;
+			signal: "rep_non_invisible";
+			source: "rep_non";
+			action:   STATE_SET "invisible" 0.0;
+			target: "rep_non";
+		}
+
+		program {
+			name: "rep_1_down";
+			source: "rep_1";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "rep_1";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_1_up";
+			source: "rep_1";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "rep_1";
+			target: "repeat_bg";
+		}
+
+		program {
+			name: "rep_1_clicked";
+			source: "rep_1";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "rep_1_clicked" 0.0;
+		}
+
+		program {
+			name: "rep_1_visible" ;
+			signal: "rep_1_visible";
+			source: "rep_1";
+			action:   STATE_SET "default" 0.0;
+			target: "rep_1";
+		}
+
+		program {
+			name: "rep_1_invisible" ;
+			signal: "rep_1_invisible";
+			source: "rep_1";
+			action:   STATE_SET "invisible" 0.0;
+			target: "rep_1";
+		}
+		program {
+			name: "add_to_playlist_clicked";
+			source: "add_to_playlist";
+			signal: "mouse,clicked,1";
+			action: SIGNAL_EMIT "add_to_playlist_clicked" 0.0;
+		}
+		program {
+			name: "add_to_playlist_invisible";
+			source: "play_view";
+			signal: "add_to_playlist_invisible";
+			action:   STATE_SET "invisible" 0.0;
+			target: "add_to_playlist";
+		}
+		program { name: "add_to_playlist_down";
+			source: "add_to_playlist";
+			signal: "mouse,down,1";
+			action: STATE_SET "clicked" 0.0;
+			target: "add_to_playlist_bg";
+		}
+
+		program { name: "add_to_playlist_up";
+			source: "add_to_playlist";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "add_to_playlist_bg";
+		}
+	}
+}

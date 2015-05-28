@@ -1,0 +1,296 @@
+#define PROGRESS_PAD_TOP_1	21
+#define PROGRESS_PAD_TOP_2	6
+#define PROGRESS_PAD_BOTTOM	26
+#define PROGRESS_BG_ALPHA		230
+
+
+#define PROGRESS_PAD_CENTER	14
+
+#define PROGRESS_BAR_PAD_TOP     10
+#define PROGRESS_BAR_H           7
+#define PROGRESS_BAR_PAD_TIME    0
+#define PROGRESS_TIME_H          28
+#define PROGRESS_TIME_PAD_BOTTOM 0
+#define PROGRESS_TIME_PAD_LEFT 	 20
+#define PROGRESS_TIME_PAD_RIGHT  20
+#define PROGRESS_BAR_PAD_LEFT    117
+#define PROGRESS_BAR_PAD_RIGHT   117
+#define PROGRESS_BOX_H PROGRESS_TIME_H
+#define PROGRESS_BOX_W 720
+
+#define PROGRESS_BAR_SY PROGRESS_BAR_PAD_TOP/PROGRESS_BOX_H
+#define PROGRESS_BAR_EY (PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_H)/PROGRESS_BOX_H
+#define PROGRESS_BAR_SX PROGRESS_BAR_PAD_LEFT/PROGRESS_BOX_W
+#define PROGRESS_BAR_EX (PROGRESS_BOX_W-PROGRESS_BAR_PAD_RIGHT)/PROGRESS_BOX_W
+
+#define PROGRESS_TIME_PLAYING_SY 0.0
+#define PROGRESS_TIME_PLAYING_EY 1.0
+#define PROGRESS_TIME_PLAYING_SX PROGRESS_TIME_PAD_LEFT/PROGRESS_BOX_W
+#define PROGRESS_TIME_PLAYING_EX (PROGRESS_BOX_W-PROGRESS_TIME_PAD_RIGHT)/PROGRESS_BOX_W
+#define PROGRESS_TIME_TOTAL_SY PROGRESS_TIME_PLAYING_SY
+#define PROGRESS_TIME_TOTAL_EY PROGRESS_TIME_PLAYING_EY
+#define PROGRESS_TIME_TOTAL_SX (1-PROGRESS_TIME_PLAYING_EX)
+#define PROGRESS_TIME_TOTAL_EX (1-PROGRESS_TIME_PLAYING_SX)
+
+
+group {
+	name: "music/playing/progress_box";
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color : 0 0 0 0;
+			}
+		}
+
+
+		part { name: "progress_bar_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 0;
+				fixed: 1 0;
+				align: 0.5 0;
+				rel1 { relative: PROGRESS_BAR_SX 0.0; offset: 8 0; to: "bg"; }
+				rel2 { relative: PROGRESS_BAR_EX (PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_H+PROGRESS_BAR_PAD_TIME)/PROGRESS_BOX_H; offset: -8 0; to: "bg"; }
+
+				color: 0 0 0 0;
+			}
+		}
+
+
+		part { name: "progress_bar";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 0;
+				fixed: 1 0;
+				align: 0.5 0;
+				rel1 { relative: 0.0 0.0; to, "progress_bar_area";}
+				rel2 { relative: 1.0 1.0; to, "progress_bar_area";}
+				}
+			}
+
+		part { name: "progress_text_playing";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 80 0;
+				fixed: 1 0;
+				align: 0.0 0.5;
+				rel1 { relative: PROGRESS_TIME_PLAYING_SX PROGRESS_TIME_PLAYING_SY; offset: 0 0; to: "bg"; }
+				rel2 { relative: PROGRESS_TIME_PLAYING_EX PROGRESS_TIME_PLAYING_EY; offset: -1 0; to: "bg"; }
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: 25;
+					text: "00:00";
+					align: 0.0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+
+		part {
+			name: "progress_text_total";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 80 0;
+				fixed: 1 0;
+				align: 1.0 0.5;
+				rel1 { relative: PROGRESS_TIME_TOTAL_SX PROGRESS_TIME_TOTAL_SY; offset: 0 0; to: "bg"; }
+				rel2 { relative: PROGRESS_TIME_TOTAL_EX PROGRESS_TIME_TOTAL_EY; offset: -1 0; to: "bg"; }
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: 25;
+					text: "00:00";
+					align: 1.0 0.5;
+				}
+				color: 255 255 255 255;
+
+			}
+		}
+	}
+}
+
+group {
+	name: "music/playing/progress_box_ls";
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color : 0 0 0 0;
+			}
+		}
+
+
+		part { name: "progress_bar_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 0;
+				fixed: 1 0;
+				align: 0.5 0;
+				rel1 { relative: PROGRESS_BAR_SX 0.0; offset: 0 0; to: "bg"; }
+				rel2 { relative: PROGRESS_BAR_EX (PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_H+PROGRESS_BAR_PAD_TIME)/PROGRESS_BOX_H; offset: -1 0; to: "bg"; }
+
+
+				color: 0 0 0 0;
+			}
+		}
+
+
+		part { name: "progress_bar";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 0;
+				fixed: 1 0;
+				align: 0.5 0;
+				rel1 { relative: 0.0 0.0; to, "progress_bar_area";}
+				rel2 { relative: 1.0 1.0; to, "progress_bar_area";}
+				}
+			}
+
+		part { name: "progress_text_playing";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 80 0;
+				fixed: 1 0;
+				align: 0.0 0.5;
+				rel1 { relative: PROGRESS_TIME_PLAYING_SX PROGRESS_TIME_PLAYING_SY; offset: 0 0; to: "bg"; }
+				rel2 { relative: PROGRESS_TIME_PLAYING_EX PROGRESS_TIME_PLAYING_EY; offset: -1 0; to: "bg"; }
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: 25;
+					text: "00:00";
+					align: 0.0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+
+		part {
+			name: "progress_text_total";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 80 0;
+				fixed: 1 0;
+				align: 1.0 0.5;
+				rel1 { relative: PROGRESS_TIME_TOTAL_SX PROGRESS_TIME_TOTAL_SY; offset: 0 0; to: "bg"; }
+				rel2 { relative: PROGRESS_TIME_TOTAL_EX PROGRESS_TIME_TOTAL_EY; offset: -1 0; to: "bg"; }
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: 25;
+					text: "00:00";
+					align: 1.0 0.5;
+				}
+				color: 255 255 255 255;
+
+			}
+		}
+	}
+}
+
+group {
+	name: "music/playing/progress_box/progress_bar";
+	images {
+		image:	"progress_bar/T02_player_progress_bg.png" COMP;
+		image:	"progress_bar/T02_player_progress_bar.png" COMP;
+		image:	"progress_bar/T02_player_progress_point.png" COMP;
+	}
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part {
+			name: "progress_bg_img";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 PROGRESS_BAR_PAD_TOP/(PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_PAD_TIME+PROGRESS_BAR_H); to, "bg"; }
+                                rel2 { relative: 1.0 (PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_H)/(PROGRESS_BAR_PAD_TOP+PROGRESS_BAR_PAD_TIME+PROGRESS_BAR_H); to, "bg"; }
+				image {
+					normal : "progress_bar/T02_player_progress_bg.png";
+				}
+			}
+		}
+
+		part {
+			name: "progress_bar";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				image {
+					normal: "progress_bar/T02_player_progress_bar.png";
+				}
+				rel1 { relative: 0.0 0.0; to: "progress_bg_img"; }
+				rel2 { relative: 1.0 1.0; to_x: "progressbar_control"; to_y: "progress_bg_img";}
+			}
+		}
+		part {
+			name: "progressbar_control";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				align: 0 0;
+				rel1 { relative : 0.5 0.0; to:"progress_bg_img";}
+				rel2 { relative : 0.5 1.0; to:"progress_bg_img";}
+				image.normal : "progress_bar/T02_player_progress_point.png";
+			}
+			dragable {
+				confine: "bg";
+				x: 1 1 0;
+				y: 0 0 0;
+			}
+		}
+	}
+}

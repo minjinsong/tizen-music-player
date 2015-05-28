@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "フォルダ"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "アルバム"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "お気に入り"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr " 長時間大音量で聴き続けると、聴力を損傷する可能性があります"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "アーティスト"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "自動"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "作曲者"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "ジャンル"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "よく聴く曲"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "音楽メニュー設定"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "最近追加した曲"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "年"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "着信音"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "プレイリストを作成"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "クイックリストから削除"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "個別着信音"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "アーティスト"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "ジャンル"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "年"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "追加できません"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "歌詞なし"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1チャンネル使用中は\nサウンドエフェクトを使用できません。"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "タグを検索"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1チャンネルは、イヤホンモードでのみ使用できます。"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1チャンネルは、サウンドエフェクトとイコライザーが標準のときのみ使用できます。"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "プレイリスト​を​作成​できません"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "タグ​を​取得​できません"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "アイテム​を​消去​できません"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "ミュージックファイルは%d以上追加できません"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "通話中は再生できません。"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "アルバム"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "著者"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "著作権情報"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "プレイリストを作成"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "詳細"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "ファイル形式"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "不可"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "保存先"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "プレイリストがありません。"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "トラック番号"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "タイプ"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "不明"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "削除"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "追加しました。"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "削除しますか？"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%sを​削除​しました"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "削除しました。"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "削除しますか？"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "プレイリスト​名​を​変更​できません"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "着信音に設定できません。"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRMファイル​を​共有​でき​ません"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "アルバム"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "全て"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "削除"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "共有"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "プレイリストに追加"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "プレイリスト"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "最近再生した曲"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "追加"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "アルバム"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "標準"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "ポップ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "ロック"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "ジャズ"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "ダンス"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "クラシック"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "ライブ"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "ミュージックセットアップウィザード"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "アーティスト"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "クレジット"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "メディア情報"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "アルバム"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "歌詞"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "名前が長すぎます。"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "保護者の指導が必要"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "可能"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "プレビュー表示"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "トラックリスト"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "既に登録されています。"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1チャンネル"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "プレイリストに追加"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "アーティスト"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "使用可能"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "低音強調"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "コーラス"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "クラシック"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "作曲者"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "コンサートホール"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "カスタム"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "ダンス"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "ダイナミック"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "効果"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "イコライザー"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "野外"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "転送"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "ジャンル"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "ジャズ"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "ライブ"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "クリア"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "ミュージック設定"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "アルバムアート"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "プレイリスト"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "ポップ"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "最近再生した曲"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "ロック"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "再生時間"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "トレモロ"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "有効回数"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "ワイド"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "OFF"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "曲がありません。"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "曲"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "プレイリストを追加"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "タイトルを編集"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "履歴"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "名前を変更"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "並べ替え"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "プレイリストとして保存"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "アラーム音"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "「%s」に追加しました。"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetoothが切断されました。"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "アイテムの最大選択数（%d）を選択しました"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "何も選択されていません。"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "削除できません。選択した音楽は再生中です。"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "再生できません。エラーが発生しました。"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "再生できません。未対応のファイルです"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "追加"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "共有"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "全て"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "指揮者"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "ポッドキャスト"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "デバイスを選択"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "今後表示しない"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "AllShareを使って端末で音楽をストリーミング再生できます。"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "表示"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "標準"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "ユーザー"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "ボーカル"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "低音強調"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "高音強調"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "カフェ"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "バーチャル7.1ch"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15分後"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30分後"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1時間後"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1時間30分後"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2時間後"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "音楽自動停止"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "ハウス"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "登録"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "この​音響​効果​は​、​イヤホン​および​ Bluetooth ​ヘッド​セット ​モード​で​のみ​機能​します"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "ミュージックスクエア"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "プレイリスト​表示"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "ミュージックスクエアで再生するには音楽ファイルが不足しています。少なくとも、%d曲の音楽ファイルが必要となります。"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Passion"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Passionate"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dynamic"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Calm"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Joy"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "ライブラリーを更新"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "ライブラリーを更新しますか？"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "軸の変更"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "全曲"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "選択されたリストは空です。"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "作曲家"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "ホームに追加"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "メディア情報"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "ムード"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "年"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "OLD"
+

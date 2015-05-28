@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Ordner"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Alben"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Favoriten"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Das Hören lauter Musik über einen längeren Zeitraum kann sich schädlich auf Ihr Gehör auswirken."
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Interpreten"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Auto"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Komponisten"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Genres"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Am häufigsten wiedergegeben"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musik-Menü"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Zuletzt hinzugefügt"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Jahre"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Anruf-Klingelton"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Wiedergabeliste erstellen"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Entfernen"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Anruferklingelton"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Interpreten"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Genres"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Jahre"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Hinzufügen nicht möglich"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Keine\nLyrics"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Soundeffekte können nicht geändert werden, wenn Kanal 5.1 verwendet wird."
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Tag finden"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1-Sound-Effekte nur im Kopfhörer-Modus möglich"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "Kanal 5.1 kann nur aktiviert werden, wenn die Soundeffekte ausgeschaltet sind."
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Erstellen der Wiedergabeliste nicht möglich"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Tag kann nicht abgerufen werden"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Element kann nicht entfernt werden"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Mehr als %d Musikdateien können nicht hinzugefügt werden"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Wiedergabe während Anruf nicht möglich"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Album"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Autor"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Urheberrecht"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Wiedergabeliste erstellen"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Beschreibung"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Nicht möglich"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Ort"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Keine Wiedergabelisten"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Nummer des Titels"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Typ"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Unbekannt"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Löschen"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Hinzugefügt"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Löschen?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s entfernt"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Entfernt"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Entfernen?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Wiedergabeliste kann nicht umbenannt werden"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Festlegen als Klingelton nicht möglich."
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM-Datei kann nicht freigegeben werden"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Alben"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Alle"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Löschen"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Senden"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Zu Wied. hzfg."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Wdg-Listen"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Kürzlich wiedergegeben"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Hinzufügen"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Alben"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Musikeinrichtungsassistent"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Biographie"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Danksagungen"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Medien-Info"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografie"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Liedtext"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Name zu lang"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Altersbeschränkung"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Möglich"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Überprüfen"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Wiedergabeliste"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Bereits hinzugefügt"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1-Kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Zu Wiedergabeliste hinzufügen"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Künstler"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Verfügbare Nutzungen"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Bassverstärkung"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Chor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Komponist"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Konzertsaal"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Benutzerdefiniert"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Dance"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dynamisch"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Equalizer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Externalisierung"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Weiterleitung"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Genre"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jazz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Live"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musikklarheit"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musik-Einstellungen"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Bild für Album"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Wiedergabelisten"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Kürzlich wiedergegeben"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rock"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Länge des Titels"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Gültigkeit"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Wha-wha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Weit"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Aus"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Keine Lieder"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Lieder"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Wiedergabeliste hinzufügen"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Titel bearbeiten"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Verlauf"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Umbenennen"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Neu sortieren"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Als Wiedergabeliste speichern"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Alarmton"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Hinzugefügt zu %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth getrennt"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Maximale Anzahl an Elementen (%d) ausgewählt"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Nichts ausgewählt"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Löschen nicht möglich. Ausgewählte Musik wird wiedergegeben."
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Datei kann nicht wiedergegeben werden. Fehler aufgetreten."
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Wiedergabe nicht möglich. Nicht unterstützter Dateityp"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Hzfg."
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Senden"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Alle"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Diri\n-genten"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podcasts"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Gerät auswählen"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Nicht mehr anzeigen"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Sie können Ihre Musik mit AllShare auf Geräte streamen."
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Ansicht"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Benutzer"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vocal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Bass Boost"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Treblebooster"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Café"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "7.1 Kanäle virtuell"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Nach 15 Minuten"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Nach 30 Minuten"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Nach 1 Stunde"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Nach 1 Stunde und 30 Minuten"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Nach 2 Stunden"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Musik-Auto aus"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "House"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Einst. als"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Dieser Sound-Effekt funktioniert nur im Kopfhörer- und Bluetooth-Headset-Modus."
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Music Square"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Wgl. öff."
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Nicht genügend Musikdateien zur Wiedergabe in Musik Square verfügbar. Mindestens %d Musikdateien erforderlich"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Passion"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Leidenschaftlich"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dynamisch"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Ruhig"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Joy"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Bibliotheksaktualisierung"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Bibliothek aktualisieren?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Achse wechseln"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Alle Lieder"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Ausgewählte Liste ist leer"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Komponisten"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Zum Startbildschirm hzfg."
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Medien-Info"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Stimmung"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Jahre"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Alt"
+

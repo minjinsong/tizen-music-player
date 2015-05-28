@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Jildlar"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Tanlanganlar"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Musiqani baland ovozda uzoq vaqt davomida tinglash eshitish a’zolaringizga zarar yetkazishi mumkin"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Ijrochilar"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Avtomatik"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Bastakor"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Janrlar"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Eng ko‘p o‘ynalgan"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Musiqa menyusi"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Oxirgi qo‘shilgan"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Yillar"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Qo‘ng‘iroq ringtoni"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Mus. ro‘yxatini yaratish"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Olib tashlash"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Qo‘ng‘iroq qiluvchi ringtoni"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Ijrochilar"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Janrlar"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Yillar"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Qo‘shib bo‘lmaydi"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Matnsiz"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "5.1 kanal ishlatilayotganda, ovoz effektlarini o‘zgartirib bo‘lmaydi"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Teg topish"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1 kanal ovozi effekti faqat quloq karnaylari rejimida ishlaydi"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 kanalini ovoz effektlari o‘chirilgandagina faollashtirish mumkin"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Musiqalar ro‘yxatini yaratib bo‘lmaydi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Tegni olib bo‘lmadi"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Elementni olib tashlab bo‘lmaydi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "%ddan ko‘p musiqiy fayllarni qo‘shib bo‘lmaydi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Qo‘ng‘iroq mobaynida o‘ynatib bo‘lmaydi"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Albom"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Muallif"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Mualliflik huquqi"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Mus. ro‘yxatini yaratish"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Tavsif"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Format"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Imkonsiz"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Joylashuv"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Musiqalar ro‘yxati yo‘q"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Trek raqami"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Tur"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Noma’lum"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "O'chirish"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Qo‘shilgan"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "O'chirilsinmi?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s olib tashlandi"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Olib tashlandi"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Olib tashlansinmi?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Musiqalar ro‘yxati nomini o‘zgartirib bo‘lmaydi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Rington sifatida o‘rnatib bo‘lmaydi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "DRM faylni ulashib bo‘lmaydi"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Barcha"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "O'chirish"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Ulash."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Qo‘shiq ro‘y-ga qo‘shish"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Musiqa ro‘yx."
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Oxirgi o‘ynatilgan"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Qo‘shish"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Albomlar"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Pop janri"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Rok"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Jaz"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Raqs"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Jonli"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Musiqa o‘rnatish ustasi"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Tarjimai hol"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Kreditlar"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Media ma’lumoti"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Diskografiya"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Lirik asar"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Nom juda uzun"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Qo'shimcha baholash"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Taxminiy"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Ko‘rib chiqish"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Treklar ro‘yxati"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Avvaldan qo‘shilgan"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 kanal"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Qo‘shiqlar ro‘yxatiga qo‘shish"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Ijrochi"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Mavjud foydalanishlar"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Bass ko‘tarilishi"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Xor"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Klassik"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Muallifi"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Konsert zali"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Maxsus"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Raqs"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Effekt"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Ekvalayzer"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Tashqariga chiqarish"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Boshqaga yo‘naltirish"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Janri"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Jaz"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Jonli"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Musiqa aniqligi"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Musiqa parametrlari"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Albom dizayni"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Musiqa ro‘yxatlari"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Pop janri"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Oxirgi o‘ynatilgan"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Rok"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Trek uzunligi"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Tremolo"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Amal qilish"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Ha-ha"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Keng"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "O‘ch."
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Qo‘shiqlar yo‘q"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Qo‘shiqlar"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Qo‘shiqlar ro‘yxati qo‘shish"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Sarlavhani tahrirlash"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Jurnal"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Nom o‘zgartirish"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Qayta saralash"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Musiqa sifatida saqlash"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Budilnik ohangi"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "%sga qo‘shildi"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth uzildi"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Elementlarning maksimal miqdori (%d) tanlangan"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Hech narsa tanlanmagan"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "O'chirib bo‘lmaydi. Tanlangan musiqa o‘ynamoqda"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "O‘ynatib bo‘lmaydi. Xato yuz berdi"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "O‘ynatib bo‘lmaydi. Qo‘llab-quvvatlanmaydigan fayl turi"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Qo‘shish"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Um. foyd."
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Barcha"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Konduktorlar"
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Podkastlar"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Qurilma tanlang"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Boshqa ko‘rsatilmasin"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "AllShare yordamida musiqangizni qurilmalaringizga uzatishingiz mumkin"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Ko‘rish:"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Normal"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Foydalanuvchi"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Vokal"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Quyi chastota"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Yuqori chastota"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Kafe"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Virtual 7.1 k"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "15 daqi-dan so‘ng"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "30 daqiqadan keyin"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "1 soatdan keyin"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "1 soat 30 daqiqadan so‘ng"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "2 soatdan keyin"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Musiqani avt. o‘chirish"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Uy"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Quyidagidek o‘r."
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Ushbu effekt faqatgina quloqliklar va Bluetooth karnaylari rejimida ishlaydi"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Musiqa kvadrati"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Mus/ro‘y. och"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Musiqa kvadratida o‘ynatish uchun musiqa fayllari yetarli emas. Kamida %d musiqa fayli talab etiladi"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Ehtiros"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Ehtirosli"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Dinamik"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Osuda"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Xursandchilik"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Kutubxonani yangilash"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Kutubxona yangilansinmi?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Koordinata chizig‘ini o‘zgartirish"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Barcha qo‘shiqlar"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Tanlangan ro‘yxat bo‘sh"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Bastakor"
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Asosiyga qo‘shish"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Media ma’lumoti"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Kayfiyatlar"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Yillar"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Eski"
+

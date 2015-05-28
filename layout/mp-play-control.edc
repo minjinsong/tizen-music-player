@@ -1,0 +1,641 @@
+
+#define CONTROL_PAD_T 17
+#define CONTROL_PAD_D 18
+#define CONTROL_BUTTON 80
+#define CONTROL_H (CONTROL_PAD_T+CONTROL_PAD_D+CONTROL_BUTTON)
+
+group { name : "music/playing/main/control";
+
+	images {
+		image: "player/12_music_player_control_bg.png" COMP;
+	}
+
+	parts {
+		part { name: "bg";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 128;
+			}
+		}
+
+		part { name: "pad.top";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; to, "bg";}
+				rel2 { relative: 1.0 CONTROL_PAD_T/CONTROL_H; to, "bg";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "buttons";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 CONTROL_PAD_T/CONTROL_H; to, "bg"; }
+				rel2 { relative: 1.0 (CONTROL_PAD_T+CONTROL_BUTTON)/CONTROL_H; to, "bg"; }
+			}
+		}
+
+		part { name: "pad.down";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 (CONTROL_PAD_T+CONTROL_BUTTON)/CONTROL_H; to, "bg";}
+				rel2 { relative: 1.0 1.0; to, "bg";}
+				color: 0 0 0 0;
+			}
+		}
+	}
+}
+
+#define PLAYER_CONTROL_MAIN_W 720
+
+#define CONTROL_BUTTON_VOLUME_BG_W 104
+#define CONTROL_BUTTON_VOLUME_BG_H 74
+#define CONTROL_BUTTON_VOLUME_W 80
+#define CONTROL_BUTTON_REWIND_W 80
+#define CONTROL_BUTTON_FOWARD_W 80
+#define CONTROL_BUTTON_PLAY_W 80
+#define CONTROL_BUTTON_BACK_BG_W 104
+#define CONTROL_BUTTON_BACK_BG_H 74
+#define CONTROL_BUTTON_BACK_W 80
+
+#define CONTROL_BUTTON_PAD_1 52
+#define CONTROL_BUTTON_PAD_2 64
+#define CONTROL_BUTTON_PAD_BG 12
+
+#define CONTROL_BUTTON_VOLUME_BG_X 20
+#define CONTROL_BUTTON_VOLUME_X (CONTROL_BUTTON_VOLUME_BG_X+CONTROL_BUTTON_PAD_BG)
+#define CONTROL_BUTTON_REWIND_X (CONTROL_BUTTON_VOLUME_BG_X+CONTROL_BUTTON_VOLUME_BG_W+CONTROL_BUTTON_PAD_1)
+#define CONTROL_BUTTON_PLAY_X (CONTROL_BUTTON_REWIND_X+CONTROL_BUTTON_REWIND_W+CONTROL_BUTTON_PAD_2)
+#define CONTROL_BUTTON_FOWARD_X (CONTROL_BUTTON_PLAY_X+CONTROL_BUTTON_PLAY_W+CONTROL_BUTTON_PAD_2)
+#define CONTROL_BUTTON_BACK_BG_X (PLAYER_CONTROL_MAIN_W-CONTROL_BUTTON_VOLUME_BG_X-CONTROL_BUTTON_BACK_BG_W)
+#define CONTROL_BUTTON_BACK_X (CONTROL_BUTTON_BACK_BG_X+CONTROL_BUTTON_PAD_BG)
+
+#define REW_BTN 			"player/T02_Play_btn_previous.png"
+#define REW_BTN_PRESS 	"player/T02_Play_btn_previou_press.png"
+#define PLAY_BTN 		"player/T02_Play_btn__play.png"
+#define PLAY_BTN_PRESS 	"player/T02_Play_btn__play_press.png"
+#define PAUSE_BTN 		"player/T02_Play_btn_pause.png"
+#define PAUSE_BTN_PRESS 	"player/T02_Play_btn_pause_press.png"
+#define FF_BTN 			"player/T02_Play_btn_next.png"
+#define FF_BTN_PRESS 	"player/T02_Play_btn_next_press.png"
+#define VOLUME_BTN 	"player/T02_controller_icon_volume.png"
+#define BACK_BTN		"player/T02_controller_icon_back.png"
+#define MUTE_BTN		"player/T02_volume_icon_Mute.png"
+#define BTN_BG		"T02_controller_btn.png"
+#define BTN_PRESS	"T02_controller_btn_press.png"
+
+#define TOUCH_EXPAND_SIZE	15
+
+group { name : "music/playing/main/control/buttons";
+
+	images {
+		image: REW_BTN COMP;
+		image: PLAY_BTN COMP;
+		image: PAUSE_BTN COMP;
+		image: FF_BTN COMP;
+		image: REW_BTN_PRESS COMP;
+		image: PLAY_BTN_PRESS COMP;
+		image: PAUSE_BTN_PRESS COMP;
+		image: FF_BTN_PRESS COMP;
+		image: VOLUME_BTN COMP;
+		image: BACK_BTN COMP;
+		image: BTN_BG COMP;
+		image: BTN_PRESS COMP;
+		image:  MUTE_BTN COMP;
+	}
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "pad.top";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; to_y, "bg";}
+				rel2 { relative: 1.0 0.0; to_y, "bg";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "pad.center";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 50;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; to_y, "pad.top";}
+				rel2 { relative: 1.0 1.0; to_y, "pad.top";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "pad.down";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; to_y, "pad.center";}
+				rel2 { relative: 1.0 1.0; to_y, "pad.center";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part{ name: "volume_touch_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description{ state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: -TOUCH_EXPAND_SIZE -TOUCH_EXPAND_SIZE; to: "volume_bg";}
+				rel2 { relative: 1.0 1.0; offset: TOUCH_EXPAND_SIZE TOUCH_EXPAND_SIZE;to: "volume_bg";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "volume_bg";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 0;
+				min: 52 0;
+				align: 0.5 0.5;
+				rel1 { relative: CONTROL_BUTTON_VOLUME_BG_X/PLAYER_CONTROL_MAIN_W 0.0; offset: 3 0; to_x, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_VOLUME_BG_X+CONTROL_BUTTON_VOLUME_BG_W)/PLAYER_CONTROL_MAIN_W 1.0; offset: -3 0; to_x, "bg";}
+				image {
+					normal: BTN_BG;
+					border : 4 4 0 0;
+					border_scale: 1;
+				}
+			}
+			description { state: "press" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				image {
+					normal: BTN_PRESS;
+				}
+			}
+		}
+
+		part { name: "volume";
+	            type : IMAGE;
+				scale: 1;
+				mouse_events: 0;
+	            description { state: "default" 0.0;
+					visible: 1;
+					min: 52 0;
+					fixed: 1 0;
+			  		align: 0.5 0.5;
+					rel1 { relative: CONTROL_BUTTON_VOLUME_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+					rel2 { relative: (CONTROL_BUTTON_VOLUME_X+CONTROL_BUTTON_VOLUME_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+		    			image { normal: VOLUME_BTN; }
+				}
+	            description { state: "mute" 0.0;
+	                inherit: "default" 0.0;
+	                visible: 1;
+					min: 52 0;
+					fixed: 1 0;
+				 	align: 0.5 0.5;
+					rel1 { relative: CONTROL_BUTTON_VOLUME_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+					rel2 { relative: (CONTROL_BUTTON_VOLUME_X+CONTROL_BUTTON_VOLUME_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+					image { normal: MUTE_BTN; }
+	            }
+	         }
+		part{ name: "info_touch_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description{ state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: -TOUCH_EXPAND_SIZE -TOUCH_EXPAND_SIZE; to: "info_bg";}
+				rel2 { relative: 1.0 1.0; offset: TOUCH_EXPAND_SIZE TOUCH_EXPAND_SIZE;to: "info_bg";}
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "info_bg";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 0;
+				min: 52 0;
+				fixed: 1 0;
+				align: 0.5 0.5;
+				rel1 { relative: CONTROL_BUTTON_BACK_BG_X/PLAYER_CONTROL_MAIN_W 0.0; to_x, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_BACK_BG_X+CONTROL_BUTTON_BACK_BG_W)/PLAYER_CONTROL_MAIN_W 1.0; to_x, "bg";}
+				image {
+					normal: BTN_BG;
+					border : 4 4 0 0;
+					border_scale: 1;
+				}
+			}
+			description { state: "press" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				image {
+					normal: BTN_PRESS;
+				}
+			}
+		}
+
+		part { name: "info";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 52 0;
+				fixed: 1 0;
+				align: 0.5 0.5;
+				rel1 { relative: CONTROL_BUTTON_BACK_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_BACK_X+CONTROL_BUTTON_BACK_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+				image { normal: BACK_BTN; }
+			}
+			description { state: "dim" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+				image { normal: BACK_BTN; }
+			}
+		}
+
+		part { name: "info_screen";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 0;
+				min: 52 0;
+				fixed: 1 0;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; to, "info_bg";}
+				rel2 { relative: 1.0 1.0; to, "info_bg";}
+				color: 0 0 0 0;
+			}
+			description { state: "dim" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+			}
+		}
+
+		part { name: "control_area";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 250 0;
+				fixed: 1 0;
+				align: 0.5 0.5;
+				rel1 { relative: 0.5 0.0; to_y, "pad.center";}
+				rel2 { relative: 0.5 1.0; to_y, "pad.center";}
+				color: 0 0 0 0;
+			}
+		}
+		part { name: "rewind";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 50 0;
+				fixed: 1 0;
+				rel1 { relative: CONTROL_BUTTON_REWIND_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_REWIND_X+CONTROL_BUTTON_REWIND_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+				image { normal: REW_BTN; }
+			}
+			description { state: "pressed" 0.0;
+				inherit: "default" 0.0;
+				image { normal: REW_BTN_PRESS; }
+			}
+		}
+
+		part { name: "rewind_touch_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "rewind"; offset: -TOUCH_EXPAND_SIZE -TOUCH_EXPAND_SIZE; }
+				rel2 { relative: 1 1; to: "rewind"; offset: TOUCH_EXPAND_SIZE TOUCH_EXPAND_SIZE; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "foward";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 50 0;
+				fixed: 1 0;
+				align: 0.5 0.5;
+				rel1 { relative: CONTROL_BUTTON_FOWARD_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_FOWARD_X+CONTROL_BUTTON_FOWARD_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+				image { normal: FF_BTN; }
+			}
+			description { state: "pressed" 0.0;
+				inherit: "default" 0.0;
+				image { normal: FF_BTN_PRESS; }
+			}
+		}
+
+		part { name: "forward_touch_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "foward"; offset: -TOUCH_EXPAND_SIZE -TOUCH_EXPAND_SIZE; }
+				rel2 { relative: 1 1; to: "foward"; offset: TOUCH_EXPAND_SIZE TOUCH_EXPAND_SIZE; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "play_pause_btn";
+			type : IMAGE;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 50 0;
+				fixed: 1 0;
+				align: 0.5 0.5;
+				rel1 { relative: CONTROL_BUTTON_PLAY_X/PLAYER_CONTROL_MAIN_W 0.0; to, "bg";}
+				rel2 { relative: (CONTROL_BUTTON_PLAY_X+CONTROL_BUTTON_PLAY_W)/PLAYER_CONTROL_MAIN_W 1.0; to, "bg";}
+				image { normal: PLAY_BTN; }
+			}
+			description { state: "default" 1.0;
+				inherit: "default" 0.0;
+				image { normal: PAUSE_BTN; }
+			}
+			description { state: "pressed" 0.0;
+				inherit: "default" 0.0;
+				image { normal: PLAY_BTN_PRESS; }
+			}
+			description { state: "pressed" 1.0;
+				inherit: "default" 0.0;
+				image { normal: PAUSE_BTN_PRESS; }
+			}
+		}
+
+		part { name: "play_pause_btn_touch_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "play_pause_btn"; offset: -TOUCH_EXPAND_SIZE -TOUCH_EXPAND_SIZE; }
+				rel2 { relative: 1 1; to: "play_pause_btn"; offset: TOUCH_EXPAND_SIZE TOUCH_EXPAND_SIZE; }
+				color: 0 0 0 0;
+			}
+		}
+
+	}
+
+	programs {
+
+		//volum button
+		program { name: "vol_btn_down";
+			source: "volume_touch_area";
+			signal: "mouse,down,1";
+			action: STATE_SET "press" 0.0;
+			target: "volume_bg";
+		}
+		program { name: "vol_btn_up";
+			source: "volume_touch_area";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "volume_bg";
+		}
+		program { name: "vol_btn_down_sig";
+			source: "volume_touch_area";
+			signal: "mouse,down,1";
+			script {
+				emit ("vol_btn_down", "ctrl_edj");
+			}
+		}
+		program { name: "vol_btn_up_sig";
+			source: "volume_touch_area";
+			signal: "mouse,up,1";
+			script {
+				emit ("vol_btn_up", "ctrl_edj");
+			}
+		}
+		program { name: "vol_btn_click";
+			source: "volume_touch_area";
+			signal: "mouse,clicked,1";
+			script {
+				emit ("volume_clicked", "ctrl_edj");
+			}
+		}
+
+		//info button
+		program { name: "info_btn_down";
+			source: "info_touch_area";
+			signal: "mouse,down,1";
+			action: STATE_SET "press" 0.0;
+			target: "info_bg";
+		}
+		program { name: "info_btn_up";
+			source: "info_touch_area";
+			signal: "mouse,up,1";
+			action: STATE_SET "default" 0.0;
+			target: "info_bg";
+		}
+		program { name: "info_btn_click";
+			source: "info_touch_area";
+			signal: "mouse,clicked,1";
+			script {
+				emit ("info_clicked", "ctrl_edj");
+			}
+		}
+		program { name: "info_btn_default";
+			source: "ctrl_prog";
+			signal: "info_default";
+			script {
+				set_state(PART:"info_bg", "default", 0.0);
+				set_state(PART:"info", "default", 0.0);
+				set_state(PART:"info_screen", "default", 0.0);
+			}
+		}
+		program { name: "info_btn_highlight";
+			source: "ctrl_prog";
+			signal: "info_highlight";
+			script {
+				set_state(PART:"info_bg", "press", 0.0);
+				set_state(PART:"info", "default", 0.0);
+			}
+		}
+		program { name: "info_btn_dim";
+			source: "ctrl_prog";
+			signal: "info_dim";
+			script {
+				set_state(PART:"info_bg", "default", 0.0);
+				set_state(PART:"info", "dim", 0.0);
+				set_state(PART:"info_screen", "dim", 0.0);
+			}
+		}
+
+		//play,pause
+		program { name: "play_btn_click";
+			source: "play_pause_btn_touch_area";
+			signal: "mouse,clicked,1";
+			script {
+				new st[31];
+				new Float:vl;
+				get_state(PART:"play_pause_btn", st, 30, vl)
+				if(vl == 0.0)
+					emit ("play_clicked", "ctrl_edj");
+				else
+					emit ("pause_clicked", "ctrl_edj");
+			}
+		}
+		program { name: "play_btn_down";
+			source: "play_pause_btn_touch_area";
+			signal: "mouse,down,1";
+			script {
+				new st[31];
+				new Float:vl;
+				get_state(PART:"play_pause_btn", st, 30, vl)
+				if(vl == 0.0)
+					set_state(PART:"play_pause_btn", "pressed", 0.0);
+				else
+					set_state(PART:"play_pause_btn", "pressed", 1.0);
+			}
+		}
+		program { name: "play_btn_up";
+			source: "play_pause_btn_touch_area";
+			signal: "mouse,up,1";
+			script {
+				new st[31];
+				new Float:vl;
+				get_state(PART:"play_pause_btn", st, 30, vl)
+				if(vl == 0.0)
+					set_state(PART:"play_pause_btn", "default", 0.0);
+				else
+					set_state(PART:"play_pause_btn", "default", 1.0);
+			}
+		}
+		program { name: "play_btn_play";
+			source: "ctrl_prog";
+			signal: "play";
+			script {
+				set_state(PART:"play_pause_btn", "default", 0.0);
+			}
+		}
+		program { name: "play_btn_pause";
+			source: "ctrl_prog";
+			signal: "pause";
+			script {
+				set_state(PART:"play_pause_btn", "default", 1.0);
+			}
+		}
+
+		//ff
+		program { name: "ff_btn_down";
+			source: "forward_touch_area";
+			signal: "mouse,down,1";
+			script {
+				emit ("ff_btn_down", "ctrl_edj");
+				set_state(PART:"foward", "pressed", 0.0);
+			}
+		}
+		program { name: "ff_btn_up";
+			source: "forward_touch_area";
+			signal: "mouse,up,1";
+			script {
+				emit ("ff_btn_up", "ctrl_edj");
+				set_state(PART:"foward", "default", 0.0);
+			}
+		}
+		program { name: "ff_btn_press";
+			source: "ctrl_prog";
+			signal: "ff_btn_press";
+			script {
+				emit ("ff_btn_down", "ctrl_edj");
+			}
+		}
+		program { name: "ff_btn_release";
+			source: "ctrl_prog";
+			signal: "ff_btn_release";
+			script {
+				emit ("ff_btn_up", "ctrl_edj");
+			}
+		}
+
+		//rewind
+		program { name: "rew_btn_down";
+			source: "rewind_touch_area";
+			signal: "mouse,down,1";
+			script {
+				emit ("rew_btn_down", "ctrl_edj");
+				set_state(PART:"rewind", "pressed", 0.0);
+			}
+		}
+		program { name: "rew_btn_up";
+			source: "rewind_touch_area";
+			signal: "mouse,up,1";
+			script {
+				emit ("rew_btn_up", "ctrl_edj");
+				set_state(PART:"rewind", "default", 0.0);
+			}
+		}
+		program { name: "rew_btn_press";
+			source: "ctrl_prog";
+			signal: "rew_btn_press";
+			script {
+				emit ("rew_btn_down", "ctrl_edj");
+			}
+		}
+		program { name: "rew_btn_release";
+			source: "ctrl_prog";
+			signal: "rew_btn_release";
+			script {
+				emit ("rew_btn_up", "ctrl_edj");
+			}
+		}
+
+		 program { name: "go_active";
+            signal: "mute";
+            source: "volume";
+            action: STATE_SET "mute" 0.0;
+            target: "volume";
+         }
+         program { name: "go_passive";
+            signal: "unmute";
+            source: "volume";
+            action: STATE_SET "default" 0.0;
+            target: "volume";
+         }
+	}
+}
+

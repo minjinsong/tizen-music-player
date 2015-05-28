@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Папки"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Албуми"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Омилени"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Големи јачини може да ви го оштетат слухот ако слушате долго време"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Изведувачи"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Автоматски"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Композитори"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Жанрови"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Најчесто емитувано"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Музичко мени"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Последно додадено"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Години"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Ѕвонење за повик"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Нова музичка листа"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Отстрани"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Тон за повикувач"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Изведувачи"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Жанрови"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Години"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Не може да се додаде"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Нема текст"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Не можат да се сменат звучните ефекти кога се користат 5.1 канали"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Најди ознака"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "Звучниот ефект 5.1 канали е само за слушалки"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1 канали може да се активира само кога се исклучени звучните ефекти"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Не може да се отвори музичка листа"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Не може да се добие ознака"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Содржината не може да се отстрани"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Не може да се додадат повеќе од %d музички фајлови"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Не може да се пушти за време на разговор"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Албум"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Автор"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Авторски права"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Нова музичка листа"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Опис"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Невозможно"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Локација"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Нема музички листи"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Реден број"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Тип"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Непозната"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Избриши"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Додадено"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Да се избрише?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s е отстранета"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Отстрането"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Отстрани?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Музичката листа не може да се преименува"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Не може да се постави како ѕвонење"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Не може да се сподели фајл со DRM"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Албуми"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Сите"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Избриши"
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Сподели"
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Додај во листа"
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Музички листи"
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Последно емитувано"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Додај"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Албуми"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Нормално"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Поп"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Џез"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Денс"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Класика"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Во живо"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Програма за конфигурација на музиката"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Биографија"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Учесници"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Податоци за медиумот"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Дискографија"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Текстови"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Предолго име"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Родителска оцена"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Возможно"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Ревизија"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Листа песни"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Веќе е додадено"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1 канали"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Додај во музичка листа"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Изведувач"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Можност за употреба"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Подобрување басови"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Корус"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Класика"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Компонирање"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Концертна сала"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Одредено"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Денс"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Динамично"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Ефект"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Еквилајзер"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Екстернализација"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Препраќање"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Жанр"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Џез"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Во живо"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Музичка јасност"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Опции за музиката"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Омот на албумот"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Музички листи"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Поп"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Последно емитувано"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Времетраење"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Тремоло"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Валидност"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Вах-вах"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Широко"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Исклучено"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Нема песни"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Песни"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Додај листа"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Измени наслов"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Историја"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Преименувај"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Пререди"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Сочувај како музичка листа"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Тон за аларм"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Додадено на %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth е откачено"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Избран е макс. број записи (%d)"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Не е избрано ништо"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Не може да се избрише. Избраната музика се емитува"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Не може да се емитува. Дојде до грешка"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Не може да се емитува. Неподдржан тип фајл"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Додај"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Сподели"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Сите"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Дириг."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Подкасти"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Избери уред"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Не прикажувај веќе"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Може да ја емитувате својата музика до уреди коритејќи го AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Прег.како"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Нормално"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Корисник"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Вокална музика"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Засилување бас"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Засилување средни"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Кафеана"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Виртуелен 7.1 канал"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "По 15 мин"
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "По 30 мин"
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "По 1 час"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "По 1 час и 30 мин"
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "По 2 часа"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Авто. искл. на музиката"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Хаус"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Постави како"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Звучниот ефект е само за слушалка и слушалки Bluetooth"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Музички плоштад"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "Отвори"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Нема доволно музички фајлови за емитување на Музичкиот плоштад. Потребни се барем %d музички фајлови"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Страст"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Страсно"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Динамично"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Смирен"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Радост"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Ажурирај библиотека"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Ажурирај библиотека?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Смени оска"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Сите песни"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Избраната листа е празна"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Композ."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Додај дома"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Податоци за медиумот"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Расположенија"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Години"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Стари"
+

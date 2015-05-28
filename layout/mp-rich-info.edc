@@ -1,0 +1,2060 @@
+#ifndef FONT_NAME
+#define FONT_NAME "system_content"
+#endif
+
+#ifndef MAIN_W
+#define MAIN_W 720.
+#endif
+
+#ifndef MAIN_H
+#define MAIN_H 1280
+#endif
+
+#ifndef FONT_NAME
+#define FONT_NAME "system_content"
+#endif
+
+#define RICHINFO_TITLE_X_PAD_W 15
+#define RICHINFO_RELATED_VIDEO_FONT_SIZE 24
+#define RICHINFO_TOP_PAD_H 10
+
+#define TITLE_TEXT_01_SIZE 38
+#define TITLE_TEXT_01_COLOR 0 0 0 255
+
+#define MAIN_TEXT_01_SIZE 32
+#define MAIN_TEXT_01_COLOR 255 255 255 255
+
+#define SUB_TEXT_01_SIZE 36
+#define SUB_TEXT_01_COLOR 114 114 114 255
+
+#define RICH_INFO_WIDTH 720.0
+#define RICH_INFO_HEIGHT 1130.0
+
+//left area
+#define RICH_INFO_ALBUM_WIDTH 138.0
+#define RICH_INFO_ALBUM_HEIGHT 138.0
+#define RICH_INFO_GAB 16.0
+#define RICH_INFO_LEFT_WIDTH 170
+
+//right area
+#define RICH_INFO_RELATED_VIDEO_TITLE_WIDTH 266.0
+#define RICH_INFO_RELATED_VIDEO_LINE_HEIGHT 213
+#define RICH_INFO_RELATED_VIDEO_HEIGHT 282
+
+#define RICH_INFO_RIGHT_WIDTH 550
+
+#define RICH_INFO_RELATED_VIDEO_DETAIL_TITLE 43
+
+#define RICH_INFO_BASE_BOX_DETAIL_TITLE 60
+#define RICH_INFO_SEQ_TEXT_SIZE 24
+#define RICH_INFO_NO_XML_FIND_TAG_HEIGHT 112
+
+#define RICH_INFO_BIO_ALBUM_WIDTH 528
+#define RICH_INFO_BIO_ALBUM_HEIGHT 370
+
+#define MP_INFO_BG_COLOR 255 255 255 255;
+#define RICH_INFO_TITLE_FONT_SIZE 38
+#define BOTTOM_LINE_COLOR 82 82 82 255
+
+#define MP_INFO_DETAIL_BG_COLOR 236 240 242 255
+
+#define RICH_INFO_PART_TRANSITION(sval, ssource) \
+	program { \
+		name: ssource"."sval; \
+		signal: sval; \
+		source: ssource; \
+		action: STATE_SET sval 0.0; \
+		target: ssource; \
+	}
+
+#define RICH_INFO_ADD_BASE_BOX_STATUS(part_name, status_name) \
+			description { state: status_name 0.0;\
+				visible: 1;\
+				fixed: 0 0;\
+				rel1 { relative: ((RICH_INFO_GAB*2+ RICH_INFO_ALBUM_WIDTH)/RICH_INFO_WIDTH) 0.0; offset: 0 0; to: "bg";}\
+				rel2 { relative: 1 1; offset: 0 0; to: "bg";}\
+				align: 0.5 0.5;\
+			}\
+			RICH_INFO_PART_TRANSITION(status_name, part_name)
+
+#define RICH_INFO_ADD_BASE_BOX_OUTSIDE_STATUS(part_name, status_name) \
+			description { state: status_name 0.0;\
+				visible: 1;\
+				fixed: 0 0;\
+				rel1 { relative: 1.0 0.0; offset: 0 0; to: "bg";}\
+				rel2 { relative: (1+(RICH_INFO_WIDTH-RICH_INFO_GAB*2-RICH_INFO_ALBUM_WIDTH)/RICH_INFO_WIDTH) 1.2; offset: 0 0; to: "bg";}\
+				align: 0.5 0.5;\
+			}\
+			RICH_INFO_PART_TRANSITION(status_name, part_name)
+
+#define BASE_BOX_DETAIL_PART( part_name ) \
+         part { name: part_name; \
+            type: SWALLOW;\
+            RICH_INFO_ADD_BASE_BOX_STATUS(part_name, "inside")\
+            RICH_INFO_ADD_BASE_BOX_OUTSIDE_STATUS(part_name, "default")\
+         }
+
+#define BASE_BOX_PART( part_name ) \
+         part { name: part_name; \
+            type: SWALLOW;\
+			RICH_INFO_ADD_BASE_BOX_STATUS(part_name, "default")\
+            RICH_INFO_ADD_BASE_BOX_OUTSIDE_STATUS(part_name, "outside")\
+         }
+
+#define RICH_INFO_ADD_DETAIL_SCROLLER_STATUS(part_name, status_name, start_y) \
+			description { state: status_name 0.0;\
+				visible: 1;\
+				min: 0 0;\
+				fixed: 0 1;\
+				align: 0 0;\
+				rel1 { relative: ((RICH_INFO_GAB*2+ RICH_INFO_ALBUM_WIDTH)/RICH_INFO_WIDTH) (start_y/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}\
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}\
+			}\
+			RICH_INFO_PART_TRANSITION(status_name, part_name)
+
+#define RICH_INFO_ADD_DETAIL_SCROLLER_OUTSIDE_STATUS(part_name, status_name, start_y) \
+			description { state: status_name 0.0;\
+				visible: 1;\
+				min: 0 0;\
+				fixed: 0 1;\
+				align: 0 0;\
+				rel1 { relative: 1.0 (start_y/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}\
+				rel2 { relative: (1.0+(RICH_INFO_WIDTH-RICH_INFO_GAB*2-RICH_INFO_ALBUM_WIDTH)/RICH_INFO_WIDTH) 1.0; to: "bg";}\
+			}\
+			RICH_INFO_PART_TRANSITION(status_name, part_name)
+
+#define DETAIL_SCROLLER_PART( part_name , start_y) \
+		part {name: part_name;\
+			type: SWALLOW;\
+			mouse_events: 1;\
+			scale: 1;\
+			RICH_INFO_ADD_DETAIL_SCROLLER_STATUS(part_name, "inside", start_y)\
+			RICH_INFO_ADD_DETAIL_SCROLLER_OUTSIDE_STATUS(part_name, "default", start_y)\
+		}
+
+#define BASE_BOX_SCROLLER_PART( part_name , start_y) \
+        part {name: part_name;\
+            type: SWALLOW;\
+            mouse_events: 1;\
+            scale: 1;\
+			RICH_INFO_ADD_DETAIL_SCROLLER_STATUS(part_name, "default", start_y)\
+            RICH_INFO_ADD_DETAIL_SCROLLER_OUTSIDE_STATUS(part_name, "outside", start_y)\
+        }
+
+group{
+	name: "richinfo/base";
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				min: MAIN_W 1;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+		part {
+			name: "swallow";
+			type: SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				fixed: 1 1;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+	}
+}
+
+//for info view
+group{
+	name: "richinfo/test_rich_info";
+
+	parts {
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+            type : SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                rel1 { relative: 0.0 0.0; to, "bg"; }
+                rel2 { relative: 1.0 1.0; to, "bg"; }
+            }
+        }
+
+		///left area
+		part {
+			name: "left_area";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to: "bg";}
+				rel2 { relative: ((RICH_INFO_GAB*2+ RICH_INFO_ALBUM_WIDTH)/RICH_INFO_WIDTH) 1.0; offset: 0 0; to: "bg";}
+				align: 0.5 0.5;
+			}
+		}
+
+		/////right area
+		//for base box
+		BASE_BOX_PART("base_box")
+
+		//for base box datail
+		BASE_BOX_DETAIL_PART("rv_base_box_detail")
+		BASE_BOX_DETAIL_PART("track_base_box_detail")
+		BASE_BOX_DETAIL_PART("review_base_box_detail")
+		BASE_BOX_DETAIL_PART("bio_base_box_detail")
+		BASE_BOX_DETAIL_PART("dis_base_box_detail")
+		BASE_BOX_DETAIL_PART("credit_base_box_detail")
+		BASE_BOX_DETAIL_PART("mi_base_box_detail")
+
+		//for datail scroller
+		DETAIL_SCROLLER_PART("rv_detail_scroller", RICH_INFO_RELATED_VIDEO_DETAIL_TITLE)
+		DETAIL_SCROLLER_PART("track_detail_scroller", (RICH_INFO_BASE_BOX_DETAIL_TITLE*2+1))
+		DETAIL_SCROLLER_PART("review_detail_scroller", RICH_INFO_BASE_BOX_DETAIL_TITLE)
+		DETAIL_SCROLLER_PART("bio_detail_scroller", RICH_INFO_BASE_BOX_DETAIL_TITLE)
+		DETAIL_SCROLLER_PART("dis_detail_scroller", (RICH_INFO_BASE_BOX_DETAIL_TITLE+1))
+		DETAIL_SCROLLER_PART("credit_detail_scroller", RICH_INFO_BASE_BOX_DETAIL_TITLE)
+		DETAIL_SCROLLER_PART("mi_detail_scroller", RICH_INFO_BASE_BOX_DETAIL_TITLE)
+
+		BASE_BOX_SCROLLER_PART("no_xml_detail_scroller", RICH_INFO_NO_XML_FIND_TAG_HEIGHT)
+		BASE_BOX_SCROLLER_PART("no_xml_no_sim_detail_scroller", RICH_INFO_GAB)
+
+		BASE_BOX_SCROLLER_PART("contents", 0)
+	}
+}
+
+group{
+	name: "info_view_left_area";
+
+	images {
+		image: 	"T02_Video_play.png" COMP;
+		image: 	"T02_Page_bg.png" COMP;
+	}
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: (RICH_INFO_GAB*2+ RICH_INFO_ALBUM_WIDTH) 710;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_BG_COLOR
+			}
+		}
+
+		part {
+			name: "left_album_bg";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 1;
+				rel1 { relative: (RICH_INFO_GAB/RICH_INFO_LEFT_WIDTH) (RICH_INFO_GAB/RICH_INFO_HEIGHT);
+					   offset: 0 0;
+					   to: "bg";
+					  }
+				rel2 {  relative: ((RICH_INFO_GAB+ RICH_INFO_ALBUM_WIDTH)/RICH_INFO_LEFT_WIDTH) ((RICH_INFO_GAB+ RICH_INFO_ALBUM_HEIGHT)/RICH_INFO_HEIGHT);
+						offset: 0 0;
+						to: "bg";
+					 }
+				align: 0.5 0.5;
+			}
+		}
+
+		part {
+			name: "video_play_img";
+			type : SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { relative: 0.0 0.0; to: "left_album_bg";}
+				rel2 { relative: 1.0 1.0; to: "left_album_bg";}
+			}
+		}
+
+		part { name: "seq_text";
+			mouse_events: 1;
+			type, IMAGE;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 0;
+				image { normal: "T02_Page_bg.png"; }
+				align: 0.5 0.5;
+				rel1 { relative: 22/RICH_INFO_LEFT_WIDTH 178/RICH_INFO_HEIGHT;
+					offset: 0 0;
+					to: "bg";
+				}
+				rel2 {  relative: 138/RICH_INFO_LEFT_WIDTH 220/RICH_INFO_HEIGHT;
+					offset: 0 0;
+					to: "bg";
+				}
+			}
+			description { state: "show" 0.0;
+				inherit: "default" 0.0;
+				visible: 1;
+			}
+		}
+
+		part{ name, "seq_text_content";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { relative: 0.0 0.0; to: "seq_text";}
+				rel2 { relative: 1.0 1.0; to: "seq_text";}
+				color, 255 255 255 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_SEQ_TEXT_SIZE;
+					align: 0.5 0.5;
+      	      			}
+			}
+		}
+	}
+
+	programs {
+         program { name: "show_text";
+            signal: "show";
+            source: "seq_text";
+            action: STATE_SET "show" 0.0;
+            target: "seq_text";
+         }
+         program { name: "hide_text";
+            signal: "hide";
+            source: "seq_text";
+            action: STATE_SET "default" 0.0;
+            target: "seq_text";
+         }
+      }
+}
+
+group{
+	name: "base_box_no_xml";
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part {
+			name: "find_tag_bt";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; offset:0 0; to: "bg";}
+				rel2 { relative: 1.0 (RICH_INFO_NO_XML_FIND_TAG_HEIGHT/RICH_INFO_HEIGHT); offset:0 0; to: "bg";}
+			}
+		}
+
+		part{name,"media_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "find_tag_bt"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+
+		part{name,"no_sim_media_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "bg"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+	}
+}
+
+group {
+	name, "find_tag_bt";
+
+	images {
+		image: 	"01_search_input_icon_bg.png" COMP;
+	}
+
+	parts {
+		part { name, "background";
+			type, RECT;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				color, 25 25 25 255;
+			}
+		}
+
+		part { name, "button_img";
+			type, IMAGE;
+			ignore_flags: ON_HOLD;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				//min: 45 45;
+				//max: 45 45;
+				image { normal: "01_search_input_icon_bg.png"; }
+				rel1 { relative: 0 26/112; offset: 0 0;}
+				rel2 { relative: 60/RICH_INFO_RIGHT_WIDTH 86/RICH_INFO_NO_XML_FIND_TAG_HEIGHT; offset: 0 0;}
+			}
+		}
+
+		part {
+			name: "txt";
+			scale: 1;
+			type: TEXT;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				rel1 { relative, 86/RICH_INFO_RIGHT_WIDTH 32/RICH_INFO_NO_XML_FIND_TAG_HEIGHT;  }
+				rel2 { relative, 1.0 80/RICH_INFO_NO_XML_FIND_TAG_HEIGHT; }
+				color: TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: TITLE_TEXT_01_SIZE;
+					align: 0 0.5;
+					text: "Category";
+      	      			}
+			}
+		}
+
+		part { name, "bottom_line";
+			type, RECT;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				color, BOTTOM_LINE_COLOR;
+				min: 0 1;
+				rel1 { relative: 0.0 1.0; offset: 0 -2;}
+				rel2 { relative: 1.0 1.0; offset: 0 -2;}
+			}
+		}
+
+	}
+
+	programs {
+		program {
+				name: "bg_clicked";
+				signal: "mouse,clicked,1";
+				source: "background";
+				action: SIGNAL_EMIT "btn_clicked" "0";
+		}
+	}
+}
+
+group{
+	name: "parent_base_box";
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part {
+			name: "base_box";
+			type: SWALLOW;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 1; offset: 0 0; to: "bg";}
+			}
+		}
+
+		part {
+			name: "scroller";
+			type: SWALLOW;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 1; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+
+group{
+	name: "base_box";
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 255 255 255 0;
+			}
+		}
+
+		part {
+			name: "no_rv_genlist";
+			type: SWALLOW;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 1; offset: 0 0; to: "bg";}
+			}
+		}
+
+		//for scroller
+		part {
+			name: "contents";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				min: 0 0;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; offset:0 0; to: "bg";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+
+}
+
+//for related video in first view
+#define RICH_INFO_RELATED_VIDEO_TITLE_W 266.0
+group{
+	name, "related_video_box";
+	images {
+		image: 	"00_list_bar_press_1x80.png" COMP;
+		image: 	"T02_youtube.png" COMP;
+	}
+	parts{
+
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part {
+			name: "title";
+			type: TEXT;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 {relative: 0 (10/RICH_INFO_RELATED_VIDEO_HEIGHT); to: "bg";}
+				rel2 {
+				 	relative: (RICH_INFO_RELATED_VIDEO_TITLE_W/RICH_INFO_RIGHT_WIDTH) (58/RICH_INFO_RELATED_VIDEO_HEIGHT);
+					to: "bg" ;
+				}
+				color, TITLE_TEXT_01_COLOR;
+				text {
+					font: FONT_STYLE_ROMAN;
+					text_class: "slp_medium";
+					size: TITLE_TEXT_01_SIZE;
+					align: 0.5 0.5;
+	      			}
+			}
+		}
+
+		part { name, "youtube_image";
+			type, IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				image { normal: "T02_youtube.png"; }
+				visible: 1;
+				align: 0 0.5;
+				min: 96 48;
+				max: 96 48;
+				rel1 { relative: 1 0; offset: 0 0; to_x: "seperator"; to_y: "title";}
+				rel2 { relative: 1 1; offset: 0 0; to_x: "seperator"; to_y: "title";}
+			}
+		}
+
+		part {
+			name: "video";
+			type: SWALLOW;
+			scale:1;
+			description { state: "default" 0.0;
+				fixed: 1 1;
+				min: RICH_INFO_RIGHT_WIDTH RICH_INFO_RELATED_VIDEO_LINE_HEIGHT;
+				rel1 { relative: 0 1; offset: 0 0; to: "title";}
+				rel2 { relative: 1 1; offset: 0 0; to: "bg";}
+			}
+		}
+
+		part {
+			name: "seperator";
+			type: RECT;
+			scale: 1;
+			description{
+				state: "default" 0.0;
+				min: 1 0;
+				rel1 { relative: 1 8/48; to: "title";}
+				rel2 { relative: 1 40/48; to: "title";}
+				color: 112 112 112 255;
+			}
+		}
+	}
+}
+
+#define RICH_INFO_RELATED_VIDEO_LINE_H 213
+#define RICH_INFO_RELATED_VIDEO_LINE_W RICH_INFO_RIGHT_WIDTH
+#define VIDEO_LINE_W_R(w)	((w)/RICH_INFO_RELATED_VIDEO_LINE_W)
+#define VIDEO_LINE_H_R(h)	((h)/RICH_INFO_RELATED_VIDEO_LINE_H)
+#define RICH_INFO_RELATED_VIDEO_IMAGE_W 162.0
+#define RICH_INFO_RELATED_VIDEO_IMAGE_H 129.0
+
+//for related video images by line
+group{
+	name, "related_video_line";
+
+	parts{
+		part { name, "bg";
+			type, RECT;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+		part{name, "img_bg1";
+			type, RECT;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				visible: 0;
+				rel1 { 	relative: 0.0 0.0;
+						to, "bg";
+					}
+				rel2 { 	relative: VIDEO_LINE_W_R(RICH_INFO_RELATED_VIDEO_IMAGE_W) VIDEO_LINE_H_R(RICH_INFO_RELATED_VIDEO_IMAGE_H);
+						to, "bg";
+					}
+				color, 54 54 54 255;
+				align: 0 0.5;
+			}
+		}
+
+		part{name,"img1";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 1;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "img_bg1"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "img_bg1"; }
+				align: 0.5 0.5;
+			}
+		}
+
+		part{ name, "title1";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 VIDEO_LINE_H_R(139);
+						to_x, "img_bg1"; to_y, "bg";
+					}
+				rel2 { 	relative: 1.0 VIDEO_LINE_H_R(167);
+						to_x, "img_bg1"; to_y, "bg";
+					}
+				color, 151 150 150 255;
+				text {
+					font: FONT_STYLE_ROMAN;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      			}
+			}
+		}
+
+		part{ name, "title12";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 VIDEO_LINE_H_R(173);
+						offset:0 0;
+						to_x, "title1";
+						to_y, "bg";
+					}
+				rel2 { 	relative: 1.0 VIDEO_LINE_H_R(201);
+						to_x, "title1";
+						to_y, "bg";
+					}
+				color, 151 150 150 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      			}
+			}
+		}
+
+		part{name, "img_bg2";
+			type, RECT;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				visible: 0;
+				rel1 { 	relative: VIDEO_LINE_W_R(184)  0.0;
+						offset: 0 0;
+						to_x, "bg"; to_y, "img_bg1";
+					}
+				rel2 { 	relative: VIDEO_LINE_W_R(346) 1.0;
+						offset: 0 0;
+						to_x, "bg"; to_y, "img_bg1";
+					}
+				color, 54 54 54 255;
+				align: 0 0.5;
+			}
+		}
+
+		part{name,"img2";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 1;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "img_bg2"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "img_bg2"; }
+				align: 0.5 0.5;
+				//fixed: 1 1;
+			}
+		}
+
+		part{ name, "title2";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 0.0;
+						to_x, "img_bg2";
+						to_y, "title1";
+					}
+				rel2 { 	relative: 1.0 1.0;
+						to_x, "img_bg2";
+						to_y, "title1";
+					}
+				color, 151 150 150 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      			}
+			}
+		}
+
+		part{ name, "title22";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 0.0;
+						offset:0 0;
+						to_x, "title2";
+						to_y, "title12";
+
+					}
+				rel2 { 	relative: 1.0 1.0;
+						offset:0 0;
+						to, "title2";
+						to_y, "title12";
+					}
+				color, 151 150 150 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      	}
+			}
+		}
+
+		part{name, "img_bg3";
+			type, RECT;
+			scale: 1;
+			mouse_events: 1;
+			description {
+				state, "default" 0.0;
+				visible: 0;
+				rel1 { 	relative: VIDEO_LINE_W_R(368)  0.0;
+						offset: 0 0;
+						to_x, "bg"; to_y, "img_bg1";
+					}
+				rel2 { 	relative: VIDEO_LINE_W_R(530) 1.0;
+						offset: 0 0;
+						to_x, "bg"; to_y, "img_bg1";
+					}
+				color, 54 54 54 255;
+				align: 0 0.5;
+			}
+		}
+
+		part{name,"img3";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 1;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "img_bg3"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "img_bg3"; }
+				align: 0.5 0.5;
+				//fixed: 1 1;
+			}
+		}
+
+		part{ name, "title3";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 0.0;
+						offset:0 0;
+						to_x, "img_bg3";
+						to_y, "title1";
+					}
+				rel2 { 	relative: 1.0 1.0;
+						offset:0 0;
+						to_x, "img_bg3";
+						to_y, "title1";
+					}
+				color, 151 150 150 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      	}
+			}
+		}
+
+		part{ name, "title32";
+			type, TEXT;
+			scale: 1;
+			description {
+				state, "default" 0.0;
+				align: 0.5 0.5;
+				rel1 { 	relative: 0.0 0.0;
+						offset:0 0;
+						to_x, "title3";
+						to_y, "title12";
+					}
+				rel2 { 	relative: 1.0 1.0;
+						offset:0 0;
+						to_x, "title3";
+						to_y, "title12";
+					}
+				color, 151 150 150 255;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICHINFO_RELATED_VIDEO_FONT_SIZE;
+					align: 0.5 0.5;
+      	      	}
+			}
+		}
+
+		programs{
+			 program {
+				name: "clicked";
+				signal: "mouse,clicked,1";
+				//source: "img_bg1";
+				source: "img1";
+				action: SIGNAL_EMIT "related.video.clicked" "0";
+			}
+			 program {
+				name: "clicked1";
+				signal: "mouse,clicked,1";
+				//source: "img_bg2";
+				source: "img2";
+				action: SIGNAL_EMIT "related.video.clicked" "1";
+			}
+			 program {
+				name: "clicked2";
+				signal: "mouse,clicked,1";
+				//source: "img_bg3";
+				source: "img3";
+				action: SIGNAL_EMIT "related.video.clicked" "2";
+			}
+		}
+
+	}//parts
+
+}//group
+
+
+/******************for related video detail view start****************************************/
+group{
+	name: "rv_base_box_detail";
+	images {
+		image: 	"T02_youtube.png" COMP;
+	}
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { 	//relative: 0 (RICH_INFO_GAB/RICH_INFO_HEIGHT);
+						relative: 0 0;
+						offset: 0 0;
+						to: "bg";
+					}
+				rel2 { 	relative: (RICH_INFO_RELATED_VIDEO_TITLE_WIDTH/RICH_INFO_RIGHT_WIDTH) (70/RICH_INFO_HEIGHT);
+						offset: 0 0;
+						to: "bg";
+					}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part { name, "youtube_image";
+			type, IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state: "default" 0.0;
+				image { normal: "T02_youtube.png"; }
+				visible: 1;
+				align: 0 0.5;
+				min: 96 48;
+				max: 96 48;
+				rel1 { relative: 1 0; offset: 0 0; to_x: "title"; to_y: "title";}
+				rel2 { relative: 1 1; offset: 0 0; to_x: "title"; to_y: "title";}
+			}
+		}
+
+		part{name,"rv_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+
+
+		//for scroller
+		part {
+			name: "rv_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				align: 0 0;
+				fixed: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+
+
+/******************for related video detail view end****************************************/
+
+/******************for track list detail view start****************************************/
+#define RICH_INFO_STARS_BG_W 208
+#define RICH_INFO_STARS_BG_H 48
+#define RICH_INFO_STARS_W_H 32
+#define RICH_INFO_STARS_GAP 4
+#define RICH_INFO_STARS_SX(pos)	(16+(RICH_INFO_STARS_W_H+RICH_INFO_STARS_GAP)*pos)
+#define RICH_INFO_STARS_EX(pos)	(16+(RICH_INFO_STARS_W_H+RICH_INFO_STARS_GAP)*pos+RICH_INFO_STARS_W_H)
+group{
+	name: "track_base_box_detail";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				align: 0 0;
+				rel1 { relative: 0 10/RICH_INFO_HEIGHT;  to: "bg";}
+				rel2 { relative: 1 (58/RICH_INFO_HEIGHT);  to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+          	    		}
+			}
+		}
+
+		part{ name, "artist_name";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+
+				align: 0 0;
+				rel1 { relative: 0 64/RICH_INFO_HEIGHT; offset: 0 0; }
+				rel2 { relative: 0.0 112/RICH_INFO_HEIGHT; offset: 0 0; to_x: "star_bg";}
+				color, SUB_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+          	    		}
+			}
+		}
+
+		part{
+			name, "star_bg";
+			type, RECT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: (RICH_INFO_RIGHT_WIDTH -RICH_INFO_STARS_BG_W)/RICH_INFO_RIGHT_WIDTH  0.0; to_y, "artist_name";}
+				rel2 { relative: 1.0 1.0; to_y, "artist_name";}
+				color: 0 0 0 0 ;
+			}
+		}
+
+		part{name,"stars";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 1 0.5;
+				rel1 { 	relative: 16/RICH_INFO_STARS_BG_W 8/RICH_INFO_STARS_BG_H;
+						to, "star_bg";
+					}
+				rel2 { 	relative: (RICH_INFO_STARS_BG_W-16)/RICH_INFO_STARS_BG_W (40/RICH_INFO_STARS_BG_H);
+						to, "star_bg";
+					}
+			}
+		}
+
+		part{name,"star1";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(0)/RICH_INFO_STARS_BG_W 0.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(0)/RICH_INFO_STARS_BG_W 1.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+			}
+		}
+
+		part{name,"star2";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(1)/RICH_INFO_STARS_BG_W 0.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(1)/RICH_INFO_STARS_BG_W 1.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+			}
+		}
+
+		part{name,"star3";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(2)/RICH_INFO_STARS_BG_W 0.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(2)/RICH_INFO_STARS_BG_W 1.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+			}
+		}
+
+		part{name,"star4";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(3)/RICH_INFO_STARS_BG_W 0.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(3)/RICH_INFO_STARS_BG_W 1.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+			}
+		}
+
+		part{name,"star5";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				align: 0 0.5;
+				rel1 { 	relative: RICH_INFO_STARS_SX(4)/RICH_INFO_STARS_BG_W 0.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+				rel2 { 	relative: RICH_INFO_STARS_EX(4)/RICH_INFO_STARS_BG_W 1.0;
+						to_x, "star_bg";
+						to_y, "stars";
+					}
+			}
+		}
+
+		part {
+			name: "top_tap_line";
+			type: RECT;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 0 122/RICH_INFO_HEIGHT;  to: "bg";}
+				rel2 { relative: 1 124/RICH_INFO_HEIGHT);  to: "bg";}
+				color: BOTTOM_LINE_COLOR;
+			}
+		}
+
+		part{name,"track_genlist";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "top_tap_line"; }
+				align: 0 0;
+			}
+		}
+
+		//for scroller
+		part {
+			name: "track_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to: "top_tap_line";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+/******************for track list detail view end****************************************/
+
+/******************for discography detail view start****************************************/
+#define RICH_INFO_INTERVAL 0
+group{
+	name: "dis_base_box_detail";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+            type : SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                rel1 { relative: 0.0 0.0; to, "bg"; }
+                rel2 { relative: 1.0 1.0; to, "bg"; }
+            }
+        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part {
+			name: "top_tap_line";
+			type: RECT;
+			description { state: "default" 0;
+				min: 0 1;
+				rel1 {
+					relative: 0 1.0;
+					to: "title" ;
+				}
+				rel2 {
+					relative: 1 1.0;
+					to: "title" ;
+				}
+				color: BOTTOM_LINE_COLOR;
+			}
+		}
+
+		//for scroller
+		part {
+			name: "dis_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to: "top_tap_line";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+
+
+/******************for discography detail view end****************************************/
+
+/******************for review detail view start****************************************/
+group{
+	name: "review_base_box_detail";
+	 images {
+        image:  "rich_info/12_music_player_bg_01.PNG" COMP;
+        image:  "12_music_playing_bg.png" COMP;
+    }
+
+    parts{
+        part { name: "bg";
+            type : RECT;
+            scale: 1;
+            mouse_events: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                fixed: 1 0;
+               // min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+                rel1 { relative: 0.0 0.0; }
+                rel2 { relative: 1.0 1.0; }
+            	color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+            type : SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                rel1 { relative: 0.0 0.0; to, "bg"; }
+                rel2 { relative: 1.0 1.0; to, "bg"; }
+            }
+        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part{name,"review_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+		//for scroller
+		part {
+			name: "review_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+
+group{
+	name: "review_content";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH 100;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part{name,"review_image";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "bg"; }
+				rel2 { relative: 1.0 0.0; offset: 0 100; to, "bg"; }
+				align: 0.5 0.5;
+				fixed: 0 0;
+			}
+		}
+		//for label
+		part {
+			name: "review_label";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 0;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to: "review_image";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+
+/******************for review detail view end****************************************/
+
+/******************for biography detail view start****************************************/
+group{
+	name: "bio_base_box_detail";
+	 images {
+        image:  "rich_info/12_music_player_bg_01.PNG" COMP;
+        image:  "12_music_playing_bg.png" COMP;
+    }
+
+    parts{
+        part { name: "bg";
+            type : RECT;
+            scale: 1;
+            mouse_events: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                fixed: 1 0;
+                //min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+                rel1 { relative: 0.0 0.0; }
+                rel2 { relative: 1.0 1.0; }
+                color: MP_INFO_DETAIL_BG_COLOR;
+            }
+        }
+
+		part { name: "detail_event_box";
+            type : SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                rel1 { relative: 0.0 0.0; to, "bg"; }
+                rel2 { relative: 1.0 1.0; to, "bg"; }
+            }
+        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part{name,"bio_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+		//for scroller
+		part {
+			name: "bio_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				//rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+
+group{
+	name: "bio_content";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part{name,"bio_image";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0/RICH_INFO_RIGHT_WIDTH 0/1280; offset: 0 0; to, "bg"; }
+				rel2 { relative: ((RICH_INFO_BIO_ALBUM_WIDTH)/RICH_INFO_RIGHT_WIDTH) ((RICH_INFO_BIO_ALBUM_HEIGHT)/(RICH_INFO_HEIGHT - RICH_INFO_BASE_BOX_DETAIL_TITLE)); offset: 0 0; to, "bg"; }
+				align: 0.5 0.5;
+			}
+		}
+		//for label
+		part {
+			name: "bio_label";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 0;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to_x: "bg"; to_y: "bio_image";}
+			}
+		}
+	}
+}
+
+group {
+	name: "bio_image";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 0;
+				min: RICH_INFO_BIO_ALBUM_WIDTH RICH_INFO_BIO_ALBUM_HEIGHT;
+				max: RICH_INFO_BIO_ALBUM_WIDTH RICH_INFO_BIO_ALBUM_HEIGHT;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part{name,"image";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "bg"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+
+/******************for biography detail view end****************************************/
+
+
+/******************for simlar albums detail view start****************************************/
+group{
+	name: "sal_base_box_detail";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+            type : SWALLOW;
+            mouse_events: 1;
+            scale: 1;
+            description { state: "default" 0.0;
+                visible: 1;
+                rel1 { relative: 0.0 0.0; to, "bg"; }
+                rel2 { relative: 1.0 1.0; to, "bg"; }
+            }
+        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part {
+			name: "top_tap_line";
+			type: RECT;
+			description { state: "default" 0;
+				min: 0 1;
+				rel1 {
+					relative: 0 1.0;
+					to: "title" ;
+				}
+				rel2 {
+					relative: 1 1.0;
+					to: "title" ;
+				}
+				color: BOTTOM_LINE_COLOR;
+			}
+		}
+
+		//for scroller
+		part {
+			name: "dis_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to: "top_tap_line";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+
+/******************for simlar albums detail view end****************************************/
+
+/******************for simlar artists detail view start****************************************/
+group{
+	name: "sar_base_box_detail";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+	            type : SWALLOW;
+	            mouse_events: 1;
+	            scale: 1;
+	            description { state: "default" 0.0;
+	                visible: 1;
+	                rel1 { relative: 0.0 0.0; to, "bg"; }
+	                rel2 { relative: 1.0 1.0; to, "bg"; }
+	            }
+	        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part {
+			name: "top_tap_line";
+			type: RECT;
+			description { state: "default" 0;
+				min: 0 1;
+				rel1 {
+					relative: 0 1.0;
+					to: "title" ;
+				}
+				rel2 {
+					relative: 1 1.0;
+					to: "title" ;
+				}
+				color: BOTTOM_LINE_COLOR;
+			}
+		}
+
+		//for scroller
+		part {
+			name: "dis_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to: "top_tap_line";}
+				rel2 { relative: 1.0 1.0; offset: 0 0; to: "bg";}
+			}
+		}
+	}
+}
+
+/******************for simlar artists detail view end****************************************/
+
+/******************for credit detail view start****************************************/
+group{
+	name: "credit_base_box_detail";
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+	            type : SWALLOW;
+	            mouse_events: 1;
+	            scale: 1;
+	            description { state: "default" 0.0;
+	                visible: 1;
+	                rel1 { relative: 0.0 0.0; to, "bg"; }
+	                rel2 { relative: 1.0 1.0; to, "bg"; }
+	            }
+	        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: RICH_INFO_TITLE_FONT_SIZE;
+					align: 0 0.5;
+					text: "Music";
+          	    }
+			}
+		}
+
+		part{name,"credit_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+
+		//for scroller
+		part {
+			name: "credit_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+
+group{
+	name: "info_content";
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part{name,"content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 0.0; offset: 0 0; to, "bg"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+	}
+}
+/******************for credit detail view end****************************************/
+
+/******************for media info detail view start****************************************/
+group{
+	name: "mi_base_box_detail";
+	images {
+        image:  "rich_info/12_music_player_bg_01.PNG" COMP;
+		image:  "12_music_playing_bg.png" COMP;
+    }
+
+	parts{
+		part { name: "bg";
+			type : RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				fixed: 1 0;
+				//min: RICH_INFO_RIGHT_WIDTH RICH_INFO_BASE_BOX_DETAIL_TITLE;
+				rel1 { relative: 0.0 0.0; }
+				rel2 { relative: 1.0 1.0; }
+				color: MP_INFO_DETAIL_BG_COLOR;
+			}
+		}
+
+		part { name: "detail_event_box";
+	            type : SWALLOW;
+	            mouse_events: 1;
+	            scale: 1;
+	            description { state: "default" 0.0;
+	                visible: 1;
+	                rel1 { relative: 0.0 0.0; to, "bg"; }
+	                rel2 { relative: 1.0 1.0; to, "bg"; }
+	            }
+	        }
+
+		part{ name, "title";
+			type, TEXT;
+			scale: 1;
+			mouse_events: 0;
+			description {
+				state, "default" 0.0;
+				fixed: 1 1;
+				align: 0 0;
+				rel1 { relative: 0 0; offset: 0 0; to: "bg";}
+				rel2 { relative: 1 (RICH_INFO_BASE_BOX_DETAIL_TITLE/RICH_INFO_HEIGHT); offset: 0 0; to: "bg";}
+				color, TITLE_TEXT_01_COLOR;
+
+				text {
+					font: FONT_STYLE_MEDIUM;
+					text_class: "slp_medium";
+					size: TITLE_TEXT_01_SIZE;
+					align: 0 0.5;
+					text: "Media info";
+          	    		}
+			}
+		}
+
+		part{name,"mi_content";
+			type,SWALLOW;
+			scale:1;
+			mouse_events: 0;
+			description{
+				state, "default" 0.0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+				align: 0 0;
+				fixed: 0 0;
+			}
+		}
+		//for scroller
+		part {
+			name: "mi_scroller";
+			type: SWALLOW;
+			mouse_events: 1;
+			scale: 1;
+			description { state: "default" 0.0;
+				visible: 1;
+				//fixed: 0 1;
+				align: 0 0;
+				rel1 { relative: 0.0 1.0; offset: 0 0; to, "title"; }
+				rel2 { relative: 1.0 1.0; offset: 0 0; to, "bg"; }
+			}
+		}
+	}
+}
+/******************for  media info detail view end****************************************/
+
+

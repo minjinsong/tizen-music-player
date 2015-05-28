@@ -1,0 +1,179 @@
+
+#define MP_LRC_BG_W 720
+#define MP_LRC_BG_H 602
+#define MP_LRC_BOX_PAD_TOP 0/*42*/
+#define MP_LRC_BOX_PAD_LEFT 64
+#define MP_LRC_BOX_PAD_RIGHT 64
+#define MP_LRC_BOX_W (MP_LRC_BG_W-MP_LRC_BOX_PAD_LEFT-MP_LRC_BOX_PAD_RIGHT)
+#define MP_LRC_BOX_H (MP_LRC_BG_H-MP_LRC_BOX_PAD_TOP)
+
+#define MP_LRC_LINE_W MP_LRC_BOX_W
+#define MP_LRC_LINE_H 52
+
+#define MP_LRC_BG_W_LANDSCAPE 720
+#define MP_LRC_BG_H_LANDSCAPE 150
+#define MP_LRC_BOX_PAD_TOP_LANDSCAPE 12
+#define MP_LRC_BOX_PAD_BOTTOM_LANDSCAPE 12
+#define MP_LRC_BOX_PAD_LEFT_LANDSCAPE 64
+#define MP_LRC_BOX_PAD_RIGHT_LANDSCAPE 64
+#define MP_LRC_BOX_W_LANDSCAPE (MP_LRC_BG_W_LANDSCAPE-MP_LRC_BOX_PAD_LEFT_LANDSCAPE-MP_LRC_BOX_PAD_RIGHT_LANDSCAPE)
+#define MP_LRC_BOX_H_LANDSCAPE (MP_LRC_BG_H_LANDSCAPE-MP_LRC_BOX_PAD_TOP_LANDSCAPE-MP_LRC_BOX_PAD_BOTTOM_LANDSCAPE)
+
+#define MP_LRC_HEAD_LINE_W MP_LRC_BOX_W
+#define MP_LRC_HEAD_LINE_W_LANDSCAPE MP_LRC_BOX_W
+#define MP_LRC_HEAD_LINE_H 25
+#define MP_LRC_HEAD_LINE_H_LANDSCAPE 10
+
+group{
+        name: "mp_lrc_layout";
+
+        parts {
+                part {
+                        name: "bg";
+                        type: RECT;
+                        mouse_events: 1;
+                        repeat_events: 1;
+                        description {
+                                state: "default" 0.0;
+                                visible: 1;
+                                rel1 { relative: 0.0 0.0;}
+                                rel2 { relative: 1.0 1.0;}
+                                color: 0 0 0 204;
+                        }
+                }
+
+                part {
+                        name: "lyric";
+                        type: SWALLOW;
+                        mouse_events: 1;
+                        repeat_events: 1;
+                        description {
+                                state: "default" 0.0;
+                                visible: 1;
+                                rel1 { relative: 0.0 MP_LRC_BOX_PAD_TOP/MP_LRC_BG_H; to: "bg";}
+                                rel2 { relative: 1.0 1.0; to: "bg";}
+                        }
+                }
+        }
+}
+group{
+        name: "mp_lrc_layout_landscape";
+
+        parts {
+                part {
+                        name: "bg";
+                        type: RECT;
+                        mouse_events: 1;
+                        repeat_events: 1;
+                        description {
+                                state: "default" 0.0;
+                                visible: 1;
+                                rel1 { relative: 0.0 0.0;}
+                                rel2 { relative: 1.0 1.0;}
+                                color: 0 0 0 204;
+                        }
+                }
+
+                part {
+                        name: "lyric";
+                        type: SWALLOW;
+                        mouse_events: 1;
+                        repeat_events: 1;
+                        description {
+                                state: "default" 0.0;
+                                visible: 1;
+                                rel1 { relative: 0.0 MP_LRC_BOX_PAD_TOP_LANDSCAPE/MP_LRC_BG_H_LANDSCAPE; to: "bg";}
+                                rel2 { relative: 1.0 (MP_LRC_BOX_PAD_TOP_LANDSCAPE+MP_LRC_BOX_H_LANDSCAPE)/MP_LRC_BG_H_LANDSCAPE; to: "bg";}
+                        }
+                }
+        }
+}
+
+group {
+	name, "mp_lrc_line";
+
+	styles
+	{
+		style {
+			name: "lyricstyle";
+			base: "font=SLP font_size=32 align=center color=#7e7d7d wrap=char";
+			tag:  "br" "\n";
+			tag:  "tab" "\t";
+			tag:  "em" "+ font=SLP:style=Oblique";
+			tag:  "b" "+ font=SLP:style=Bold";
+			tag:  "link" "+ color=#800 underline=on underline_color=#8008";
+			tag:  "hilight" "+ font=SLP:style=Bold";
+		}
+	}
+
+	parts {
+		part { name, "background";
+			type, RECT;
+			description {
+				state, "default" 0.0;
+				color, 0 0 0 0;
+			}
+		}
+
+		part {
+			name: "txt";
+			scale: 1;
+			type: TEXTBLOCK;
+			mouse_events: 1;
+			repeat_events: 1;
+			description {
+				state: "default" 0.0;
+				min: MP_LRC_LINE_W MP_LRC_LINE_H;
+				max: MP_LRC_LINE_W 10000;
+				rel1 { relative, 0.0 0.0; to, background; }
+				rel2 { relative, 1.0 0.0; to, background; }
+				text {
+				        style: "lyricstyle";
+				        min: 0 1;
+				}
+			}
+		}
+
+	}
+}
+
+group {
+	name: "mp_lrc_head";
+	min:  MP_LRC_HEAD_LINE_W MP_LRC_HEAD_LINE_H;
+
+	parts {
+
+		part { name: "start";
+			mouse_events: 0;
+			type: RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				min:  0 MP_LRC_HEAD_LINE_H;
+				rel1 { relative: 0.0 0.0;
+						offset : 0 0;}
+				rel2 { relative: 1.0 1.0;}
+				color: 0 0 0 0;
+			}
+		}
+	}
+}
+group {
+	name: "mp_lrc_head_landscape";
+	min:  MP_LRC_HEAD_LINE_W_LANDSCAPE MP_LRC_HEAD_LINE_H_LANDSCAPE;
+
+	parts {
+
+		part { name: "start";
+			mouse_events: 0;
+			type: RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				min:  0 MP_LRC_HEAD_LINE_H_LANDSCAPE;
+				rel1 { relative: 0.0 0.0;
+						offset : 0 0;}
+				rel2 { relative: 1.0 1.0;}
+				color: 0 0 0 0;
+			}
+		}
+	}
+}

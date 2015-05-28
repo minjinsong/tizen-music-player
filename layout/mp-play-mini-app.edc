@@ -1,0 +1,371 @@
+
+#define MINI_APP_W		250
+#define MINI_APP_H		250
+#define MINI_ALBUM_ART_W 246
+#define MINI_ALBUM_ART_H 246
+#define CONTROL_BTN_W	54
+#define CONTROL_BTN_H	54
+#define CLOSE_BTN_W		50
+#define CLOSE_BTN_H		50
+
+#define IMG_CLOSE_BTN	"mini_app/T01_btn_apps_close.png"
+#define IMG_REW_BTN		"39_mini_controller_icon_rew.png"
+#define IMG_FF_BTN		"39_mini_controller_icon_ff.png"
+#define IMG_PLAY_BTN	"39_mini_controller_icon_play.png"
+#define IMG_PAUSE_BTN	"39_mini_controller_icon_pause.png"
+
+group { name: "mini-app";
+	images {
+		image: IMG_CLOSE_BTN COMP;
+		image: IMG_REW_BTN COMP;
+		image: IMG_FF_BTN COMP;
+		image: IMG_PLAY_BTN COMP;
+		image: IMG_PAUSE_BTN COMP;
+	}
+
+	parts {
+		part { name: "bottom_bg";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				min: MINI_APP_W MINI_APP_H;
+				color: 51 51 51 255;
+			}
+		}
+
+		part { name: "padding.inner.top_left";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "bottom_bg"; }
+				rel2 { relative: 0 0; to: "bottom_bg"; }
+				min: 2 2;
+				max: 2 2;
+				fixed: 1 1;
+				align: 0 0;
+				visible: 0;
+			}
+		}
+
+		part { name: "padding.inner.bottom_right";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 1; to: "bottom_bg"; }
+				rel2 { relative: 1 1; to: "bottom_bg"; }
+				min: 2 2;
+				max: 2 2;
+				fixed: 1 1;
+				align: 1 1;
+				visible: 0;
+			}
+		}
+
+		part { name: "inner_bg";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 1; to: "padding.inner.top_left";}
+				rel2 { relative: 0 0; to: "padding.inner.bottom_right";};
+				color: 242 242 242 255;
+				align: 0 0;
+			}
+		}
+
+		part { name: "padding.bg.top_left";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "inner_bg"; }
+				rel2 { relative: 0 0; to: "inner_bg"; }
+				min: 2 2;
+				max: 2 2;
+				fixed: 1 1;
+				align: 0 0;
+				visible: 0;
+			}
+		}
+
+		part { name: "padding.bg.bottom_right";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 1; to: "inner_bg"; }
+				rel2 { relative: 1 1; to: "inner_bg"; }
+				min: 2 2;
+				max: 2 2;
+				fixed: 1 1;
+				align: 1 1;
+				visible: 0;
+			}
+		}
+
+		part { name: "bg";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 1; to: "padding.bg.top_left";}
+				rel2 { relative: 0 0; to: "padding.bg.bottom_right";}
+				visible: 0;
+			}
+		}
+
+		part { name: "albumart";
+			type: SWALLOW;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "bg"; }
+				rel2 { relative: 1 1; to: "bg"; }
+				min: MINI_ALBUM_ART_W MINI_ALBUM_ART_H;
+				fixed: 1 1;
+				align: 0 0;
+			}
+		}
+
+		part { name: "padding.text_area.top_left";
+			type: RECT;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0; to: "albumart"; }
+				rel2 { relative: 0 0; to: "albumart"; }
+				min: 5 5;
+				fixed: 1 1;
+				align: 0 0;
+				visible: 0;
+			}
+		}
+
+		part { name: "text_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 1; to: "padding.text_area.top_left"; }
+				rel2 { relative: 0 1; to_x: "close_btn"; to_y: "padding.text_area.top_left"; }
+				min: 0 45;
+				fixed: 0 1;
+				align: 0 0;
+				visible: 0;
+			}
+		}
+
+		part { name: "text.title";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			effect: SOFT_SHADOW BOTTOM_RIGHT;
+			description { state: "default" 0.0;
+				rel1.to: "text_area";
+				rel2 { relative: 1 0; to: "text_area"; }
+				min: 0 25;
+				fixed: 0 1;
+				align: 0 0;
+				text {
+					font: "SLP";
+					style: "Medium";
+					text_class: "slp_medium";
+					size: 25;
+					align: 0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+
+		part { name: "text.artist";
+			type: TEXT;
+			scale: 1;
+			mouse_events: 0;
+			effect: SOFT_SHADOW BOTTOM_RIGHT;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 1; to: "text.title"; }
+				rel2 { relative: 1 1; to: "text_area"; }
+				min: 0 20;
+				fixed: 0 1;
+				align: 0 0;
+				text {
+					font: "SLP";
+					style: "Roman";
+					text_class: "slp_medium";
+					size: 20;
+					align: 0 0.5;
+				}
+				color: 255 255 255 255;
+			}
+		}
+
+		part { name: "event_box";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1.to: "albumart";
+				rel2 { relative: 1 0; to: "control_area"; }
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "control_area";
+			type: RECT;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 1; to: "bg"; }
+				rel2.to: "bg";
+				min: 0 70;
+				fixed: 0 1;
+				align: 0 1;
+				color: 0 0 0 100;
+			}
+		}
+
+		part { name: "rew_btn_bg";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 0 0.5; to: "control_area"; }
+				rel2 { relative: 0 0.5; to: "control_area"; }
+				min: CONTROL_BTN_W CONTROL_BTN_H;
+				fixed: 1 1;
+				align: 0 0.5;
+				image.normal: IMG_REW_BTN;
+			}
+		}
+
+		part { name: "rew_btn";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1.to: "rew_btn_bg";
+				rel2.to: "rew_btn_bg";
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "play_pause_btn_bg";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 0.5 0.5; to: "control_area"; }
+				rel2 { relative: 0.5 0.5; to: "control_area"; }
+				min: CONTROL_BTN_W CONTROL_BTN_H;
+				fixed: 1 1;
+				align: 0.5 0.5;
+				image.normal: IMG_PAUSE_BTN;
+			}
+			description { state: "paused" 0.0;
+				inherit: "default" 0.0;
+				image.normal: IMG_PLAY_BTN;
+			}
+		}
+
+		part { name: "play_pause_btn";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1.to: "play_pause_btn_bg";
+				rel2.to: "play_pause_btn_bg";
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "ff_btn_bg";
+			type: IMAGE;
+			scale: 1;
+			mouse_events: 0;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 0.5; to: "control_area"; }
+				rel2 { relative: 1 0.5; to: "control_area"; }
+				min: CONTROL_BTN_W CONTROL_BTN_H;
+				fixed: 1 1;
+				align: 1 0.5;
+				image.normal: IMG_FF_BTN;
+			}
+		}
+
+		part { name: "ff_btn";
+			type: RECT;
+			scale: 1;
+			mouse_events: 1;
+			description { state: "default" 0.0;
+				rel1.to: "ff_btn_bg";
+				rel2.to: "ff_btn_bg";
+				color: 0 0 0 0;
+			}
+		}
+
+		part { name: "close_btn";
+			type: IMAGE;
+			scale: 1;
+			description { state: "default" 0.0;
+				rel1 { relative: 1 0; to: "bg"; }
+				rel2 { relative: 1 0; to: "bg"; }
+				image.normal: IMG_CLOSE_BTN;
+				min: CLOSE_BTN_W CLOSE_BTN_H;
+				fixed: 1 1;
+				align: 1 0;
+			}
+		}
+	}
+
+	programs {
+		program { name: "pgm_exit_btn_clicked";
+			signal: "mouse,clicked,1";
+			source: "close_btn";
+			action: SIGNAL_EMIT "sig_exit_btn_clicked" "edje";
+		}
+
+		program { name: "pgm_event_box_click";
+			signal: "mouse,clicked,1";
+			source: "event_box";
+			action: SIGNAL_EMIT "sig_event_box_clicked" "edje";
+		}
+
+		program { name: "pgm_rew_down";
+			signal: "mouse,down,1";
+			source: "rew_btn";
+			action: SIGNAL_EMIT "sig_rew_btn_down" "rew_btn";
+		}
+
+		program { name: "pgm_rew_up";
+			signal: "mouse,up,1";
+			source: "rew_btn";
+			action: SIGNAL_EMIT "sig_rew_btn_up" "rew_btn";
+		}
+
+		program { name: "pgm_play_pause_clicked";
+			signal: "mouse,down,1";
+			source: "play_pause_btn";
+			action: SIGNAL_EMIT "sig_play_pause_btn_clicked" "play_pause_btn";
+		}
+
+		program { name: "pgm_ff_down";
+			signal: "mouse,down,1";
+			source: "ff_btn";
+			action: SIGNAL_EMIT "sig_ff_btn_down" "ff_btn";
+		}
+
+		program { name: "pgm_ff_up";
+			signal: "mouse,up,1";
+			source: "ff_btn";
+			action: SIGNAL_EMIT "sig_ff_btn_up" "ff_btn";
+		}
+
+		program { name: "set_pause_icon";
+		   signal: "set_pause";
+		   source: "*";
+		   action: STATE_SET "paused" 0.0;
+		   target: "play_pause_btn_bg";
+		}
+
+		program { name: "set_play_icon";
+		   signal: "set_play";
+		   source: "*";
+		   action: STATE_SET "default" 0.0;
+		   target: "play_pause_btn_bg";
+		}
+	}
+}

@@ -1,0 +1,72 @@
+/*
+ * vim:ts=3
+*/
+
+/* genlist multisense sample/tone listing */
+   sounds {
+      sample {
+         name: "button-pressed" RAW;
+         source: "button-pressed.wav";
+      }
+   }
+
+/* setting - auto off - custom */
+   group { name: "elm/genlist/item/music/1text.2icon/default";
+      alias: "elm/genlist/item_odd/music/1text.2icon/default";
+      alias: "elm/genlist/item_compress/music/1text.2icon/default";
+      alias: "elm/genlist/item_compress_odd/music/1text.2icon/default";
+
+      GENLIST_DATA_ITEM_NORMAL
+      data.item: "texts" "elm.text";
+      data.item: "contents" "elm.icon.1 elm.icon.2 elm.icon.edit";
+
+      parts {
+         GENLIST_PART_BG_IMAGE
+         GENLIST_PART_BASE
+         GENLIST_PART_BOTTOM_LINE
+         GENLIST_PART_PADDING_LEFT
+         GENLIST_PART_PADDING_RIGHT
+         GENLIST_PART_ICON_BIG_L( "elm.icon.1", "elm.padding.left")
+         GENLIST_PART_PADDING_L("elm.padding.icon1.right", "elm.icon.1")
+         GENLIST_PART_LISTITEM_LR("elm.text", GENLIST_HEIGHT_1LINE, "elm.padding.icon1.right", "elm.padding.icon2.left",)
+         GENLIST_PART_PADDING_R("elm.padding.icon2.left", "elm.icon.2")
+         GENLIST_PART_ICON_BTN_01_R("elm.icon.2", "elm.padding.right")
+         GENLIST_PART_FLIP
+      }
+      GENLIST_PROGRAMS_NORMAL( target: "elm.text"; target: "elm.icon.1"; target: "elm.icon.2"; )
+   }
+   group { name: "elm/genlist/item/music/1text.2icon.4/default";
+      alias: "elm/genlist/item_odd/music/1text.2icon.4/default";
+      alias: "elm/genlist/item_compress/music/1text.2icon.4/default";
+      alias: "elm/genlist/item_compress_odd/music/1text.2icon.4/default";
+      inherit: "elm/genlist/item/music/1text.2icon/default";
+
+      parts {
+         GENLIST_PART_ICON_CHECK_RADIO_L("elm.icon.1", "elm.padding.left")
+         //GENLIST_PART_ICON_BTN_02_R("elm.icon.2", "elm.padding.right")
+		 part { name: "elm.icon.2";
+			scale: 1;
+			type: SWALLOW;
+			description { state: "default" 0.0;
+				align: 1 0.5;
+				fixed: 1 0;
+				rel1 { relative: 0 0; to_x: "elm.padding.right"; to_y: "base"; }
+				rel2 { relative: 0 1; to_x: "elm.padding.right"; to_y: "base"; }
+				min: 150 GENLIST_BTN_02_SIZE;
+				max: 150 GENLIST_BTN_02_SIZE;
+			}
+			GENLIST_DESCRIPTION_FADEOUT_ICON
+		 }
+      }
+   }
+   group { name: "elm/genlist/item/music/dialogue/1text.2icon.2/default";
+      alias: "elm/genlist/item_odd/music/dialogue/1text.2icon.2/default";
+      alias: "elm/genlist/item_compress/music/dialogue/1text.2icon.2/default";
+      alias: "elm/genlist/item_compress_odd/music/dialogue/1text.2icon.2/default";
+      alias: "elm/layout/music/dialogue/1text.2icon.2";
+      inherit: "elm/genlist/item/music/1text.2icon.4/default";
+
+      GENLIST_DIALOGUE_INHERIT_BODY( ; )
+      GENLIST_PROGRAMS_DIALOGUE( target: "elm.text"; target: "elm.icon.1"; target: "elm.icon.2"; )
+   }
+/* end of <setting - auto off - custom> */

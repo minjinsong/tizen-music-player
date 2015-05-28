@@ -1,0 +1,516 @@
+msgid "IDS_MUSIC_OPT_SOUNDALIVE"
+msgstr "SoundAlive"
+
+msgid "IDS_MUSIC_TAB4_FOLDERS"
+msgstr "Папки"
+
+msgid "IDS_MUSIC_BODY_ALBUMS"
+msgstr "Альбоми"
+
+msgid "IDS_MUSIC_BODY_FAVOURITES"
+msgstr "Обране"
+
+msgid "IDS_MUSIC_BODY_HIGH_VOLUMES_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_FOR_A_LONG_TIME"
+msgstr "Тривале прослуховування за високого рівня гучності може призвести до погіршення слуху"
+
+msgid "IDS_MUSIC_BODY_ARTISTS"
+msgstr "Виконавці"
+
+msgid "IDS_MUSIC_BODY_AUTO"
+msgstr "Авто"
+
+msgid "IDS_MUSIC_BODY_COMPOSERS"
+msgstr "Композитори"
+
+msgid "IDS_MUSIC_BODY_GENRES"
+msgstr "Жанри"
+
+msgid "IDS_MUSIC_BODY_MOST_PLAYED"
+msgstr "Найчастіше відтворювані"
+
+msgid "IDS_MUSIC_BODY_MUSIC_MENU"
+msgstr "Музичне меню"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_ADDED"
+msgstr "Останні додані"
+
+msgid "IDS_MUSIC_BODY_YEARS"
+msgstr "Роки"
+
+msgid "IDS_MUSIC_OPT_CALL_RINGTONE"
+msgstr "Звук дзвінка"
+
+msgid "IDS_MUSIC_OPT_CREATE_PLAYLIST"
+msgstr "Створити список відтворення"
+
+msgid "IDS_MUSIC_OPT_REMOVE"
+msgstr "Видалити"
+
+msgid "IDS_MUSIC_OPT_SETAS_CALLER_RINGTONE"
+msgstr "Звук дзвінка абонента"
+
+msgid "IDS_MUSIC_TAB4_ARTISTS"
+msgstr "Виконавці"
+
+msgid "IDS_MUSIC_TAB4_GENRES"
+msgstr "Жанри"
+
+msgid "IDS_MUSIC_TAB4_YEARS"
+msgstr "Роки"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD"
+msgstr "Неможливо додати"
+
+msgid "IDS_MUSIC_SK3_NO_LYRICS"
+msgstr "Без тексту"
+
+msgid "IDS_MUSIC_BODY_UNABLE_TO_CHANGE_SOUND_EFFECTS_WHEN_USING_51_CHANNEL"
+msgstr "Неможливо змінити звукові ефекти під час використання 5.1-канального звуку"
+
+msgid "IDS_MUSIC_OPT_FIND_TAG"
+msgstr "Пошук тегів"
+
+msgid "IDS_MUSIC_POP_51_CHANNEL_SOUND_EFFECT_WORKS_IN_EARPHONE_MODE_ONLY"
+msgstr "5.1-канальний звуковий ефект працює лише в режимі навушників"
+
+msgid "IDS_MUSIC_POP_5_1_CHANNEL_CAN_ONLY_BE_ACTIVATED_WHEN_SOUND_EFFECTS_ARE_OFF"
+msgstr "5.1-канальний звук доступний лише за вимкнених звукових ефектів"
+
+msgid "IDS_MUSIC_POP_UNABLE_CREATE_PLAYLIST"
+msgstr "Неможливо створити список відтворення"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_GET_TAG"
+msgstr "Неможливо отримати тег"
+
+msgid "IDS_MUSIC_POP_ITEM_NOT_REMOVE"
+msgstr "Неможливо вилучити об’єкт"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_ADD_MORE_THAN_PD_MUSIC_FILE"
+msgstr "Неможливо додати більше %d музичних файлів"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_DURING_CALL"
+msgstr "Неможливо відтворити під час виклику"
+
+msgid "IDS_MUSIC_BODY_ALBUM"
+msgstr "Альбом"
+
+msgid "IDS_MUSIC_BODY_AUTHOR"
+msgstr "Автор"
+
+msgid "IDS_MUSIC_BODY_COPYRIGHT"
+msgstr "Авторське право"
+
+msgid "IDS_MUSIC_BODY_CREATE_PLAYLIST"
+msgstr "Створити список відтворення"
+
+msgid "IDS_MUSIC_BODY_DESCRIPTION"
+msgstr "Опис"
+
+msgid "IDS_MUSIC_BODY_FORMAT"
+msgstr "Формат"
+
+msgid "IDS_MUSIC_BODY_IMPOSSIBLE"
+msgstr "Неможливо"
+
+msgid "IDS_MUSIC_BODY_MUSIC_LOCATION"
+msgstr "Розташування"
+
+msgid "IDS_MUSIC_BODY_NO_PLAYLISTS"
+msgstr "Немає списків відтворення"
+
+msgid "IDS_MUSIC_BODY_TRACK_NUMBER"
+msgstr "Номер запису"
+
+msgid "IDS_MUSIC_BODY_TYPE_CNOUN"
+msgstr "Тип"
+
+msgid "IDS_MUSIC_BODY_UNKNOWN"
+msgstr "Невідома"
+
+msgid "IDS_MUSIC_OPT_DELETE"
+msgstr "Видалити"
+
+msgid "IDS_MUSIC_POP_ADDED"
+msgstr "Додано"
+
+msgid "IDS_MUSIC_POP_DELETE_Q"
+msgstr "Видалити?"
+
+msgid "IDS_MUSIC_POP_PS_REMOVED"
+msgstr "%s видалено"
+
+msgid "IDS_MUSIC_POP_REMOVED"
+msgstr "Видалено"
+
+msgid "IDS_MUSIC_POP_REMOVE_Q"
+msgstr "Видалити?"
+
+msgid "IDS_MUSIC_POP_UNABLE_RENAME_PLAYLIST"
+msgstr "Неможливо перейменувати список відтворення"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SET_AS_RINGTONE"
+msgstr "Неможливо встановити як звук дзвінка"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_SHARE_DRM_FILE"
+msgstr "Неможливо відкрити спільний доступ до файла DRM"
+
+msgid "IDS_MUSIC_TAB4_ALBUMS"
+msgstr "Альбоми"
+
+msgid "IDS_MUSIC_ITAB4_ALL"
+msgstr "Усі"
+
+msgid "IDS_MUSIC_SK3_DELETE"
+msgstr "Видал."
+
+msgid "IDS_MUSIC_BUTTON_SHARE"
+msgstr "Сп.д."
+
+msgid "IDS_MUSIC_BUTTON2_ADD_TO_PLAYLIST"
+msgstr "Дод. до сп. відтв."
+
+msgid "IDS_MUSIC_TAB4_PLAYLISTS"
+msgstr "Сп. відтв."
+
+msgid "IDS_MUSIC_BODY_PLAYLIST_RECENTLY_PLAYED"
+msgstr "Останні відтворені"
+
+msgid "IDS_MUSIC_OPT_ADD"
+msgstr "Додати"
+
+msgid "IDS_MUSIC_ITAB4_ALBUMS"
+msgstr "Альбоми"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSETTINGS_NORMAL"
+msgstr "Звичайний"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_POP"
+msgstr "Поп-музика"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_JAZZ"
+msgstr "Джаз"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_DANCE"
+msgstr "Танцювальний"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_CLASSIC"
+msgstr "Класика"
+
+msgid "IDS_MUSIC_BODY_PLAYINGSOUNDEFFECT_LIVE"
+msgstr "Пряма трансляція"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETUP_WIZARD"
+msgstr "Майстер інсталяції музики"
+
+msgid "IDS_MUSIC_BODY_BIOGRAPHY"
+msgstr "Біографія"
+
+msgid "IDS_MUSIC_BODY_CREDITS"
+msgstr "Титри"
+
+msgid "IDS_MUSIC_BODY_DETAILS_MEADIA_INFO"
+msgstr "Інформація про медіадані"
+
+msgid "IDS_MUSIC_BODY_DISCOGRAPHY"
+msgstr "Дискографія"
+
+msgid "IDS_MUSIC_BODY_LYRIC"
+msgstr "Лірика"
+
+msgid "IDS_MUSIC_BODY_NAME_TOO_LONG"
+msgstr "Задовге ім'я"
+
+msgid "IDS_MUSIC_BODY_PARENT_RATING"
+msgstr "Основний рейтинг"
+
+msgid "IDS_MUSIC_BODY_POSSIBLE"
+msgstr "Можливо"
+
+msgid "IDS_MUSIC_BODY_REVIEW"
+msgstr "Огляд"
+
+msgid "IDS_MUSIC_HEADER_TRACK_LIST"
+msgstr "Список записів"
+
+msgid "IDS_MUSIC_ALREADY_ADDED"
+msgstr "Вже додано"
+
+msgid "IDS_MUSIC_BODY_51_CHANNEL"
+msgstr "5.1-канальний"
+
+msgid "IDS_MUSIC_BODY_ADD_TO_PLAYLIST"
+msgstr "Додати до списку"
+
+msgid "IDS_MUSIC_BODY_ARTIST"
+msgstr "Виконавець"
+
+msgid "IDS_MUSIC_BODY_AVAILABLE_USES"
+msgstr "Доступні використання"
+
+msgid "IDS_MUSIC_BODY_BASS_ENHANCEMENT"
+msgstr "Підсилення басів"
+
+msgid "IDS_MUSIC_BODY_CHOROUS"
+msgstr "Хор"
+
+msgid "IDS_MUSIC_BODY_CLASSIC"
+msgstr "Класика"
+
+msgid "IDS_MUSIC_BODY_COMPOSER"
+msgstr "Композитор"
+
+msgid "IDS_MUSIC_BODY_CONCERT_HALL"
+msgstr "Концертний зал"
+
+msgid "IDS_MUSIC_BODY_CUSTOM"
+msgstr "Особливий"
+
+msgid "IDS_MUSIC_BODY_DANCE"
+msgstr "Танцювальний"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC"
+msgstr "Динамічний"
+
+msgid "IDS_MUSIC_BODY_EFFECT"
+msgstr "Ефект"
+
+msgid "IDS_MUSIC_BODY_EQUALISER"
+msgstr "Еквалайзер"
+
+msgid "IDS_MUSIC_BODY_EXTERNALISATION"
+msgstr "Уособлення"
+
+msgid "IDS_MUSIC_BODY_FORWARDING"
+msgstr "Переадресація"
+
+msgid "IDS_MUSIC_BODY_GENRE"
+msgstr "Жанр"
+
+msgid "IDS_MUSIC_BODY_JAZZ"
+msgstr "Джаз"
+
+msgid "IDS_MUSIC_BODY_LIVE"
+msgstr "Пряма трансляція"
+
+msgid "IDS_MUSIC_BODY_MUSIC_CLARITY"
+msgstr "Ясність музики"
+
+msgid "IDS_MUSIC_BODY_MUSIC_SETTINGS"
+msgstr "Установки музики"
+
+msgid "IDS_MUSIC_BODY_PLAYINGDETAILS_ALBUM_ART"
+msgstr "Альбом зображень"
+
+msgid "IDS_MUSIC_BODY_PLAYLISTS"
+msgstr "Списки відтворення"
+
+msgid "IDS_MUSIC_BODY_POP"
+msgstr "Поп-музика"
+
+msgid "IDS_MUSIC_BODY_RECENTLY_PLAYED"
+msgstr "Останні відтворені"
+
+msgid "IDS_MUSIC_BODY_ROCK"
+msgstr "Рок"
+
+msgid "IDS_MUSIC_BODY_TRACK_LENGTH"
+msgstr "Тривалість запису"
+
+msgid "IDS_MUSIC_BODY_TREMOLO"
+msgstr "Тремоло"
+
+msgid "IDS_MUSIC_BODY_VALIDITY"
+msgstr "Термін дії"
+
+msgid "IDS_MUSIC_BODY_WHA_WHA"
+msgstr "Вау-ва"
+
+msgid "IDS_MUSIC_BODY_WIDE"
+msgstr "Широкий діапазон"
+
+msgid "IDS_MUSIC_BUTTON_OFF"
+msgstr "Вимкнено"
+
+msgid "IDS_MUSIC_HEADER_NO_SONGS"
+msgstr "Немає композицій"
+
+msgid "IDS_MUSIC_HEADER_SONGS"
+msgstr "Пісні"
+
+msgid "IDS_MUSIC_OPT_ADD_PLAYLIST"
+msgstr "Додати список відтворення"
+
+msgid "IDS_MUSIC_OPT_EDIT_TITLE"
+msgstr "Редагувати назву"
+
+msgid "IDS_MUSIC_OPT_HISTORY"
+msgstr "Історія"
+
+msgid "IDS_MUSIC_OPT_RENAME"
+msgstr "Перейменувати"
+
+msgid "IDS_MUSIC_OPT_REORDER"
+msgstr "Упорядкувати"
+
+msgid "IDS_MUSIC_OPT_SAVE_AS_PLAYLIST"
+msgstr "Зберегти як список відтворення"
+
+msgid "IDS_MUSIC_OPT_SETAS_ALARM_TONE"
+msgstr "Сигнал будильника"
+
+msgid "IDS_MUSIC_POP_ADDED_TO_PS"
+msgstr "Додано до %s"
+
+msgid "IDS_MUSIC_POP_BLUETOOTH_DISCONNECTED"
+msgstr "Bluetooth відключено"
+
+msgid "IDS_MUSIC_POP_MAXIMUM_NUMBER_OF_ITEMS_HPD_SELECTED"
+msgstr "Вибрано максимальну кількість об’єктів: %d"
+
+msgid "IDS_MUSIC_POP_NOTHING_SELECTED"
+msgstr "Нічого не вибрано"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_DELETE_SELECTED_MUSIC_IS_PLAYING"
+msgstr "Неможливо видалити. Вибрана музика відтворюється"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_ERROR_OCCURRED"
+msgstr "Неможливо відтворити. Сталася помилка"
+
+msgid "IDS_MUSIC_POP_UNABLE_TO_PLAY_UNSUPPORTED_FILETYPE"
+msgstr "Неможливо відтворити. Формат не підтримується"
+
+msgid "IDS_MUSIC_SK_ADD_LITE"
+msgstr "Додати"
+
+msgid "IDS_MUSIC_SK_SHARE"
+msgstr "Відкр.д-п"
+
+msgid "IDS_MUSIC_TAB4_ALL"
+msgstr "Всі"
+
+msgid "IDS_MUSIC_TAB4_CONDUCTORS"
+msgstr "Дириг."
+
+msgid "IDS_MUSIC_TAB4_PODCASTS"
+msgstr "Подкасти"
+
+msgid "IDS_MUSIC_HEADER_SELECT_DEVICE"
+msgstr "Вибрати пристрій"
+
+msgid "IDS_MUSIC_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Більше не показувати"
+
+msgid "IDS_MUSIC_BODY_YOU_CAN_STREAM_YOUR_MUSIC_TO_DEVICES_USING_ALLSHARE"
+msgstr "Можна здійснити потокову передачу музики на пристрій за допомогою AllShare"
+
+msgid "IDS_MUSIC_SK_VIEW_AS"
+msgstr "Перег. як"
+
+msgid "IDS_MUSIC_BODY_SOUNDEFFECTS_NORMAL"
+msgstr "Звичайний"
+
+msgid "IDS_MUSIC_BODY_USER"
+msgstr "Користувач"
+
+msgid "IDS_MUSIC_BODY_VOCAL_M_SOUNDEFFECT"
+msgstr "Вокальна"
+
+msgid "IDS_MUSIC_MBODY_BASS_BOOST"
+msgstr "Підсилення баса"
+
+msgid "IDS_MUSIC_MBODY_TREBLE_BOOST"
+msgstr "Підсилення сопрано"
+
+msgid "IDS_MUSIC_BODY_CAFE_M_SOUNDEFFECT"
+msgstr "Для кафе"
+
+msgid "IDS_MUSIC_OPT_VIRTUAL_71_CH"
+msgstr "Віртуальний 7.1"
+
+msgid "IDS_MUSIC_OPT_AFTER_15_MIN_ABB"
+msgstr "Через 15 хв."
+
+msgid "IDS_MUSIC_BODY_AFTER_30_MIN"
+msgstr "Через 30 хв."
+
+msgid "IDS_MUSIC_BODY_AFTER_1_HOUR"
+msgstr "Через 1 годину"
+
+msgid "IDS_MUSIC_POP_AFTER_1_HOUR_30_MIN"
+msgstr "Через 1 год. 30 хв."
+
+msgid "IDS_MUSIC_BODY_AFTER_2_HOURS"
+msgstr "Через 2 години"
+
+msgid "IDS_MUSIC_BODY_MUSIC_AUTO_OFF"
+msgstr "Автоматичне вимк. музики"
+
+msgid "IDS_MUSIC_BODY_HOUSE_M_GENRE"
+msgstr "Хауз"
+
+msgid "IDS_MUSIC_SK3_SET_AS"
+msgstr "Встано-/nвити як"
+
+msgid "IDS_MUSIC_POP_THIS_SOUND_EFFECT_WORKS_IN_EARPHONE_AND_BLUETOOTH_HEADSET_MODES_ONLY"
+msgstr "Цей звуковий ефект працює лише в режимах навушників і гарнітури Bluetooth"
+
+msgid "IDS_MUSIC_TAB4_MUSIC_SQUARE"
+msgstr "Музичний квадрат"
+
+msgid "IDS_MUSIC_SK_OPEN_PLAYLIST_ABB"
+msgstr "В.сп"
+
+msgid "IDS_MUSIC_POP_NOT_ENOUGH_MUSIC_FILES_TO_PLAY_IN_MUSIC_SQUARE_AT_LEAST_PD_MUSIC_FILES_REQUIRED"
+msgstr "Недостатньо музичних файлів для відтворення в Музичному квадраті. Мінімальна кількість музичних файлів: %d"
+
+msgid "IDS_MUSIC_BODY_PASSION_M_MOOD"
+msgstr "Пристрасть"
+
+msgid "IDS_MUSIC_BODY_PASSIONATE_M_ADJECTIVE"
+msgstr "Пристрасна"
+
+msgid "IDS_MUSIC_BODY_DYNAMIC_T_MUSIC"
+msgstr "Динамічна"
+
+msgid "IDS_MUSIC_BODY_CALM_M_ADJECTIVE"
+msgstr "Врівноважений"
+
+msgid "IDS_MUSIC_BODY_JOY_M_MOOD"
+msgstr "Радість"
+
+msgid "IDS_MUSIC_BODY_LIBRARY_UPDATE"
+msgstr "Оновлення бібліотеки"
+
+msgid "IDS_MUSIC_POP_UPDATE_LIBRARY_Q"
+msgstr "Оновити бібліотеку?"
+
+msgid "IDS_MUSIC_BODY_CHANGE_AXIS"
+msgstr "Змінити вісь"
+
+msgid "IDS_MUSIC_BODY_ALL_SONGS"
+msgstr "Всі композиції"
+
+msgid "IDS_MUSIC_POP_SELECTED_LIST_EMPTY"
+msgstr "Вибраний список пустий"
+
+msgid "IDS_MUSIC_BUTTON_COMPOSERS"
+msgstr "Композ."
+
+msgid "IDS_MUSIC_SK2_ADD_TO_HOME"
+msgstr "Додати на головний екран"
+
+msgid "IDS_MUSIC_BODY_MEDIA_INFO"
+msgstr "Інформація про медіадані"
+
+msgid "IDS_MUSIC_BODY_MOODS"
+msgstr "Настрої"
+
+msgid "IDS_MUSIC_BUTTON_YEARS"
+msgstr "Роки"
+
+msgid "IDS_MUSIC_BODY_OLD"
+msgstr "Старе"
+

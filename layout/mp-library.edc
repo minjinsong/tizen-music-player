@@ -1,0 +1,416 @@
+
+/* main size */
+#define MAIN_W	480
+#define MAIN_H	800
+
+#define TITLEBAR_H_R (96/MAIN_H)
+#define SELALL_BG_H_R (188/MAIN_H)
+#define SELALL_TAB_H_R		(217/MAIN_H)
+#define SELALL_ALBUM_H_R	(231/MAIN_H)
+#define SELALL_TITLE_H_R	(188/MAIN_H)
+/* font name*/
+#define FONT_NAME "system_content"
+
+#define FONT_STYLE_ROMAN "SLP:style=Roman"
+#define FONT_STYLE_MEDIUM "SLP:style=Medium"
+#define FONT_STYLE_BOLD "SLP:style=Bold"
+
+/* indicator */
+#define IND_H_R	(38.0/MAIN_H)
+//#define IND_H_P	(MAIN_HEIGHT * IND_H_R)
+
+/* tab */
+#define TAB_H_R	(125/MAIN_H)
+
+/* soft key*/
+#define SOFTKEY_SY (722/MAIN_H)
+
+#define HEAD_SY 	(38/MAIN_H)
+#define HEAD_EY 	(139/MAIN_H)
+
+#define ICON_X 	(108/MAIN_W)
+#define ICON_Y 	(108/MAIN_H)
+
+
+
+
+/* cover image in header */
+#define HEAD_COVER_SX (10/MAIN_W)
+#define HEAD_COVER_SY (48/MAIN_H)
+
+#define HEAD_COVER_EX (90/MAIN_W)
+#define HEAD_COVER_EY (128/MAIN_H)
+
+/* title in header */
+#define HEAD_TITLE_SX (100/MAIN_W)
+#define HEAD_TITLE_SY (73/MAIN_H)
+
+#define ALBUM_TITLE_EY (88/MAIN_H)
+
+#define ALBUM_SUB_TITLE_SY (98/MAIN_H)
+#define COLOR_CHK_TEXT		35 190 255
+#define ITEM_CHK_L (404/MAIN_W)
+#define ITEM_CHK_T (10/MAIN_H)
+#define ITEM_CHK_R (478/MAIN_W)
+#define SELALL_H	 92
+#define NEW_INDICATOR	52/MAIN_H
+
+#define NOW_PLAYING_H	100
+#define BG_COLOR 248 246 239 255
+
+#define SEARCHBAR_H_INC 107
+
+#define SELECTIONINFO_PART(rel) \
+part {\
+	name: "elm.swallow.content.selectioninfo";\
+	type: SWALLOW; \
+	scale: 1; \
+	description { state: "default" 0.0; \
+		fixed: 0 1; \
+		align: 0.5 1.0; \
+		min: 0 0; \
+		visible: 0; \
+		rel1{relative: 0.0 1.0; } \
+		rel2{relative: 1.0 1.0; } \
+	} \
+	description { state: "show" 0.0; \
+		inherit: "default" 0.0; \
+		visible: 1; \
+		min: 0 48; \
+	} \
+}
+
+#define SELECTIONINFO_PROG	\
+program {\
+	name: "show";\
+	signal: "show,selection,info";\
+	source: "elm";\
+	action: STATE_SET "show" 0.0;\
+	target: "elm.swallow.content.selectioninfo";\
+}\
+program {\
+	name: "hide";\
+	signal: "hide,selection,info";\
+	source: "elm";\
+	action: STATE_SET "default" 0.0;\
+	target: "elm.swallow.content.selectioninfo";\
+}
+
+images {
+	image: 	"34_header_thumb_bg.png" COMP;
+	image:	"01_list_selectall_bg.png" COMP;
+}
+
+#define TEST_COLOR 255 0 0 255
+#define CONTROLBAR_LARGE_HEIGHT_INC 122;
+
+collections {
+	#include "mp-no-contents.edc"
+
+	group {
+		name: "main_layout";
+		parts {
+			part { name: "background";
+				type: RECT;
+				mouse_events: 0;
+				description {
+					state: "default" 0.0;
+					rel1 { relative: 0.0 0.0; }
+					rel2 { relative: 1.0 1.0; }
+					color: BG_COLOR;
+				}
+			}
+			part {
+				name : "now_playing";
+				type: SWALLOW;
+				mouse_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					align: 0 0;
+					min: 0 0;
+					fixed: 0 1;
+					visible: 0;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 0.0;}
+
+				}
+				description {
+					state: "show" 0.0;
+					inherit: "default" 0.0;
+					visible: 1;
+					min: 0 NOW_PLAYING_H;
+				}
+			}
+
+			part {
+				name : "list_content";
+				type: SWALLOW;
+				mouse_events: 1;
+				scale: 1;
+				description { state: "default" 0.0;
+			   		rel1 { relative: 0.0 1.0; to_y: "now_playing"; }
+					rel2 { relative: 1.0 0.0; to_y: "elm.swallow.content.selectioninfo";}
+				}
+			}
+
+			part {
+				name: "elm.swallow.content.index";
+				type: SWALLOW;
+				description {
+					state: "default" 0.0;
+					align: 0.0 0.0;
+					rel1 { to: "list_content"; }
+					rel2 { to: "list_content"; }
+				}
+			}
+			SELECTIONINFO_PART("list_content")
+		}
+
+		programs {
+			program {
+				name : "show_now_playng";
+				signal : "SHOW_NOW_PLAING";
+				source : "music_app";
+				action : STATE_SET "show" 0.0;
+				target : "now_playing";
+			}
+			program {
+				name : "hide_now_playng";
+				signal : "HIDE_NOW_PLAING";
+				source : "music_app";
+				action : STATE_SET "default" 0.0;
+				target : "now_playing";
+			}
+			SELECTIONINFO_PROG
+		}
+	}
+
+	group {
+		name: "main_layout_with_searchbar";
+
+		parts {
+
+			part {
+			    name: "search_bar";
+			    type: SWALLOW;
+			    scale: 1;
+			    description {
+			       state: "default" 0.0;
+			       align: 0.0 0.0;
+			       fixed: 0 1;
+			       rel1 { relative: 0.0 0.0;}
+			       rel2 { relative: 1.0 0.0;}
+				   min: 0 SEARCHBAR_H_INC;
+			    }
+			    description {
+			       state: "hide" 0.0;
+			       align: 0.0 0.0;
+			       fixed: 0 0;
+			       rel1 { relative: 0.0 0.0;}
+			       rel2 { relative: 1.0 0.0;}
+			    }
+			 }
+
+			part {
+				name : "now_playing";
+				type: SWALLOW;
+				mouse_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					align: 0 0;
+					min: 0 60;
+					fixed: 0 1;
+					visible: 0;
+					rel1 { relative: 0.0 0.0;}
+					rel2 { relative: 1.0 0.0;}
+
+				}
+				description {
+					state: "show" 0.0;
+					inherit: "default" 0.0;
+					visible: 1;
+					rel1 { relative: 0.0 1.0; to_y: "search_bar"; offset: 0 1;}
+					rel2 { relative: 1.0 0.0;}
+				}
+			}
+
+			part {
+				name : "list_content";
+				type: SWALLOW;
+				mouse_events: 1;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+			   		rel1 { relative: 0.0 1.0; to: "search_bar"; offset: 0 1;}
+					rel2 { relative: 1.0 0.0; to_y: "elm.swallow.content.selectioninfo";}
+				}
+				description {
+					state: "show" 0.0;
+			   		rel1 { relative: 0.0 1.0; to_y: "now_playing"; offset: 0 1;}
+					rel2 { relative: 1.0 0.0; to_y: "elm.swallow.content.selectioninfo";}
+				}
+			}
+
+			part {
+				name: "elm.swallow.content.index";
+				type: SWALLOW;
+				description {
+					state: "default" 0.0;
+					rel1 { to: "list_content"; }
+					rel2 { to: "list_content"; }
+				}
+			}
+
+			SELECTIONINFO_PART("list_content")
+
+			part {
+				name: "elm.rect.screen";
+				type: RECT;
+				description {
+					state: "default" 0.0;
+					rel1 {relative: 0.0 0.0; to: "list_content"; }
+					rel2 {relative: 1.0 1.0; to: "list_content"; }
+					color: 0 0 0 128;
+				}
+				description {
+					state: "hide" 0.0;
+					inherit: "default" 0.0;
+					visible: 0;
+				}
+			}
+		}
+
+		programs {
+			program {
+				name : "show_now_playng";
+				signal : "SHOW_NOW_PLAING";
+				source : "music_app";
+				action : STATE_SET "show" 0.0;
+				target : "now_playing";
+				target : "list_content";
+			}
+			program {
+				name : "hide_now_playng";
+				signal : "HIDE_NOW_PLAING";
+				source : "music_app";
+				action : STATE_SET "default" 0.0;
+				target : "now_playing";
+				target : "list_content";
+			}
+			program {
+				name : "hide_search";
+				signal : "hide.search";
+				source : "music_app";
+				action : STATE_SET "hide" 0.0;
+				target : "search_bar";
+			}
+			program {
+				name : "show_search";
+				signal : "show.search";
+				source : "music_app";
+				action : STATE_SET "default" 0.0;
+				target : "search_bar";
+			}
+			program {
+				name : "show_screen";
+				signal : "show.screen";
+				source : "music_app";
+				action : STATE_SET "default" 0.0;
+				target : "elm.rect.screen";
+			}
+			program {
+				name : "hide_screen";
+				signal : "hide.screen";
+				source : "music_app";
+				action : STATE_SET "hide" 0.0;
+				target : "elm.rect.screen";
+			}
+			SELECTIONINFO_PROG
+		}
+	}
+
+group { name: "music/tabbar/default";
+      parts {
+         part { name: "elm.swallow.bg";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+            }
+         }
+         part { name: "elm.swallow.tabbar";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               min: 0 CONTROLBAR_LARGE_HEIGHT_INC;
+               fixed: 0 1;
+               rel1 { relative: 0.0 0.0; }
+               rel2 { relative: 1.0 0.0; }
+               align: 0.5 0.0;
+            }
+            description { state: "hidden" 0.0;
+               inherit: "default" 0.0;
+               min: 0 0;
+            }
+         }
+         part { name: "elm.swallow.content";
+            type: SWALLOW;
+            scale: 1;
+            description { state: "default" 0.0;
+               rel1.relative: 0.0 1.0;
+               rel1.to: "elm.swallow.tabbar";
+			   rel2 { relative: 1.0 0.0; to_y: "elm.swallow.content.selectioninfo";}
+            }
+         }
+         SELECTIONINFO_PART("elm.swallow.content")
+      }
+      programs {
+         program { name: "show_tabbar";
+            signal: "elm,state,show,tabbar";
+            source: "elm";
+            action: STATE_SET "default" 0.0;
+            target: "elm.swallow.tabbar";
+         }
+         program { name: "hide_tabbar";
+            signal: "elm,state,hide,tabbar";
+            source: "elm";
+            action: STATE_SET "hidden" 0.0;
+            target: "elm.swallow.tabbar";
+         }
+         SELECTIONINFO_PROG
+      }
+   }
+
+group {
+	name: "create_playlist";
+
+	parts {
+		part { name: "bg";
+			mouse_events: 0;
+			type: RECT;
+			description { state: "default" 0.0;
+				visible: 1;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 1.0;}
+				color: BG_COLOR;
+			}
+		}
+		part {
+			name: "elm.swallow.content";
+			type: SWALLOW;
+			mouse_events: 1;
+			description {
+				state: "default" 0.0;
+				rel1 { relative: 0.0 0.0;}
+				rel2 { relative: 1.0 0.0; to_y: "elm.swallow.content.selectioninfo";}
+			}
+		}
+		SELECTIONINFO_PART("elm.swallow.content")
+	}
+	programs {
+         SELECTIONINFO_PROG
+      }
+}
+
+}

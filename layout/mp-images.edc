@@ -1,0 +1,50 @@
+#include "../include/mp-images.h"
+
+#define RESOURCE_IMAGE( FILE_NAME ) \
+   group { \
+      name: FILE_NAME; \
+      images.image: FILE_NAME COMP; \
+      parts { \
+         part { name: "image"; \
+            description { \
+               state: "default" 0.0; \
+               image.normal: FILE_NAME; \
+               aspect: 1 1; \
+               aspect_preference: BOTH; \
+            } \
+         } \
+      } \
+   }
+
+#define RESOURCE_IMAGE_LOSSY( FILE_NAME ) \
+   group { \
+      name: FILE_NAME; \
+      images.image: FILE_NAME LOSSY 85; \
+      parts { \
+         part { name: "image"; \
+            description { \
+               state: "default" 0.0; \
+               image.normal: FILE_NAME; \
+               aspect: 1 1; \
+               aspect_preference: BOTH; \
+            } \
+         } \
+      } \
+   }
+
+
+collections {
+RESOURCE_IMAGE_LOSSY(MP_ICON_COVERFLOW_BG);
+RESOURCE_IMAGE_LOSSY(MP_ICON_COVERFLOW_SHADOW_BG);
+RESOURCE_IMAGE(MP_ICON_STORAGE_PHONE);
+RESOURCE_IMAGE(MP_ICON_STORAGE_MEMORY);
+RESOURCE_IMAGE(MP_ICON_STORAGE_EXTERNAL);
+RESOURCE_IMAGE(MP_ICON_SQUARE_CELL_SELECTED);
+RESOURCE_IMAGE(MP_ICON_VOLUME_MIN);
+RESOURCE_IMAGE(MP_ICON_VOLUME_MAX);
+RESOURCE_IMAGE(MP_ICON_SOUND_PATH);
+RESOURCE_IMAGE(MP_ICON_NEARBY_DMR);
+RESOURCE_IMAGE(MP_ICON_MINI_PLAYER);
+RESOURCE_IMAGE(MP_ICON_VIDEO_PLAY);
+
+}
