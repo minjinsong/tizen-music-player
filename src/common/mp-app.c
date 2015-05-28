@@ -171,6 +171,22 @@ _mp_app_noti_changed_cb(keynode_t * node, void *data)
 			//mp_minicontroller_destroy(ad);
 		}
 	}
+#if 1	//Minjin
+	else if (strcmp(keyname, MP_LIVE_PLAY_STATE) == 0)
+	{
+		bool profile = vconf_keynode_get_bool(node);
+		DEBUG_TRACE("profile changed: %d(%s)", profile, MP_LIVE_PLAY_STATE);
+
+		mp_play_control_play_pause(ad, profile);
+		/*
+		if (profile == false) {
+			mp_player_mgr_pause(ad);
+		else
+			mp_player_mgr_resume(ad);
+		}
+		*/
+	}
+#endif
 }
 
 static void
@@ -382,6 +398,13 @@ mp_app_noti_init(void *data)
 		ERROR_TRACE("Fail to register MP_VCONFKEY_PLAYING_PID key callback");
 		res = FALSE;
 	}
+#if 1	//Minjin
+	if (vconf_notify_key_changed(MP_LIVE_PLAY_STATE, _mp_app_noti_changed_cb, ad) < 0)
+	{
+		ERROR_TRACE("Fail to register MP_LIVE_PLAY_STATE key callback");
+		res = FALSE;
+	}
+#endif
 
 	gNotiPipe = ecore_pipe_add(_mp_app_noti_pipe_handler, ad);
 #ifdef MP_FEATURE_AVRCP_13

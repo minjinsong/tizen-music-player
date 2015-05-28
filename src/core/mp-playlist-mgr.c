@@ -67,6 +67,11 @@ mp_plst_item * mp_playlist_mgr_item_append(mp_plst_mgr *playlist_mgr, const char
 	MP_CHECK_VAL(playlist_mgr, NULL);
 	MP_CHECK_VAL(uri, NULL);
 
+#if 1	//Minjin
+	DEBUG_TRACE("%s:uri=%s", uri);
+	vconf_set_str("db/private/org.tizen.music-player/filename", uri);
+#endif
+
 	int pos;
 	mp_plst_item * node, *cur = NULL;
 	int queue_lenth;
