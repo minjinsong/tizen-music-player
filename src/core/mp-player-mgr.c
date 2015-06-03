@@ -684,9 +684,11 @@ mp_player_mgr_pause(void *data)
 	startfunc;
 	int err = -1;
 
+#if 1	//Minjin
 DEBUG_TRACE("%s:+++\n", __func__);
-//vconf_set_dbl("memory/private/org.tizen.music-player/pos", data->music_pos);
-
+struct appdata *ad = (struct appdata *)data;
+vconf_set_dbl("memory/private/org.tizen.music-player/pos", ad->music_pos);
+#endif
 	if (!mp_player_mgr_is_active())
 		return FALSE;
 
@@ -700,7 +702,6 @@ DEBUG_TRACE("%s:+++\n", __func__);
 	if (!g_player_apis.set_paused_cb && g_player_cbs->paused_cb)
 		g_player_cbs->paused_cb(g_player_cbs->user_data[MP_PLAYER_CB_TYPE_PAUSED]);
 
-DEBUG_TRACE("%s:---\n", __func__);
 	return TRUE;
 }
 

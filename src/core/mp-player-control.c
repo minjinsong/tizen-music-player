@@ -697,6 +697,7 @@ mp_play_control_menu_cb(void *data, Evas_Object * o, const char *emission, const
 
 	DEBUG_TRACE("mp_play_control_menu_cb with[%s]\n", emission);
 
+#if 0	//Minjin
 	if (!strcmp(emission, SIGNAL_INFO))
 	{
 	}
@@ -756,6 +757,24 @@ mp_play_control_menu_cb(void *data, Evas_Object * o, const char *emission, const
 		mp_avrcp_noti_repeat_mode(MP_AVRCP_REPEAT_ALL);
 #endif
 	}
+#else	
+	//TODO: push app-relay 
+	//DEBUG_TRACE("%s:+++\n", __func__);
+	if (ad->player_state == PLAY_STATE_PLAYING)
+	{
+		if(mp_player_mgr_pause(ad))
+		{
+			ad->paused_by_user = TRUE;
+		}
+	}
+	else if (ad->player_state == PLAY_STATE_PREPARING)
+	{
+		WARN_TRACE("player_state is prepareing. set paused_by_user!!!");
+		ad->paused_by_user = TRUE;
+	}
+
+	vconf_set_bool("db/private/org.tizen.menu-screen/app_relay", 1);
+#endif	
 }
 
 

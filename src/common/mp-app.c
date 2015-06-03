@@ -174,16 +174,65 @@ _mp_app_noti_changed_cb(keynode_t * node, void *data)
 #if 1	//Minjin
 	else if (strcmp(keyname, MP_LIVE_PLAY_STATE) == 0)
 	{
-		bool profile = vconf_keynode_get_bool(node);
+		//bool profile = vconf_keynode_get_bool(node);
+		int profile;
+		vconf_get_bool("memory/private/org.tizen.music-player/player_state", &profile);
+		
 		DEBUG_TRACE("profile changed: %d(%s)", profile, MP_LIVE_PLAY_STATE);
 
 		mp_play_control_play_pause(ad, profile);
+
 		/*
-		if (profile == false) {
-			mp_player_mgr_pause(ad);
-		else
-			mp_player_mgr_resume(ad);
+		if (profile == false) 
+		{
+			//TODO: phase and push vconf
+			if (ad->player_state == PLAY_STATE_PLAYING)
+			{
+				if(mp_player_mgr_pause(ad))
+				{
+					ad->paused_by_user = TRUE;
+				}
+			}
+			else if (ad->player_state == PLAY_STATE_PREPARING)
+			{
+				WARN_TRACE("player_state is prepareing. set paused_by_user!!!");
+				ad->paused_by_user = TRUE;
+			}
 		}
+		else
+		{
+			//TODO: get vconf and resume/play music
+			//mp_player_mgr_resume(ad);
+			ad->paused_by_user = FALSE;
+
+			if (ad->player_state == PLAY_STATE_PAUSED)
+			{
+				if(mp_player_mgr_resume(ad))
+				{
+					vconf_set_int(MP_VCONFKEY_PLAYING_PID, getpid());
+					if (ad->player_state == PLAY_STATE_PAUSED)
+						mp_play_resume(ad);
+					ad->player_state = PLAY_STATE_PLAYING;
+				}
+			}
+			else if (ad->player_state == PLAY_STATE_READY)
+			{
+				mp_play_current_file(ad);
+			}
+			else if (ad->player_state == PLAY_STATE_PLAYING)
+			{
+				DEBUG_TRACE("player_state is already playing. Skip event");
+			}
+			else if (ad->player_state == PLAY_STATE_PREPARING)
+			{
+				WARN_TRACE("player_state is preparing. Skip event");
+			}
+			else
+			{
+				//silentmode -> go to listview -> click one track -> silent mode play no -> go to playing view -> click play icon
+				mp_play_new_file(ad, TRUE);
+			}
+		}	
 		*/
 	}
 #endif

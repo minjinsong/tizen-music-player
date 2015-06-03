@@ -2205,7 +2205,7 @@ mp_play_view_update_progressbar(void *data)
 	char play_time[16] = { 0, };
 	char total_time[16] = { 0, };
 
-DEBUG_TRACE("%s:+++\n", __func__); //Minjin
+//DEBUG_TRACE("%s:+++\n", __func__); //Minjin
 
 	if (ad->music_length > 0.)
 	{
@@ -2240,7 +2240,7 @@ DEBUG_TRACE("%s:+++\n", __func__); //Minjin
 
 	_mp_play_view_progress_visible_set(ad, TRUE);
 
-DEBUG_TRACE("%s:---:played_ratio=%d, ad->music_pos=%d, ad->music_length=%d\n", __func__, played_ratio, ad->music_pos, ad->music_length); //Minjin
+DEBUG_TRACE("%s:---:played_ratio=%lf, ad->music_pos=%3.8lf, ad->music_length=%lf\n", __func__, played_ratio, ad->music_pos, ad->music_length); //Minjin
 
 	return;
 
